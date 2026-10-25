@@ -2,7 +2,7 @@
   {
     "id": "2026-10-27_teste-o-que-a-cliente-precisa-ver",
     "teste_de_validacao": true,
-    "estado": "agendado",
+    "estado": "publicado",
     "formato": "carrossel",
     "pilar": "Dica prática de gestão",
     "objetivo": "salvamentos",
@@ -28,8 +28,14 @@
         "data": "2026-10-25T16:21:41.082643+00:00",
         "estado": "agendado",
         "nota": "Enviado à Publora para 2026-10-25T18:00:00-03:00 (6 imagem(ns))."
+      },
+      {
+        "data": "2026-10-25T21:16:21.574723+00:00",
+        "estado": "publicado",
+        "nota": "Publora confirmou publicação (postedId 17914479012283634)."
       }
-    ]
+    ],
+    "postedId": "17914479012283634"
   },
   {
     "id": "2026-10-27_agenda-fora-do-expediente",
