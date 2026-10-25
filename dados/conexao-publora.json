@@ -1,0 +1,13 @@
+{
+  "verificado_em": "2026-10-25T16:13:39.818205+00:00",
+  "fonte": "Publora GET /platform-connections",
+  "contas": [
+    {
+      "platformId": "instagram-17841479656763452",
+      "username": "diaebeleza",
+      "displayName": null,
+      "tokenStatus": "valid"
+    }
+  ],
+  "instagram_platform_id": "instagram-17841479656763452"
+}
