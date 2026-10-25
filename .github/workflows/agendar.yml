@@ -1,0 +1,44 @@
+name: Agendar publicação aprovada
+
+# Envia à Publora uma publicação que o dono marcou como "aprovado".
+# O script recusa qualquer item não aprovado, já enviado ou sem data futura.
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "id da publicação em dados/publicacoes.json"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agendar-publicacoes
+  cancel-in-progress: false
+
+jobs:
+  agendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r ferramentas/instagram-skills/requirements.txt
+      - name: Agendar
+        env:
+          PUBLORA_API_KEY: ${{ secrets.PUBLORA_API_KEY }}
+          ID: ${{ inputs.id }}
+        run: python ferramentas/agendar.py "$ID"
+      - name: Salvar estado
+        if: always()
+        env:
+          ID: ${{ inputs.id }}
+        run: |
+          git config user.name "agendar"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados/publicacoes.json registro/erros.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Publicação $ID: estado atualizado"
+          git pull --rebase && git push
