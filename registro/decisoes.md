@@ -14,3 +14,4 @@
 - 2026-10-25: Fluxo completo validado: carrossel de teste publicado às 18h pela Publora (postedId 17914479012283634). Modo automático liberado pela trava da primeira publicação.
 
 - 2026-10-25: Dono aprovou turbinar posts (teste R$ 100, 7 dias, Brasil todo, objetivo visitas a /criar-salao, início previsto 28/10). Criada a Página do Facebook "Dia e Beleza" (site, WhatsApp de suporte autorizado, logo). Dono conectou o Instagram; a Meta criou o portfólio "@dia&beleza". Conta de anúncios e cartão: o dono cria/cadastra (ação de conta e pagamento fica com ele).
+- 2026-10-25: Conta de anúncios "Dia e Beleza - Anúncios" (id 1780141879958687) criada pelo dono no portfólio @dia&beleza, em BRL, com saldo pré-pago por Pix (R$ 115 depositados). Campanha de teste será montada em 28/10 e só ativada após aprovação do dono.
