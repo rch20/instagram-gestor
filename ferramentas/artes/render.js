@@ -69,7 +69,7 @@ const lamina = (l, i, total) => {
   const total = spec.laminas.length;
   for (let i = 0; i < total; i++) {
     await page.setContent(lamina(spec.laminas[i], i, total), { waitUntil: 'networkidle' });
-    await page.evaluate(() => document.fonts.ready);
+    await page.evaluate(async () => { await document.fonts.load('800 40px "Bricolage Grotesque"'); await document.fonts.load('600 40px "Bricolage Grotesque"'); await document.fonts.ready; });
     const ok = await page.evaluate(() => document.fonts.check('800 40px "Bricolage Grotesque"'));
     if (!ok) { console.error('Fonte da marca não carregou; arte não gerada.'); process.exit(2); }
     // Texto não pode vazar da arte
