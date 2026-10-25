@@ -54,9 +54,16 @@ def main():
     if momento < agora + dt.timedelta(minutes=15):
         falha("'agendado_para' precisa estar pelo menos 15 minutos no futuro.")
 
-    fotos = sorted(glob.glob(os.path.join(item.get("pasta_artes", ""), "*.jpg")))
-    if not 1 <= len(fotos) <= 10:
-        falha(f"A pasta de artes tem {len(fotos)} JPEGs; o Instagram aceita de 1 a 10.")
+    ajustes = None
+    if item.get("formato") == "reel":
+        fotos = [os.path.join(item.get("pasta_artes", ""), "reel.mp4")]
+        if not os.path.isfile(fotos[0]):
+            falha("Reel sem o arquivo reel.mp4 na pasta de artes.")
+        ajustes = {"instagram": {"videoType": "REELS"}}
+    else:
+        fotos = sorted(glob.glob(os.path.join(item.get("pasta_artes", ""), "*.jpg")))
+        if not 1 <= len(fotos) <= 10:
+            falha(f"A pasta de artes tem {len(fotos)} JPEGs; o Instagram aceita de 1 a 10.")
     legenda = item.get("legenda") or ""
     if not legenda.strip() or len(legenda) > 2200:
         falha("Legenda vazia ou maior que 2.200 caracteres.")
@@ -68,7 +75,7 @@ def main():
     utc = momento.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     try:
         r = PubloraClient().publish_media_post(
-            content=legenda, platforms=[plataforma], media=fotos, scheduled_time=utc
+            content=legenda, platforms=[plataforma], media=fotos, scheduled_time=utc, platform_settings=ajustes
         )
     except PubloraError as e:
         item.setdefault("historico", []).append({"data": agora.isoformat(), "estado": "erro", "nota": str(e)[:300]})

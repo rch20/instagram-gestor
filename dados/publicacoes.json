@@ -125,5 +125,65 @@
         "nota": "Volta para aprovado: a falha foi o limite do plano Starter (3 agendamentos ativos), não o conteúdo. Agendar quando a fila tiver vaga."
       }
     ]
+  },
+  {
+    "id": "2026-11-03_reel-tem-horario-amanha",
+    "formato": "reel",
+    "pilar": "Rotina do salão",
+    "objetivo": "compartilhamentos e alcance",
+    "formula": "IG9 interrupção de padrão (ig-content-planner)",
+    "legenda": "Quem atende com hora marcada conhece essa conversa de cor. E ela se repete com cada cliente.\n\nManda para aquela amiga que vive respondendo \"tem horário?\" no WhatsApp.\n\n#agendamentoonline #manicure #salaodebeleza #designdesobrancelhas",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-11-03_reel-tem-horario-amanha",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Semana 2, aguardando aprovação do dono."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05_mitos-do-sinal",
+    "formato": "carrossel",
+    "pilar": "Dica prática de gestão",
+    "objetivo": "compartilhamentos",
+    "formula": "IG7 quebra de mito (ig-carousel-planner)",
+    "legenda": "Cobrar sinal ainda dá medo em muita profissional. Separei 3 coisas que a gente ouve muito e o que dá para fazer no lugar.\n\nVocê cobra sinal hoje? Conta nos comentários como funciona aí.\n\n#gestaodesalao #nailsdesigner #lashdesigner #salaodebeleza",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-11-05_mitos-do-sinal",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Semana 2, aguardando aprovação do dono."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07_cliente-que-nao-aparece",
+    "formato": "post",
+    "pilar": "Rotina do salão",
+    "objetivo": "comentários",
+    "formula": "IG3 identificação (ig-caption-writer)",
+    "legenda": "Confirmou de manhã, sumiu à tarde. E aquele horário não volta mais.\n\nComo você lida com isso hoje? Cobra sinal, manda lembrete, deixa para lá? Conta aqui, a sua resposta pode ajudar outra profissional.\n\n#manicure #designdesobrancelhas #salaodebeleza",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-11-07_cliente-que-nao-aparece",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Semana 2, aguardando aprovação do dono."
+      }
+    ]
   }
 ]

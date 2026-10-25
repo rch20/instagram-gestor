@@ -1,0 +1,88 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "conversa",
+      "segundos": 2.2,
+      "falas": [
+        {
+          "quem": "ela",
+          "texto": "Oi! Tem horário amanhã?"
+        }
+      ]
+    },
+    {
+      "tipo": "conversa",
+      "segundos": 2.2,
+      "falas": [
+        {
+          "quem": "ela",
+          "texto": "Oi! Tem horário amanhã?"
+        },
+        {
+          "quem": "voce",
+          "texto": "Tenho sim! Que horas fica bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "conversa",
+      "segundos": 2.2,
+      "falas": [
+        {
+          "quem": "voce",
+          "texto": "Tenho sim! Que horas fica bom?"
+        },
+        {
+          "quem": "ela",
+          "texto": "De tarde"
+        }
+      ]
+    },
+    {
+      "tipo": "conversa",
+      "segundos": 2.2,
+      "falas": [
+        {
+          "quem": "ela",
+          "texto": "De tarde"
+        },
+        {
+          "quem": "voce",
+          "texto": "Às 15h ou às 17h?"
+        }
+      ]
+    },
+    {
+      "tipo": "conversa",
+      "segundos": 2.6,
+      "falas": [
+        {
+          "quem": "voce",
+          "texto": "Às 15h ou às 17h?"
+        },
+        {
+          "quem": "ela",
+          "texto": "Vou ver e te falo 😅"
+        }
+      ]
+    },
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "titulo": "E isso se repete\n**o dia inteiro.**"
+    },
+    {
+      "tipo": "capa",
+      "segundos": 3.2,
+      "titulo": "Ou ela abre seu link,\nvê os **horários livres**\ne marca sozinha."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 3.5,
+      "titulo": "Dia e Beleza",
+      "texto": "Página de agendamento para quem atende com hora marcada.",
+      "botao": "14 dias grátis · link na bio"
+    }
+  ]
+}

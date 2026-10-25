@@ -1,0 +1,32 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Sinal por Pix",
+      "titulo": "3 coisas que você\nouviu sobre **cobrar sinal**",
+      "texto": "E o que dá para fazer no lugar."
+    },
+    {
+      "numero": "1",
+      "titulo": "“A cliente vai desistir”",
+      "texto": "Quem paga o sinal já decidiu marcar. Avise a regra antes de confirmar, nunca depois."
+    },
+    {
+      "numero": "2",
+      "titulo": "“Sinal é coisa de salão grande”",
+      "texto": "Vale para qualquer horário que fica vago se a cliente não aparecer."
+    },
+    {
+      "numero": "3",
+      "titulo": "“Dá muito trabalho”",
+      "texto": "Com Pix é uma mensagem. Na página de agendamento, ela já paga e envia o comprovante ao marcar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Defina **a sua regra**",
+      "texto": "Valor ou porcentagem, prazo para remarcar e o que acontece se faltar. Escreva uma vez e use sempre.",
+      "botao": "Salve para não esquecer"
+    }
+  ]
+}

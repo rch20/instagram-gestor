@@ -42,6 +42,10 @@ jobs:
           PASTA: ${{ inputs.pasta }}
         run: |
           if [ -f "$PASTA/arte.json" ]; then node ferramentas/artes/render.js "$PASTA"; fi
+          if grep -q '"formato": *"reel"' "$PASTA/arte.json" 2>/dev/null; then
+            command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+            python3 ferramentas/artes/montar-reel.py "$PASTA"
+          fi
           if ls "$PASTA"/*.html >/dev/null 2>&1; then node ferramentas/artes/render-html.js "$PASTA"; fi
       - name: Salvar
         env:
@@ -49,7 +53,7 @@ jobs:
         run: |
           git config user.name "gerar-artes"
           git config user.email "actions@users.noreply.github.com"
-          git add "$PASTA"/*.jpg
+          git add "$PASTA"/*.jpg; git add "$PASTA"/*.mp4 2>/dev/null || true
           git diff --cached --quiet && { echo "Nada novo."; exit 0; }
           git commit -m "Artes geradas: $PASTA"
           git pull --rebase

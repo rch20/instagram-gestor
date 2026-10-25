@@ -8,7 +8,8 @@ const { chromium } = require('playwright');
 const pasta = process.argv[2];
 if (!pasta) { console.error('Informe a pasta da arte.'); process.exit(1); }
 const spec = JSON.parse(fs.readFileSync(path.join(pasta, 'arte.json'), 'utf8'));
-const FORMATOS = { post: [1080, 1350], story: [1080, 1920] };
+const FORMATOS = { post: [1080, 1350], story: [1080, 1920], reel: [1080, 1920] };
+const VERTICAL = spec.formato === 'story' || spec.formato === 'reel';
 const [W, H] = FORMATOS[spec.formato || 'post'] || FORMATOS.post;
 
 const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -20,7 +21,12 @@ const css = `
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px}
 body{font-family:'Bricolage Grotesque',sans-serif;background:#FBF6F7;color:#21161F;-webkit-font-smoothing:antialiased}
-.arte{position:relative;width:${W}px;height:${H}px;padding:96px 88px;display:flex;flex-direction:column}
+.arte{position:relative;width:${W}px;height:${H}px;padding:${VERTICAL ? '260px 88px 380px' : '96px 88px'};display:flex;flex-direction:column}
+.fala{display:inline-block;max-width:860px;font-size:64px;line-height:1.2;font-weight:600;padding:36px 48px;border-radius:48px;margin-top:28px}
+.fala.ela{background:#fff;border:2px solid #EADDE3;border-bottom-left-radius:12px}
+.fala.voce{background:#A3124A;color:#fff;align-self:flex-end;border-bottom-right-radius:12px}
+.quem{font-size:30px;color:#5E525A;font-weight:600;margin-top:40px}
+.quem.voce{align-self:flex-end}
 .marca{display:flex;align-items:center;gap:14px;font-size:30px;font-weight:600;letter-spacing:-.01em}
 .marca i{width:18px;height:18px;border-radius:50%;background:#A3124A;display:inline-block}
 .meio{flex:1;display:flex;flex-direction:column;justify-content:center}
@@ -41,17 +47,19 @@ em{font-style:normal;color:#A3124A}
 
 const lamina = (l, i, total) => {
   const tipo = l.tipo || (i === 0 ? 'capa' : 'texto');
-  const conteudo = tipo === 'capa'
+  const conteudo = tipo === 'conversa'
+    ? (l.falas || []).map((f) => `<div class="quem ${f.quem}">${f.quem === 'voce' ? 'Você' : 'Cliente'}</div><div class="fala ${f.quem}">${rico(f.texto)}</div>`).join('')
+    : tipo === 'capa'
     ? `${l.etiqueta ? `<div class="etiqueta">${esc(l.etiqueta)}</div>` : ''}<h1>${rico(l.titulo)}</h1>${l.texto ? `<p>${rico(l.texto)}</p>` : ''}`
     : tipo === 'cta'
       ? `<h2>${rico(l.titulo)}</h2>${l.texto ? `<p>${rico(l.texto)}</p>` : ''}${l.botao ? `<div><span class="botao">${esc(l.botao)}</span></div>` : ''}`
       : `${l.numero ? `<div class="num">${esc(l.numero)}</div>` : ''}<h2>${rico(l.titulo)}</h2>${l.texto ? `<p>${rico(l.texto)}</p>` : ''}`;
-  const pag = total > 1 ? `${i + 1}/${total}` : '';
+  const pag = total > 1 && spec.formato !== 'reel' ? `${i + 1}/${total}` : '';
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>
 <div class="arte ${tipo === 'cta' ? 'cta' : ''}">
   <div class="marca"><i></i>Dia e Beleza</div>
-  <div class="meio">${conteudo}</div>
-  <div class="rodape"><span>diaebeleza.com.br</span><span>${pag}${total > 1 && i < total - 1 ? ' →' : ''}</span></div>
+  <div class="meio" style="${tipo === 'conversa' ? 'align-items:flex-start' : ''}">${conteudo}</div>
+  <div class="rodape"><span>diaebeleza.com.br</span><span>${pag}${pag && i < total - 1 ? ' →' : ''}</span></div>
 </div></body></html>`;
 };
 
