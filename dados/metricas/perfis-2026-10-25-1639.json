@@ -1,0 +1,57 @@
+{
+  "coletado_em": "2026-10-25T16:39:53.017531+00:00",
+  "fonte": "Apify apify/instagram-profile-scraper (dados públicos)",
+  "perfis": [
+    {
+      "username": "avecoficial",
+      "full_name": "Avec Records",
+      "followers": 1199,
+      "following": 2,
+      "posts": null,
+      "bio": "\"Diaba\" • Disponível em todas plataformas😈",
+      "verified": false,
+      "is_business": true,
+      "category": "Record label",
+      "external_url": "https://spotify.link/xbkpGX6DvDb",
+      "url": "https://www.instagram.com/avecoficial/"
+    },
+    {
+      "username": "avec.beauty",
+      "erro": "não encontrado ou indisponível"
+    },
+    {
+      "username": "avecbrasil",
+      "full_name": "",
+      "followers": 41,
+      "following": 0,
+      "posts": 0,
+      "bio": "",
+      "verified": false,
+      "is_business": false,
+      "category": null,
+      "external_url": null,
+      "url": "https://www.instagram.com/avecbrasil/"
+    },
+    {
+      "username": "agendapro",
+      "erro": "não encontrado ou indisponível"
+    },
+    {
+      "username": "agendapro.br",
+      "full_name": "Agenda Pro",
+      "followers": 1,
+      "following": 0,
+      "posts": null,
+      "bio": "Sua agenda profissional na palma da sua mão 📱🗓️",
+      "verified": false,
+      "is_business": true,
+      "category": "None",
+      "external_url": null,
+      "url": "https://www.instagram.com/agendapro.br/"
+    },
+    {
+      "username": "agendaprolatam",
+      "erro": "não encontrado ou indisponível"
+    }
+  ]
+}
