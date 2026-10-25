@@ -1,7 +1,6 @@
 # Identidade da marca — Dia e Beleza
 
-> **Estado: rascunho para o dono confirmar.** Itens marcados com (a confirmar) vieram da página de vendas
-> ou são suposições; não usar como verdade até o dono responder.
+> **Estado: confirmado pelo dono em 25/10/2026** (público, tom de voz e objetivo principal).
 
 ## Empresa
 
@@ -13,10 +12,10 @@
   profissional e horário.
 - **WhatsApp de suporte:** (11) 93421-1240
 
-## Público-alvo (a confirmar)
+## Público-alvo
 
 - Donas de salão e profissionais autônomas de beleza: unhas, cabelo, sobrancelha, cílios, estética,
-  maquiagem, barbearia e outros atendimentos com hora marcada.
+  maquiagem, barbearia e **outros profissionais que precisam de agendamento** (confirmado pelo dono).
 - Hoje marcam horário pelo WhatsApp e perdem tempo respondendo mensagem.
 
 ## O que o produto faz de verdade (conferido no sistema)
@@ -49,15 +48,15 @@
 - **Fonte:** Bricolage Grotesque (títulos e texto).
 - **Estilo:** limpo, muito espaço em branco, poucas cores por arte, sem efeitos chamativos.
 
-## Tom de voz (a confirmar)
+## Tom de voz
 
 - Direto, próximo e prático, como uma colega de profissão que entende a rotina do salão.
 - Frases curtas. Exemplos concretos da rotina ("cliente pedindo horário às 23h").
 - Sem exagero, sem promessas, sem jargão de marketing.
 - Slogan atual da página de vendas: "Agenda cheia, sem viver no WhatsApp." (é slogan, não promessa medida).
 
-## Objetivos de marketing (a confirmar)
+## Objetivos de marketing
 
-1. Levar profissionais de beleza a criar a página grátis (`diaebeleza.com.br/criar-salao`).
+1. **Principal:** levar profissionais a criar a página grátis (`diaebeleza.com.br/criar-salao`).
 2. Mostrar o produto funcionando (demonstrações curtas).
 3. Gerar confiança com casos reais autorizados.
