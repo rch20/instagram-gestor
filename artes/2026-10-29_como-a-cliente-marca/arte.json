@@ -1,0 +1,37 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Como funciona",
+      "titulo": "Do link na bio ao\n**horário confirmado**",
+      "texto": "O caminho que a sua cliente faz, em 4 passos."
+    },
+    {
+      "numero": "1",
+      "titulo": "Ela abre o seu link",
+      "texto": "A página tem o nome, a cor e os serviços do seu salão."
+    },
+    {
+      "numero": "2",
+      "titulo": "Entra e escolhe **serviço e profissional**",
+      "texto": "Com preço e duração na tela, sem precisar perguntar."
+    },
+    {
+      "numero": "3",
+      "titulo": "Vê só os **horários livres**",
+      "texto": "A agenda mostra o que está vago de verdade naquele dia."
+    },
+    {
+      "numero": "4",
+      "titulo": "Confirma o horário",
+      "texto": "Se você cobra sinal, ela paga por Pix e envia o comprovante. O agendamento aparece no seu painel."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Teste com **o seu salão**",
+      "texto": "14 dias grátis, sem cartão de crédito.",
+      "botao": "Link na bio"
+    }
+  ]
+}

@@ -30,5 +30,65 @@
         "nota": "Enviado à Publora para 2026-10-25T18:00:00-03:00 (6 imagem(ns))."
       }
     ]
+  },
+  {
+    "id": "2026-10-27_agenda-fora-do-expediente",
+    "formato": "carrossel",
+    "pilar": "Dica prática de gestão",
+    "objetivo": "salvamentos",
+    "formula": "IG5 listicle (ig-carousel-planner)",
+    "legenda": "Cliente pedindo horário às 23h e você respondendo da cama? Dá para resolver com 3 ajustes simples.\n\nArrasta para ver cada um e salva para configurar com calma amanhã.\n\nVocê já usa a mensagem de ausência do WhatsApp Business?\n\n#agendamentoonline #gestaodesalao #manicure #salaodebeleza",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-10-27_agenda-fora-do-expediente",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Demonstração da Etapa 5, aguardando aprovação do dono."
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29_como-a-cliente-marca",
+    "formato": "carrossel",
+    "pilar": "Produto funcionando",
+    "objetivo": "criar página grátis",
+    "formula": "IG8 passo a passo (ig-carousel-planner)",
+    "legenda": "Sua cliente vê o link na sua bio. O que acontece até o horário estar marcado? São 4 passos, e você só aparece no último.\n\nArrasta para ver cada um.\n\nQuer testar com os serviços do seu salão? São 14 dias grátis, link na bio.\n\n#agendamentoonline #agendaonline #salaodebeleza #designdesobrancelhas",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-10-29_como-a-cliente-marca",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Demonstração da Etapa 5, aguardando aprovação do dono."
+      }
+    ]
+  },
+  {
+    "id": "2026-10-31_caso-real-estudio-de-unhas",
+    "formato": "post",
+    "pilar": "Caso real autorizado",
+    "objetivo": "confiança / visitar página real",
+    "formula": "post único (ig-caption-writer)",
+    "legenda": "Um estúdio de unhas já recebe os agendamentos pela própria página no Dia e Beleza.\n\nQuer ver como fica do lado da cliente? Abra unhascapao.diaebeleza.com.br no celular e passe pelos serviços e horários.\n\nPara criar a sua, o link está na bio.\n\n#nailsdesigner #manicure #agendamentoonline",
+    "estado": "revisao",
+    "pasta_artes": "artes/2026-10-31_caso-real-estudio-de-unhas",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Demonstração da Etapa 5, aguardando aprovação do dono."
+      }
+    ]
   }
 ]

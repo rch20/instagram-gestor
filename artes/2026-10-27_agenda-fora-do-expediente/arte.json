@@ -1,0 +1,32 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Agenda fora do expediente",
+      "titulo": "Cliente pedindo horário\n**às 23h?**",
+      "texto": "3 ajustes para parar de responder agenda depois do expediente."
+    },
+    {
+      "numero": "1",
+      "titulo": "Um link para ela **marcar sozinha**",
+      "texto": "Coloque o link de agendamento na bio e no status. A cliente marca sem esperar sua resposta."
+    },
+    {
+      "numero": "2",
+      "titulo": "Mensagem de ausência no WhatsApp Business",
+      "texto": "Configure a resposta automática com o seu link. Quem chamar à noite já recebe o caminho."
+    },
+    {
+      "numero": "3",
+      "titulo": "Regras escritas, não repetidas",
+      "texto": "Sinal, atraso e cancelamento num lugar só. Você para de explicar a mesma coisa para cada cliente."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Crie sua **página de agendamento**",
+      "texto": "Serviços, horários livres e sinal por Pix num link só. 14 dias grátis, sem cartão.",
+      "botao": "Link na bio"
+    }
+  ]
+}
