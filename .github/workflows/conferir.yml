@@ -1,0 +1,37 @@
+name: Conferir publicações
+
+# Só consulta a Publora e atualiza o estado local (agendado → publicado/erro). Não envia nada.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agendar-publicacoes
+  cancel-in-progress: false
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Conferir
+        env:
+          PUBLORA_API_KEY: ${{ secrets.PUBLORA_API_KEY }}
+        run: python ferramentas/conferir.py | tee conferencia.txt
+      - name: Mostrar resultado
+        run: while IFS= read -r l; do echo "::notice::$l"; done < conferencia.txt
+      - name: Salvar estado
+        run: |
+          git config user.name "conferir"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados/publicacoes.json registro/erros.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Conferência das publicações"
+          git pull --rebase && git push
