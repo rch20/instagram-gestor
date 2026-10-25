@@ -38,7 +38,7 @@ Toda execução, manual ou agendada, começa lendo este arquivo e os arquivos ci
 
 - **rascunho**: criado pela automação; ainda pode mudar.
 - **revisao**: pronto para o dono avaliar (arte + legenda + objetivo).
-- **aprovado**: o dono aprovou. Só a partir daqui pode ir para a Publora.
+- **aprovado**: aprovado pelo dono ou pela automação (com o checklist de `editorial/rotina.md` registrado). Só a partir daqui pode ir para a Publora.
 - **agendado**: enviado à Publora com data; guardar o `postGroupId`.
 - **publicado**: confirmado no Instagram; guardar o link.
 - Cada item tem um `id` único. Antes de agendar, conferir se o `id` já tem `postGroupId`: **nunca agendar duas vezes o mesmo item.**
