@@ -36,11 +36,13 @@ jobs:
         run: |
           case "$PASTA" in artes/*) ;; *) echo "::error::A pasta precisa estar dentro de artes/"; exit 1;; esac
           case "$PASTA" in *..*) echo "::error::Caminho inválido"; exit 1;; esac
-          test -f "$PASTA/arte.json" || { echo "::error::Não achei $PASTA/arte.json"; exit 1; }
+          ls "$PASTA"/arte.json "$PASTA"/*.html >/dev/null 2>&1 || { echo "::error::Não achei arte.json nem .html em $PASTA"; exit 1; }
       - name: Gerar
         env:
           PASTA: ${{ inputs.pasta }}
-        run: node ferramentas/artes/render.js "$PASTA"
+        run: |
+          if [ -f "$PASTA/arte.json" ]; then node ferramentas/artes/render.js "$PASTA"; fi
+          if ls "$PASTA"/*.html >/dev/null 2>&1; then node ferramentas/artes/render-html.js "$PASTA"; fi
       - name: Salvar
         env:
           PASTA: ${{ inputs.pasta }}
