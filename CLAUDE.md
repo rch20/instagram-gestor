@@ -6,7 +6,7 @@ Toda execução, manual ou agendada, começa lendo este arquivo e os arquivos ci
 ## Regras fixas
 
 1. Escrever e responder sempre em **português do Brasil**. O dono não lê inglês.
-2. **Nada é publicado sem aprovação.** Só itens com `"estado": "aprovado"` em `dados/publicacoes.json` podem ser agendados ou publicados. Quem muda um item para `aprovado` é o dono, nunca a automação.
+2. **Só itens `"estado": "aprovado"` podem ser agendados.** Desde 25/10/2026 o dono autorizou o **modo automático** (`dados/config.json`): a automação pode aprovar o próprio conteúdo **se** passar no checklist de `editorial/rotina.md`, respeitando limites e travas. Se `"pausado": true`, nada é aprovado nem agendado. O dono pausa dizendo "pausar o Instagram" em qualquer conversa.
 3. Nunca inventar métricas. Separar sempre **dado real** (com fonte e data) de **estimativa**.
 4. Nunca pedir senha do Instagram. Chaves de API ficam só nos Secrets do GitHub; nunca em arquivo, commit ou conversa.
 5. Não responder comentários nem mensagens diretas automaticamente.
@@ -26,6 +26,9 @@ Toda execução, manual ou agendada, começa lendo este arquivo e os arquivos ci
 | `registro/decisoes.md` | Decisões e o motivo |
 | `registro/erros.md` | Falhas de execução e o que foi feito |
 | `registro/pendencias.md` | O que depende do dono ou de outra etapa |
+| `registro/diario.md` | Resumo de cada execução da rotina |
+| `dados/config.json` | Modo automático, pausa e limites |
+| `editorial/rotina.md` | O que fazer de manhã, à tarde e à noite |
 | `artes/AAAA-MM-DD_<id>/` | Artes de cada publicação (JPEG, 1080 px de largura) |
 | `ferramentas/instagram-skills/` | Pacote de skills de Instagram (MIT), auditado; ver `ORIGEM.md` |
 

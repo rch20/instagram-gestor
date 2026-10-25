@@ -1,0 +1,18 @@
+{
+  "modo_automatico": true,
+  "pausado": false,
+  "autorizado_em": "2026-10-25T16:02:00-03:00",
+  "autorizacao": "Dono no chat: 'quero que voce seja autonomo, veja o que é relevante e poste sem minha autorização'",
+  "ativar_somente_apos_primeira_publicacao_confirmada": true,
+  "limites": {
+    "posts_feed_por_semana": 3,
+    "posts_por_mes_publora": 15,
+    "fila_publora_max": 3,
+    "antecedencia_minima_horas": 24
+  },
+  "horarios_padrao": [
+    "terça 12:00",
+    "quinta 12:00",
+    "sábado 10:00"
+  ]
+}

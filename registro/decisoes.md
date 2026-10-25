@@ -10,3 +10,4 @@
 - 2026-10-25: Plano Starter da Publora permite no máximo **3 posts agendados ao mesmo tempo** (erro SCHEDULED_POST_LIMIT_REACHED). Regra: manter a fila com até 3 e agendar o próximo aprovado assim que um for publicado.
 - 2026-10-25: Nova foto de perfil (avatar 'Dia e / Beleza' em #A3124A com Bricolage Grotesque), autorizada pelo dono ("total liberdade, inclusive para criar um logo novo"). Fonte em artes/marca_avatar/avatar-a.html.
 - 2026-10-25: Dono pediu para excluir os 2 posts antigos (arte roxa e logo antigo). Excluídos pelo Chrome; perfil ficou com 0 posts até o carrossel das 18h.
+- 2026-10-25: Dono autorizou o modo automático ("poste sem minha autorização"). Implementado com travas: liga só após a 1ª publicação confirmada, limites de 3/semana e 15/mês, fila ≤ 3, checklist obrigatório, pausa em `dados/config.json`.
