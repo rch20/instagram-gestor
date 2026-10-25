@@ -68,10 +68,10 @@
     "objetivo": "criar página grátis",
     "formula": "IG8 passo a passo (ig-carousel-planner)",
     "legenda": "Sua cliente vê o link na sua bio. O que acontece até o horário estar marcado? São 4 passos, e você só aparece no último.\n\nArrasta para ver cada um.\n\nQuer testar com os serviços do seu salão? São 14 dias grátis, link na bio.\n\n#agendamentoonline #agendaonline #salaodebeleza #designdesobrancelhas",
-    "estado": "aprovado",
+    "estado": "agendado",
     "pasta_artes": "artes/2026-10-29_como-a-cliente-marca",
     "agendado_para": "2026-10-29T12:00:00-03:00",
-    "postGroupId": null,
+    "postGroupId": "6ade3b4ced849b64de3ac23f",
     "link": null,
     "historico": [
       {
@@ -83,6 +83,11 @@
         "data": "2026-10-25T14:23:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pelo dono no chat (\"Aprovado\") com horário 2026-10-29T12:00:00-03:00."
+      },
+      {
+        "data": "2026-10-25T17:24:28.608622+00:00",
+        "estado": "agendado",
+        "nota": "Enviado à Publora para 2026-10-29T12:00:00-03:00 (6 imagem(ns))."
       }
     ]
   },
