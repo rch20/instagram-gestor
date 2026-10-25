@@ -11,3 +11,4 @@
 - 2026-10-25: Nova foto de perfil (avatar 'Dia e / Beleza' em #A3124A com Bricolage Grotesque), autorizada pelo dono ("total liberdade, inclusive para criar um logo novo"). Fonte em artes/marca_avatar/avatar-a.html.
 - 2026-10-25: Dono pediu para excluir os 2 posts antigos (arte roxa e logo antigo). Excluídos pelo Chrome; perfil ficou com 0 posts até o carrossel das 18h.
 - 2026-10-25: Dono autorizou o modo automático ("poste sem minha autorização"). Implementado com travas: liga só após a 1ª publicação confirmada, limites de 3/semana e 15/mês, fila ≤ 3, checklist obrigatório, pausa em `dados/config.json`.
+- 2026-10-25: Fluxo completo validado: carrossel de teste publicado às 18h pela Publora (postedId 17914479012283634). Modo automático liberado pela trava da primeira publicação.
