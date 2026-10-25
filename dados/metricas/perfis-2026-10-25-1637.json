@@ -1,0 +1,109 @@
+{
+  "coletado_em": "2026-10-25T16:37:18.608871+00:00",
+  "fonte": "Apify apify/instagram-profile-scraper (dados públicos)",
+  "perfis": [
+    {
+      "username": "trinks",
+      "full_name": "",
+      "followers": 0,
+      "following": 0,
+      "posts": 0,
+      "bio": "",
+      "verified": false,
+      "is_business": false,
+      "category": null,
+      "external_url": null,
+      "url": "https://www.instagram.com/trinks/"
+    },
+    {
+      "username": "trinksoficial",
+      "full_name": "Trinks: Gestão e Agendamento",
+      "followers": 97900,
+      "following": 1259,
+      "posts": null,
+      "bio": "📲 Sistema Online de +44k de negócios pelo Brasil\n💼 A parceira de tecnologia e gestão de negócios de beleza\n🫵 Conheça Grátis👇",
+      "verified": true,
+      "is_business": true,
+      "category": "Product/service",
+      "external_url": "https://linktr.ee/trinksoficial",
+      "url": "https://www.instagram.com/trinksoficial/"
+    },
+    {
+      "username": "avecbeauty",
+      "full_name": "Avec Beauty",
+      "followers": 0,
+      "following": 2,
+      "posts": 4,
+      "bio": "Made with love for when you’re with child!",
+      "verified": false,
+      "is_business": false,
+      "category": null,
+      "external_url": null,
+      "url": "https://www.instagram.com/avecbeauty/"
+    },
+    {
+      "username": "avec.app",
+      "erro": "não encontrado ou indisponível"
+    },
+    {
+      "username": "booksybrasil",
+      "full_name": "Booksy Biz",
+      "followers": 61591,
+      "following": 7201,
+      "posts": null,
+      "bio": "Agenda 24h, Gestão & Marketing para profissionais que trabalham com hora marcada 📲 \nClique no link para suporte ou mais informações sobre o app",
+      "verified": true,
+      "is_business": true,
+      "category": "None",
+      "external_url": "https://wa.me/5511978854468?countryName=BR&countryCode=55&phoneNumber=11978854468",
+      "url": "https://www.instagram.com/booksybrasil/"
+    },
+    {
+      "username": "agendaprobrasil",
+      "erro": "não encontrado ou indisponível"
+    },
+    {
+      "username": "salaovip",
+      "full_name": "Fernanda",
+      "followers": 24,
+      "following": 0,
+      "posts": 0,
+      "bio": "",
+      "verified": false,
+      "is_business": false,
+      "category": null,
+      "external_url": null,
+      "url": "https://www.instagram.com/salaovip/"
+    },
+    {
+      "username": "gendo.app",
+      "erro": "não encontrado ou indisponível"
+    },
+    {
+      "username": "simplesagenda",
+      "full_name": "Simples Agenda",
+      "followers": 17923,
+      "following": 73,
+      "posts": null,
+      "bio": "Simples Agenda no mercado desde 2016.\nSoftware feito para tornar a gestão do seu negócio simples.\nExperimente grátis por 35 dias, link abaixo.",
+      "verified": false,
+      "is_business": true,
+      "category": "Software",
+      "external_url": "http://linktr.ee/simplesagenda",
+      "url": "https://www.instagram.com/simplesagenda/"
+    },
+    {
+      "username": "appbarber",
+      "full_name": "AppBarber | Gestão e Agenda online",
+      "followers": 36349,
+      "following": 2222,
+      "posts": null,
+      "bio": "💈Gestão e agendamento online para barbearias \n📲Otimize o seu tempo e faturamento \n🔒Fidelize clientes \n👇Faça um teste grátis!",
+      "verified": true,
+      "is_business": true,
+      "category": "Science & Tech",
+      "external_url": "http://linktr.ee/appbarber",
+      "url": "https://www.instagram.com/appbarber/"
+    }
+  ]
+}
