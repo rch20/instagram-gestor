@@ -1,0 +1,66 @@
+name: Coletar perfis públicos (Apify)
+
+# Lê dados PÚBLICOS de perfis (seguidores, posts, bio) pelo ator oficial da Apify.
+# Custo aproximado: US$ 0,0026 por perfil no plano grátis (crédito de US$ 5/mês). Máximo 10 perfis por execução.
+on:
+  workflow_dispatch:
+    inputs:
+      perfis:
+        description: "Usuários separados por espaço (ex.: diaebeleza outroperfil)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletar-apify
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r ferramentas/instagram-skills/requirements.txt
+      - name: Coletar
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          PERFIS: ${{ inputs.perfis }}
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os, re, sys
+          sys.path.insert(0, "ferramentas/instagram-skills")
+          from lib.apify_client import ApifyClient, ApifyError
+          if not os.environ.get("APIFY_TOKEN"):
+              print("::error::Secret APIFY_TOKEN não encontrado."); sys.exit(1)
+          perfis = [p.lstrip("@").lower() for p in os.environ["PERFIS"].split() if p.strip()]
+          if not perfis or len(perfis) > 10 or any(not re.fullmatch(r"[a-z0-9._]{1,30}", p) for p in perfis):
+              print("::error::Informe de 1 a 10 usuários válidos do Instagram."); sys.exit(1)
+          cli = ApifyClient()
+          agora = dt.datetime.now(dt.timezone.utc)
+          saida = {"coletado_em": agora.isoformat(), "fonte": "Apify apify/instagram-profile-scraper (dados públicos)", "perfis": []}
+          for p in perfis:
+              try:
+                  r = cli.fetch_profile(p)
+              except ApifyError as e:
+                  print(f"::warning::{p}: {e}"); r = None
+              saida["perfis"].append(r or {"username": p, "erro": "não encontrado ou indisponível"})
+              if r:
+                  print(f"::notice::@{p}: {r.get('followers')} seguidores · {r.get('posts')} posts · categoria {r.get('category')}")
+          os.makedirs("dados/metricas", exist_ok=True)
+          arq = f"dados/metricas/perfis-{agora:%Y-%m-%d-%H%M}.json"
+          json.dump(saida, open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print("salvo em", arq)
+          PY
+      - name: Salvar
+        run: |
+          git config user.name "coletar-perfis"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados/metricas
+          git diff --cached --quiet && exit 0
+          git commit -m "Perfis públicos coletados"
+          git pull --rebase && git push
