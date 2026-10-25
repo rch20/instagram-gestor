@@ -104,10 +104,10 @@
     "objetivo": "confiança / visitar página real",
     "formula": "post único (ig-caption-writer)",
     "legenda": "Um estúdio de unhas já recebe os agendamentos pela própria página no Dia e Beleza.\n\nQuer ver como fica do lado da cliente? Abra unhascapao.diaebeleza.com.br no celular e passe pelos serviços e horários.\n\nPara criar a sua, o link está na bio.\n\n#nailsdesigner #manicure #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "agendado",
     "pasta_artes": "artes/2026-10-31_caso-real-estudio-de-unhas",
     "agendado_para": "2026-10-31T10:00:00-03:00",
-    "postGroupId": null,
+    "postGroupId": "6ade72f7ed849b64de3c8618",
     "link": null,
     "historico": [
       {
@@ -129,6 +129,11 @@
         "data": "2026-10-25T14:30:00-03:00",
         "estado": "aprovado",
         "nota": "Volta para aprovado: a falha foi o limite do plano Starter (3 agendamentos ativos), não o conteúdo. Agendar quando a fila tiver vaga."
+      },
+      {
+        "data": "2026-10-25T21:21:58.679489+00:00",
+        "estado": "agendado",
+        "nota": "Enviado à Publora para 2026-10-31T10:00:00-03:00 (1 imagem(ns))."
       }
     ]
   },
