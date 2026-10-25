@@ -98,7 +98,7 @@
     "objetivo": "confiança / visitar página real",
     "formula": "post único (ig-caption-writer)",
     "legenda": "Um estúdio de unhas já recebe os agendamentos pela própria página no Dia e Beleza.\n\nQuer ver como fica do lado da cliente? Abra unhascapao.diaebeleza.com.br no celular e passe pelos serviços e horários.\n\nPara criar a sua, o link está na bio.\n\n#nailsdesigner #manicure #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "erro",
     "pasta_artes": "artes/2026-10-31_caso-real-estudio-de-unhas",
     "agendado_para": "2026-10-31T10:00:00-03:00",
     "postGroupId": null,
@@ -113,6 +113,11 @@
         "data": "2026-10-25T14:23:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pelo dono no chat (\"Aprovado\") com horário 2026-10-31T10:00:00-03:00."
+      },
+      {
+        "data": "2026-10-25T17:25:00.974915+00:00",
+        "estado": "erro",
+        "nota": "HTTP 403: {'error': 'Scheduled post limit reached', 'code': 'SCHEDULED_POST_LIMIT_REACHED', 'metric': 'posts.scheduled_active', 'message': 'Your Starter plan allows up to 3 active scheduled posts across the workspace.', 'limit': 3, 'used': 3, 'requested': 1, 'remaining': 0, 'periodStart': None, 'per"
       }
     ]
   }
