@@ -7,3 +7,4 @@
 - 2026-10-25: Agendamento só por `ferramentas/agendar.py`: recusa item não aprovado, já enviado, sem data ou com data a menos de 15 min. Trava testada com o post de teste em revisão (recusado, nada enviado).
 - 2026-10-25: Concorrentes acompanhados: @trinksoficial, @booksybrasil, @appbarber, @simplesagenda (aprovado pelo dono).
 - 2026-10-25: Proposta de perfil (nome, bio, link /criar-salao, categoria Software) aprovada pelo dono.
+- 2026-10-25: Plano Starter da Publora permite no máximo **3 posts agendados ao mesmo tempo** (erro SCHEDULED_POST_LIMIT_REACHED). Regra: manter a fila com até 3 e agendar o próximo aprovado assim que um for publicado.
