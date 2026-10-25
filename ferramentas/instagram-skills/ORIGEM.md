@@ -1,0 +1,1 @@
+Origem: https://github.com/sergebulaev/instagram-skills (commit 6a12448, versão 1.0.32), licença MIT. Copiado em 2026-10-25 após auditoria: o código só chama api.apify.com, api.publora.com e api.pixfaro.com; o modo 'diy' (subprocess) só roda se a variável INSTAGRAM_SKILLS_CUSTOM_POSTER existir, e ela não é usada aqui.

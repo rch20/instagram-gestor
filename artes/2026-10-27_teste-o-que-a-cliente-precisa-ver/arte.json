@@ -1,0 +1,11 @@
+{
+  "formato": "post",
+  "laminas": [
+    { "tipo": "capa", "etiqueta": "Para quem atende com hora marcada", "titulo": "A cliente quer marcar.\n**O que ela precisa ver antes?**", "texto": "4 informações que acabam com o vai e vem de mensagens." },
+    { "numero": "1", "titulo": "Serviços com preço e duração", "texto": "Quando o preço está claro, a primeira mensagem já é para marcar, não para perguntar." },
+    { "numero": "2", "titulo": "Os horários **livres de verdade**", "texto": "Mostrar a agenda do dia evita oferecer um horário que acabou de ser ocupado." },
+    { "numero": "3", "titulo": "A regra do sinal", "texto": "Se você cobra sinal, diga quanto e como pagar antes de confirmar o horário." },
+    { "numero": "4", "titulo": "Onde fica o salão", "texto": "Endereço e um link do mapa no mesmo lugar em que ela agenda." },
+    { "tipo": "cta", "titulo": "Tudo isso em **uma página só**", "texto": "No Dia e Beleza a cliente vê serviços, horários livres e sinal, e marca sozinha.", "botao": "14 dias grátis · link na bio" }
+  ]
+}

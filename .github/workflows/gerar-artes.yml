@@ -1,0 +1,54 @@
+name: Gerar artes
+
+# Transforma artes/<pasta>/arte.json em JPEGs prontos para o Instagram e salva no repositório.
+# Não publica nada.
+on:
+  workflow_dispatch:
+    inputs:
+      pasta:
+        description: "Pasta da arte (ex.: artes/2026-10-27_dicas-whatsapp)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-artes
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar navegador
+        run: |
+          npm init -y >/dev/null
+          npm install playwright@1.48.2 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+      - name: Validar pasta
+        env:
+          PASTA: ${{ inputs.pasta }}
+        run: |
+          case "$PASTA" in artes/*) ;; *) echo "::error::A pasta precisa estar dentro de artes/"; exit 1;; esac
+          case "$PASTA" in *..*) echo "::error::Caminho inválido"; exit 1;; esac
+          test -f "$PASTA/arte.json" || { echo "::error::Não achei $PASTA/arte.json"; exit 1; }
+      - name: Gerar
+        env:
+          PASTA: ${{ inputs.pasta }}
+        run: node ferramentas/artes/render.js "$PASTA"
+      - name: Salvar
+        env:
+          PASTA: ${{ inputs.pasta }}
+        run: |
+          git config user.name "gerar-artes"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$PASTA"/*.jpg
+          git diff --cached --quiet && { echo "Nada novo."; exit 0; }
+          git commit -m "Artes geradas: $PASTA"
+          git pull --rebase
+          git push

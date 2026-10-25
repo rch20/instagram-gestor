@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-10-27_teste-o-que-a-cliente-precisa-ver",
+    "teste_de_validacao": true,
+    "estado": "revisao",
+    "formato": "carrossel",
+    "pilar": "Dica prática de gestão",
+    "objetivo": "salvamentos",
+    "formula": "IG5 listicle (ig-carousel-planner)",
+    "pasta_artes": "artes/2026-10-27_teste-o-que-a-cliente-precisa-ver",
+    "legenda": "A cliente quer marcar horário, mas antes ela precisa ver 4 coisas. Se faltar uma, começa o vai e vem no WhatsApp.\n\nArrasta para o lado e confere se a sua página de agendamento mostra todas.\n\nQual dessas suas clientes mais perguntam antes de marcar? Conta aqui nos comentários.\n\n#agendamentoonline #gestaodesalao #nailsdesigner #salaodebeleza",
+    "hashtags_motivo": "tamanhos variados do nicho (marcar como estimativa até medir alcance real)",
+    "agendado_para": null,
+    "postGroupId": null,
+    "link": null,
+    "historico": [
+      {
+        "data": "2026-10-25",
+        "estado": "revisao",
+        "nota": "Post de teste da Etapa 2 para validar skills e geração de artes. Não publicar sem aprovação."
+      }
+    ]
+  }
+]
