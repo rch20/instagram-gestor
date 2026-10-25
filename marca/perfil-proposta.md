@@ -1,6 +1,6 @@
 # Proposta de perfil do @diaebeleza (skill ig-profile-optimizer)
 
-> Estado: **proposta aguardando aprovação**. Situação real em 25/10/2026 (Apify): nome "@dia&beleza",
+> Estado: **aprovado pelo dono em 25/10/2026; aplicação no app feita pelo dono.** Situação real em 25/10/2026 (Apify): nome "@dia&beleza",
 > bio vazia, categoria não definida, link http://diaebeleza.com.br, 0 seguidores.
 
 | Parte | Hoje | Proposta | Motivo |

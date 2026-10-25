@@ -1,6 +1,6 @@
 # Concorrentes acompanhados
 
-> Estado: **proposta aguardando aprovação do dono** (25/10/2026).
+> Estado: **aprovado pelo dono em 25/10/2026.**
 > Números abaixo são **dados reais** coletados pela Apify em 25/10/2026 (perfis públicos),
 > arquivos em `dados/metricas/perfis-2026-10-25-*.json`.
 
