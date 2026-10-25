@@ -1,0 +1,64 @@
+name: Testar conexão com a Publora
+
+# Só leitura: lista as contas conectadas na Publora. Não cria, não agenda e não publica nada.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r ferramentas/instagram-skills/requirements.txt
+      - name: Listar contas conectadas
+        env:
+          PUBLORA_API_KEY: ${{ secrets.PUBLORA_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, os, sys, datetime
+          sys.path.insert(0, "ferramentas/instagram-skills")
+          if not os.environ.get("PUBLORA_API_KEY"):
+              print("::error::Secret PUBLORA_API_KEY não encontrado no repositório.")
+              sys.exit(1)
+          from lib.publora_client import PubloraClient, PubloraError
+          try:
+              conns = PubloraClient().list_connections()
+          except PubloraError as e:
+              print(f"::error::Publora recusou: {e}")
+              sys.exit(1)
+          seguro = []
+          for c in conns:
+              # Guarda só campos não sensíveis (nunca tokens)
+              seguro.append({k: c.get(k) for k in ("platformId", "platform", "username", "displayName", "name", "status", "tokenStatus", "isActive") if k in c})
+          print("Contas conectadas:", len(seguro))
+          for c in seguro:
+              print(" -", json.dumps(c, ensure_ascii=False))
+          ig = [c for c in seguro if str(c.get("platformId", "")).startswith("instagram-")]
+          resultado = {
+              "verificado_em": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "fonte": "Publora GET /platform-connections",
+              "contas": seguro,
+              "instagram_platform_id": ig[0]["platformId"] if ig else None,
+          }
+          os.makedirs("dados", exist_ok=True)
+          json.dump(resultado, open("dados/conexao-publora.json", "w"), ensure_ascii=False, indent=2)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as s:
+              s.write(f"Contas conectadas: {len(seguro)}\n\nInstagram: {resultado['instagram_platform_id'] or 'NÃO CONECTADO'}\n")
+          if not ig:
+              print("::warning::Nenhuma conta do Instagram conectada na Publora.")
+          PY
+      - name: Salvar resultado
+        run: |
+          git config user.name "testar-publora"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados/conexao-publora.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Conexão Publora verificada"
+          git pull --rebase && git push
