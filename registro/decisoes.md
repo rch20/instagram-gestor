@@ -15,3 +15,6 @@
 
 - 2026-10-25: Dono aprovou turbinar posts (teste R$ 100, 7 dias, Brasil todo, objetivo visitas a /criar-salao, início previsto 28/10). Criada a Página do Facebook "Dia e Beleza" (site, WhatsApp de suporte autorizado, logo). Dono conectou o Instagram; a Meta criou o portfólio "@dia&beleza". Conta de anúncios e cartão: o dono cria/cadastra (ação de conta e pagamento fica com ele).
 - 2026-10-25: Conta de anúncios "Dia e Beleza - Anúncios" (id 1780141879958687) criada pelo dono no portfólio @dia&beleza, em BRL, com saldo pré-pago por Pix (R$ 115 depositados). Campanha de teste será montada em 28/10 e só ativada após aprovação do dono.
+
+- 2026-10-27: Dono autorizou usar o Instagram para seguir perfis ("pode usar o instagram e começa a seguir"). Diagnóstico com dado real: 0 seguidores e post de hoje com 0 visualizações após 2h. Plano: seguir 20–30 perfis/dia do público-alvo (donas de salão, nail designers, lash, sobrancelha, estética), começando pelos salões clientes; mais Reels; post em parceria (Collab) com a Unhas Capão; destaques e post fixado; anúncio de 28/10. Não fazer: comentários automáticos, DM em massa, compra de seguidores.
+- 2026-10-27: Seguidos 25 perfis (5 salões clientes + 20 profissionais de beleza tirados de quem a @ollgaoliveiranails segue), com intervalo de 7–13 s entre cada um. Lista em dados/seguidos.md.
