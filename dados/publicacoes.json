@@ -44,7 +44,7 @@
     "objetivo": "salvamentos",
     "formula": "IG5 listicle (ig-carousel-planner)",
     "legenda": "Cliente pedindo horário às 23h e você respondendo da cama? Dá para resolver com 3 ajustes simples.\n\nArrasta para ver cada um e salva para configurar com calma amanhã.\n\nVocê já usa a mensagem de ausência do WhatsApp Business?\n\n#agendamentoonline #gestaodesalao #manicure #salaodebeleza",
-    "estado": "agendado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-10-27_agenda-fora-do-expediente",
     "agendado_para": "2026-10-27T12:00:00-03:00",
     "postGroupId": "6ade3b2d21af69534cd276b0",
@@ -64,8 +64,14 @@
         "data": "2026-10-25T17:23:57.431253+00:00",
         "estado": "agendado",
         "nota": "Enviado à Publora para 2026-10-27T12:00:00-03:00 (5 imagem(ns))."
+      },
+      {
+        "data": "2026-10-27T16:34:01.093249+00:00",
+        "estado": "publicado",
+        "nota": "Publora confirmou publicação (postedId 18126128126478863)."
       }
-    ]
+    ],
+    "postedId": "18126128126478863"
   },
   {
     "id": "2026-10-29_como-a-cliente-marca",
