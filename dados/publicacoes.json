@@ -110,7 +110,7 @@
     "objetivo": "confiança / visitar página real",
     "formula": "post único (ig-caption-writer)",
     "legenda": "Um estúdio de unhas já recebe os agendamentos pela própria página no Dia e Beleza.\n\nQuer ver como fica do lado da cliente? Abra unhascapao.diaebeleza.com.br no celular e passe pelos serviços e horários.\n\nPara criar a sua, o link está na bio.\n\n#nailsdesigner #manicure #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "revisao",
     "pasta_artes": "artes/2026-10-31_caso-real-estudio-de-unhas",
     "agendado_para": "2026-10-31T10:00:00-03:00",
     "link": null,
@@ -144,8 +144,14 @@
         "data": "2026-10-27T17:50:33.231570+00:00",
         "estado": "aprovado",
         "nota": "Agendamento cancelado na Publora (6ade72f7ed849b64de3c8618). Vai virar post em parceria (Collab) com a Unhas Capão, publicado pelo app."
+      },
+      {
+        "data": "2026-10-27T17:50:48.603788+00:00",
+        "estado": "revisao",
+        "nota": "Fica fora da Publora: o dono publica pelo app como Collab com @ollgaoliveiranails (a Publora não suporta colaboradores)."
       }
-    ]
+    ],
+    "canal": "collab_manual"
   },
   {
     "id": "2026-11-03_reel-tem-horario-amanha",
