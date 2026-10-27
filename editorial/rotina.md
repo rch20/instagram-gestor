@@ -15,6 +15,14 @@ e `registro/pendencias.md` antes de agir.
 6. Nunca inventar número, resultado, depoimento ou recurso. Só afirmar o que está em `marca/identidade.md`.
 7. Sem fotos de pessoas. Telas do sistema só reais e sem dados pessoais.
 8. Se a mesma etapa falhar 2 vezes seguidas, parar a parte automática, registrar em `registro/erros.md` e avisar o dono.
+9. A Publora (plano Starter) só agenda até **7 dias à frente**: só enviar itens com `agendado_para` dentro de 7 dias.
+10. Itens com `"canal": "collab_manual"` nunca vão para a Publora (são publicados pelo dono no app, como Collab).
+
+## Formato (desde 27/10/2026 — alcance)
+
+- Perfil novo cresce por Reels: **pelo menos 1 de cada 2 posts novos deve ser Reel** (`"formato": "reel"`,
+  lâminas verticais montadas em vídeo por `gerar-artes.yml`). Carrossel fica para conteúdo de salvar.
+- Medir toda segunda (`coletar-perfis.yml`) e anotar em `dados/metricas/`.
 
 ## Manhã (~7h30)
 

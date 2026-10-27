@@ -6,3 +6,4 @@
   - Tratado: item voltou para 'aprovado'; será agendado depois que o post de 25/10 18h sair.
 
 - 2026-10-27: falha ao agendar 2026-11-05_mitos-do-sinal: HTTP 403: {'error': 'Schedule horizon reached', 'code': 'SCHEDULE_HORIZON_REACHED', 'metric': 'posts.schedule_horizon_days', 'message': 'Your Starter plan allows scheduling up to 7 days ahead.', 'limit': 7, 'used': None, 'requested': None, 'remaining': None, 'periodStart': None, 'periodEnd': None, '
+  - Tratado: limite do plano Starter (agendar no máximo 7 dias à frente). Item voltou para 'aprovado'; regra adicionada em editorial/rotina.md.

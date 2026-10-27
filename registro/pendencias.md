@@ -8,3 +8,6 @@
 - [x] Perfil aplicado por Claude pelo Chrome do dono em 2026-10-25: bio, nome, categoria Software (rótulo visível) e foto nova.
 - [x] Link do perfil trocado para diaebeleza.com.br/criar-salao (conferido em 2026-10-25).
 - [x] 2 posts antigos excluídos a pedido do dono em 2026-10-25 (ficam 30 dias em "Excluídos recentemente" no Instagram).
+
+- 2026-10-27: Collab com a Unhas Capão (@ollgaoliveiranails): o dono publica pelo app o post `2026-10-31_caso-real-estudio-de-unhas` convidando @ollgaoliveiranails como colaboradora, e a Ollga aceita. Arte e legenda em artes/2026-10-31_caso-real-estudio-de-unhas.
+- Seguir 20–30 perfis/dia do público-alvo pelo Chrome logado (lista em dados/seguidos.md); revisar quem seguiu de volta em 03/11.

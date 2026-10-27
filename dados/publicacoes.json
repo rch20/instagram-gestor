@@ -191,7 +191,7 @@
     "objetivo": "compartilhamentos",
     "formula": "IG7 quebra de mito (ig-carousel-planner)",
     "legenda": "Cobrar sinal ainda dá medo em muita profissional. Separei 3 coisas que a gente ouve muito e o que dá para fazer no lugar.\n\nVocê cobra sinal hoje? Conta nos comentários como funciona aí.\n\n#gestaodesalao #nailsdesigner #lashdesigner #salaodebeleza",
-    "estado": "erro",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-11-05_mitos-do-sinal",
     "agendado_para": "2026-11-05T12:00:00-03:00",
     "postGroupId": null,
@@ -211,6 +211,11 @@
         "data": "2026-10-27T17:51:05.842207+00:00",
         "estado": "erro",
         "nota": "HTTP 403: {'error': 'Schedule horizon reached', 'code': 'SCHEDULE_HORIZON_REACHED', 'metric': 'posts.schedule_horizon_days', 'message': 'Your Starter plan allows scheduling up to 7 days ahead.', 'limit': 7, 'used': None, 'requested': None, 'remaining': None, 'periodStart': None, 'periodEnd': None, '"
+      },
+      {
+        "data": "2026-10-27T17:51:30.947522+00:00",
+        "estado": "aprovado",
+        "nota": "Voltou para aprovado: a Publora (Starter) só agenda até 7 dias à frente; a rotina agenda a partir de 29/10."
       }
     ],
     "aprovado_por": "dono"
