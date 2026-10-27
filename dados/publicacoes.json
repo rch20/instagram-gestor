@@ -150,10 +150,10 @@
     "objetivo": "compartilhamentos e alcance",
     "formula": "IG9 interrupção de padrão (ig-content-planner)",
     "legenda": "Quem atende com hora marcada conhece essa conversa de cor. E ela se repete com cada cliente.\n\nManda para aquela amiga que vive respondendo \"tem horário?\" no WhatsApp.\n\n#agendamentoonline #manicure #salaodebeleza #designdesobrancelhas",
-    "estado": "aprovado",
+    "estado": "agendado",
     "pasta_artes": "artes/2026-11-03_reel-tem-horario-amanha",
     "agendado_para": "2026-11-03T12:00:00-03:00",
-    "postGroupId": null,
+    "postGroupId": "6ae0d2aee11e5a8e835397b4",
     "link": null,
     "historico": [
       {
@@ -165,6 +165,11 @@
         "data": "2026-10-25T16:02:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pelo dono no chat (\"aprovado\")."
+      },
+      {
+        "data": "2026-10-27T16:34:53.812464+00:00",
+        "estado": "agendado",
+        "nota": "Enviado à Publora para 2026-11-03T12:00:00-03:00 (1 imagem(ns))."
       }
     ],
     "aprovado_por": "dono"
