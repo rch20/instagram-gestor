@@ -14,3 +14,16 @@
 Perfis testados e descartados (não são do setor ou não existem): @trinks, @avecbeauty, @avec.app,
 @avecoficial, @avecbrasil, @agendaprobrasil, @agendapro, @agendapro.br, @agendaprolatam, @salaovip, @gendo.app.
 Avec e AgendaPro não tiveram perfil oficial confirmado.
+
+## Coleta semanal — 26/10/2026 (segunda, noite)
+
+Fonte: Apify `apify/instagram-profile-scraper`, dados públicos, coletado em 2026-10-27 00:32 UTC
+(26/10 21h32 em São Paulo). Arquivo: `dados/metricas/perfis-2026-10-27-0032.json`.
+
+| Perfil | Seguidores 25/10 | Seguidores 26/10 | Diferença |
+|---|---|---|---|
+| @diaebeleza | 0 | 0 | 0 (a Apify retorna 0; conferir quando houver métricas da Meta) |
+| @trinksoficial | 97.900 | 97.876 | −24 |
+| @booksybrasil | 61.591 | 61.646 | +55 |
+| @appbarber | 36.349 | 36.351 | +2 |
+| @simplesagenda | 17.923 | 17.952 | +29 |
