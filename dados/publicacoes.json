@@ -110,10 +110,10 @@
     "objetivo": "confiança / visitar página real",
     "formula": "post único (ig-caption-writer)",
     "legenda": "A @ollgaoliveiranails recebe os agendamentos pela própria página no Dia e Beleza.\n\nA cliente escolhe o serviço, vê os horários livres e marca sozinha, a qualquer hora. Quer ver como fica? Abra unhascapao.diaebeleza.com.br no celular.\n\nPara criar a página do seu salão, o link está na bio.\n\n#nailsdesigner #manicure #agendamentoonline",
-    "estado": "revisao",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-10-31_caso-real-estudio-de-unhas",
     "agendado_para": "2026-10-31T10:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/p/DfAceMgBPKa/",
     "historico": [
       {
         "data": "2026-10-25",
@@ -149,9 +149,15 @@
         "data": "2026-10-27T17:50:48.603788+00:00",
         "estado": "revisao",
         "nota": "Fica fora da Publora: o dono publica pelo app como Collab com @ollgaoliveiranails (a Publora não suporta colaboradores)."
+      },
+      {
+        "data": "2026-10-28T14:00:00-03:00",
+        "estado": "publicado",
+        "nota": "Dono confirmou no chat que já está publicado: saiu em 27/10 pelo app como Collab com @ollgaoliveiranails (post DfAceMgBPKa, o mesmo usado no anúncio). Não publicar de novo em 31/10."
       }
     ],
-    "canal": "collab_manual"
+    "canal": "collab_manual",
+    "publicado_em": "2026-10-27"
   },
   {
     "id": "2026-11-03_reel-tem-horario-amanha",
