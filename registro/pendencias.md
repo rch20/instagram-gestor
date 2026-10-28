@@ -11,3 +11,5 @@
 
 - 2026-10-27: Collab com a Unhas Capão (@ollgaoliveiranails): o dono publica pelo app o post `2026-10-31_caso-real-estudio-de-unhas` convidando @ollgaoliveiranails como colaboradora, e a Ollga aceita. Arte e legenda em artes/2026-10-31_caso-real-estudio-de-unhas.
 - Seguir 20–30 perfis/dia do público-alvo pelo Chrome logado (lista em dados/seguidos.md); revisar quem seguiu de volta em 03/11.
+- 2026-10-28: Link da bio do Instagram termina com ponto ("diaebeleza.com.br/criar-salao.") e cai na página inicial. Aguardando o dono autorizar a correção.
+- 2026-10-28: O site não registra origem (utm). Resultado do anúncio = visitas na Meta + cadastros de salão no período (sem atribuição exata).
