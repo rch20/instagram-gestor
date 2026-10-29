@@ -38,6 +38,8 @@ def main():
         falha(f"Publicação {alvo} não existe em {ARQ}.")
     if item.get("estado") != "aprovado":
         falha(f"Publicação {alvo} está como '{item.get('estado')}'. Só itens 'aprovado' podem ser agendados.")
+    if item.get("canal") in ("api", "manual", "collab_manual"):
+        falha(f"Publicação {alvo} é do canal '{item.get('canal')}' e não vai para a Publora. Nada feito.")
     if item.get("postGroupId"):
         falha(f"Publicação {alvo} já foi enviada (postGroupId {item['postGroupId']}). Nada feito.")
 

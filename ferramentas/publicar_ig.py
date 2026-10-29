@@ -6,6 +6,11 @@ com acesso só à Página Dia e Beleza e ao @diaebeleza. A conta do Instagram é
 Uso (no GitHub Actions):
   python ferramentas/publicar_ig.py testar        -> só confere se a chave funciona (não publica nada)
   python ferramentas/publicar_ig.py <id>          -> publica AGORA o item <id>
+  python ferramentas/publicar_ig.py devidos       -> (a cada 15 min) publica o item "canal": "api" cuja hora chegou
+
+Canal (30/10/2026): itens com "canal": "api" saem por aqui na hora de "agendado_para"; a Publora não os aceita.
+O modo "devidos" respeita a pausa (dados/config.json), publica no máximo 1 item por vez e não publica
+nada com mais de 3 h de atraso (só avisa), para não soltar post fora de hora.
 
 Chave: secret META_IG_TOKEN (nunca em arquivo, commit ou conversa).
 As imagens/vídeos precisam de link público: usamos o raw.githubusercontent.com deste repositório (público).
@@ -180,7 +185,49 @@ def publicar(alvo):
     print(f"Publicado: {alvo} · {link}")
 
 
+ATRASO_MAX = dt.timedelta(hours=3)
+ADIANTADO = dt.timedelta(minutes=10)
+
+
+def devidos(agora=None):
+    """Escolhe o item do canal "api" cuja hora chegou. Retorna o id (ou None)."""
+    agora = agora or dt.datetime.now(dt.timezone.utc)
+    config = json.load(open("dados/config.json", encoding="utf-8"))
+    if config.get("pausado"):
+        print("Instagram pausado pelo dono: nada publicado.")
+        return None
+    prontos = []
+    for i in json.load(open(ARQ, encoding="utf-8")):
+        if i.get("canal") != "api" or i.get("estado") != "aprovado":
+            continue
+        if i.get("postGroupId") or i.get("ig_media_id") or i.get("link"):
+            continue
+        try:
+            m = dt.datetime.fromisoformat(i.get("agendado_para") or "")
+        except ValueError:
+            print(f"::warning::{i['id']} sem 'agendado_para' válido.")
+            continue
+        if m.tzinfo is None:
+            print(f"::warning::{i['id']}: 'agendado_para' sem fuso.")
+        elif m < agora - ATRASO_MAX:
+            print(f"::warning::{i['id']} passou da hora ({i['agendado_para']}) há mais de 3 h: precisa de nova data. Nada publicado.")
+        elif m <= agora + ADIANTADO:
+            prontos.append((m, i["id"]))
+    if not prontos:
+        print("Nada para publicar agora.")
+        return None
+    return sorted(prontos)[0][1]
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        falha("Informe 'testar' ou o id da publicação.")
-    testar() if sys.argv[1] == "testar" else publicar(sys.argv[1].strip())
+        falha("Informe 'testar', 'devidos' ou o id da publicação.")
+    alvo = sys.argv[1].strip()
+    if alvo == "testar":
+        testar()
+    elif alvo == "devidos":
+        escolhido = devidos()
+        if escolhido:
+            publicar(escolhido)
+    else:
+        publicar(alvo)

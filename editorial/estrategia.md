@@ -1,11 +1,30 @@
 # Estratégia editorial — @diaebeleza
 
-> Estado: proposta inicial. Ajustar com base em métricas reais depois de 4 semanas.
+> Estado: decidido pelo dono em 29/10/2026 ("vamos em sua recomendação"). Rever com métricas reais depois de 4 semanas.
 
-## Frequência inicial
+## Frequência
 
-- **3 publicações por semana** (cabe no plano grátis da Publora: 15 por mês).
-- Stories só depois de validar o fluxo (contam no limite de posts da Publora).
+- **3 publicações por semana** (terça 12h, quinta 12h, sábado 10h). Subir para 5 só se 4 semanas de métricas
+  mostrarem que a qualidade se mantém (alcance e salvamentos não caem).
+- Publicação direta pela API oficial do Instagram (`"canal": "api"`), sem a Publora.
+- Stories: só depois de 4 semanas de feed estável (a API não põe enquete nem pergunta).
+- Não publicar só para cumprir número: se não houver bom conteúdo, pular o dia e registrar o motivo.
+
+## Mistura da semana (2 para atrair, 1 para mostrar o sistema)
+
+Quem paga são donas de salão. Dica e humor atraem e criam confiança; o sistema aparece em 1 de cada 3 posts.
+
+| Dia | Pilar | Formato |
+|---|---|---|
+| Terça | Dica prática de gestão (para salvar) | Carrossel |
+| Quinta | Rotina do salão: humor e identificação ("a cliente que...") | Reel |
+| Sábado | Produto funcionando (gravação real da tela, com dados fictícios) | Reel ou carrossel |
+
+- Pelo menos 1 de cada 2 posts é Reel.
+- Humor: sempre sobre situações do salão, nunca zombando de cliente ou profissional reais.
+- Sem "tendências" que dependem de música da biblioteca do Instagram (a API não permite): usar áudio livre ou só texto.
+- Toda dica e todo humor terminam com um chamado leve (salvar, comentar, mandar para a sócia); só o post de produto
+  leva para diaebeleza.com.br/experimentar.
 - Não publicar só para cumprir número: se não houver bom conteúdo, pular o dia e registrar o motivo.
 
 ## Pilares (cada publicação tem um objetivo)

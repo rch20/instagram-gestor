@@ -6,9 +6,7 @@
   "ativar_somente_apos_primeira_publicacao_confirmada": true,
   "limites": {
     "posts_feed_por_semana": 3,
-    "posts_por_mes_publora": 15,
-    "fila_publora_max": 3,
-    "antecedencia_minima_horas": 24
+    "atraso_maximo_horas": 3
   },
   "horarios_padrao": [
     "terça 12:00",
@@ -21,5 +19,7 @@
     "avisar_dias_antes": 10,
     "tipo": "usuário do sistema 'Publicador' do portfólio @dia&beleza (não vence)",
     "nota": "Se trocar para uma chave que vence, preencher 'salvo_em' (AAAA-MM-DD) e 'validade_dias'; a conferência avisa antes. Para desligar a chave: Meta Business Suite → Usuários do sistema → Publicador → Anular tokens."
-  }
+  },
+  "canal_padrao": "api",
+  "frequencia_decidida_em": "2026-10-29: 3 por semana (dono: \"vamos em sua recomendação\")"
 }
