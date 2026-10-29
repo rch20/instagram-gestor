@@ -17,8 +17,9 @@
   ],
   "meta_token": {
     "salvo_em": null,
-    "validade_dias": 60,
+    "validade_dias": null,
     "avisar_dias_antes": 10,
-    "nota": "Preencher 'salvo_em' (AAAA-MM-DD) quando o dono salvar ou renovar o META_IG_TOKEN; a conferência avisa antes de vencer."
+    "tipo": "usuário do sistema 'Publicador' do portfólio @dia&beleza (não vence)",
+    "nota": "Se trocar para uma chave que vence, preencher 'salvo_em' (AAAA-MM-DD) e 'validade_dias'; a conferência avisa antes. Para desligar a chave: Meta Business Suite → Usuários do sistema → Publicador → Anular tokens."
   }
 }

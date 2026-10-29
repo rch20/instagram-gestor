@@ -20,8 +20,8 @@ def aviso_chave_meta():
     """Avisa antes de a chave da Meta (META_IG_TOKEN, ~60 dias) vencer. Lê a data em dados/config.json."""
     try:
         m = json.load(open("dados/config.json", encoding="utf-8")).get("meta_token") or {}
-        if not m.get("salvo_em"):
-            return None
+        if not m.get("salvo_em") or not m.get("validade_dias"):
+            return None  # chave sem vencimento (usuário do sistema) não precisa de aviso
         vence = dt.date.fromisoformat(m["salvo_em"]) + dt.timedelta(days=int(m.get("validade_dias", 60)))
         faltam = (vence - dt.date.today()).days
         if faltam <= int(m.get("avisar_dias_antes", 10)):

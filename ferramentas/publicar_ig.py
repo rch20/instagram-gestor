@@ -1,4 +1,7 @@
-"""Publica no Instagram pela API oficial (Instagram API com login do Instagram), sem a Publora.
+"""Publica no Instagram pela API oficial (Graph API com login do Facebook), sem a Publora.
+
+Chave (29/10/2026): token do usuário do sistema "Publicador" do portfólio @dia&beleza (não vence),
+com acesso só à Página Dia e Beleza e ao @diaebeleza. A conta do Instagram é achada pela Página.
 
 Uso (no GitHub Actions):
   python ferramentas/publicar_ig.py testar        -> só confere se a chave funciona (não publica nada)
@@ -23,7 +26,7 @@ import time
 
 import requests
 
-API = "https://graph.instagram.com/v21.0"
+API = "https://graph.facebook.com/v21.0"
 RAW = "https://raw.githubusercontent.com/rch20/instagram-gestor/{ref}/{path}"
 ARQ = "dados/publicacoes.json"
 
@@ -66,10 +69,31 @@ def esperar(container_id, limite_s=300):
     raise RuntimeError(f"Container {container_id} não ficou pronto em {limite_s}s.")
 
 
+_IG = None
+
+
+def conta_ig():
+    """Id da conta do Instagram @diaebeleza, achada pelas Páginas que a chave enxerga (ou META_IG_USER_ID)."""
+    global _IG
+    if _IG:
+        return _IG
+    fixo = os.environ.get("META_IG_USER_ID", "").strip()
+    if fixo:
+        _IG = fixo
+        return _IG
+    paginas = chamar("GET", "me/accounts", fields="name,instagram_business_account{id,username}").get("data", [])
+    for p in paginas:
+        ig = p.get("instagram_business_account") or {}
+        if (ig.get("username") or "").lower() == "diaebeleza":
+            _IG = ig["id"]
+            return _IG
+    falha("A chave não enxerga nenhuma Página com o @diaebeleza ligado.")
+
+
 def testar():
-    eu = chamar("GET", "me", fields="user_id,username,account_type,media_count")
-    print(f"Conectado: @{eu.get('username')} · tipo {eu.get('account_type')} · {eu.get('media_count')} posts")
-    if eu.get("username", "").lower() != "diaebeleza":
+    eu = chamar("GET", conta_ig(), fields="username,media_count,followers_count")
+    print(f"Conectado: @{eu.get('username')} · {eu.get('media_count')} posts · {eu.get('followers_count')} seguidores")
+    if (eu.get("username") or "").lower() != "diaebeleza":
         falha(f"A chave é da conta @{eu.get('username')}, não do @diaebeleza.")
 
 
@@ -111,7 +135,7 @@ def publicar(alvo):
             video = os.path.join(pasta, "reel.mp4")
             if not os.path.isfile(video):
                 falha("Reel sem reel.mp4 na pasta de artes.")
-            c = chamar("POST", "me/media", media_type="REELS", video_url=url(video), caption=legenda,
+            c = chamar("POST", f"{conta_ig()}/media", media_type="REELS", video_url=url(video), caption=legenda,
                        share_to_feed="true")["id"]
             esperar(c, 600)
         else:
@@ -119,23 +143,23 @@ def publicar(alvo):
             if formato == "story":
                 if len(fotos) != 1:
                     falha(f"Story precisa de exatamente 1 JPEG (tem {len(fotos)}).")
-                c = chamar("POST", "me/media", media_type="STORIES", image_url=url(fotos[0]))["id"]
+                c = chamar("POST", f"{conta_ig()}/media", media_type="STORIES", image_url=url(fotos[0]))["id"]
                 esperar(c)
             elif len(fotos) == 1:
-                c = chamar("POST", "me/media", image_url=url(fotos[0]), caption=legenda)["id"]
+                c = chamar("POST", f"{conta_ig()}/media", image_url=url(fotos[0]), caption=legenda)["id"]
                 esperar(c)
             elif 2 <= len(fotos) <= 10:
                 filhos = []
                 for f in fotos:
-                    fid = chamar("POST", "me/media", image_url=url(f), is_carousel_item="true")["id"]
+                    fid = chamar("POST", f"{conta_ig()}/media", image_url=url(f), is_carousel_item="true")["id"]
                     esperar(fid)
                     filhos.append(fid)
-                c = chamar("POST", "me/media", media_type="CAROUSEL", children=",".join(filhos),
+                c = chamar("POST", f"{conta_ig()}/media", media_type="CAROUSEL", children=",".join(filhos),
                            caption=legenda)["id"]
                 esperar(c)
             else:
                 falha(f"A pasta tem {len(fotos)} JPEGs; o Instagram aceita de 1 a 10.")
-        media_id = chamar("POST", "me/media_publish", creation_id=c)["id"]
+        media_id = chamar("POST", f"{conta_ig()}/media_publish", creation_id=c)["id"]
         link = chamar("GET", media_id, fields="permalink").get("permalink")
     except RuntimeError as e:
         item["estado"] = "erro"

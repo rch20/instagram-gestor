@@ -20,3 +20,14 @@ Código pronto: `ferramentas/publicar_ig.py` + `.github/workflows/publicar-ig.ym
 
 - O token dura cerca de 60 dias. Quando salvar (ou renovar), a data vai em `dados/config.json` → `meta_token.salvo_em`; a conferência (3x por dia) avisa 10 dias antes de vencer.
 - Pela API não dá para: música da biblioteca do Instagram nos Reels, figurinhas de enquete/pergunta nos Stories, seguir perfis, Live.
+
+
+## Situação em 29/10/2026 (o que foi feito)
+
+- App **Gestor diaebeleza** (ID 4151736868458769), caso de uso Instagram, ligado ao portfólio **@dia&beleza**.
+  A Meta ofereceu só a configuração com **login do Facebook**, então a publicação usa a Graph API (`graph.facebook.com`).
+- Usuário do sistema **"Publicador"** (função Funcionário) com acesso só a: Página Dia e Beleza (Conteúdo e Insights),
+  Instagram @diaebeleza (Conteúdo e Insights) e o app (Testar app).
+- Chave do Publicador **sem vencimento**, com `instagram_basic`, `instagram_content_publish`, `instagram_manage_insights`,
+  `pages_show_list`, `pages_read_engagement`. Fica no secret `META_IG_TOKEN`.
+- Para desligar na hora: Meta Business Suite → Configurações → Usuários do sistema → Publicador → **Anular tokens**.
