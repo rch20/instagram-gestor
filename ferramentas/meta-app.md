@@ -18,5 +18,5 @@ Código pronto: `ferramentas/publicar_ig.py` + `.github/workflows/publicar-ig.ym
 
 ## Atenção
 
-- O token dura cerca de 60 dias. Antes de vencer, precisa ser renovado (anotar a data em pendências).
+- O token dura cerca de 60 dias. Quando salvar (ou renovar), a data vai em `dados/config.json` → `meta_token.salvo_em`; a conferência (3x por dia) avisa 10 dias antes de vencer.
 - Pela API não dá para: música da biblioteca do Instagram nos Reels, figurinhas de enquete/pergunta nos Stories, seguir perfis, Live.

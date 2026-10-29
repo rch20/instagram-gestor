@@ -16,7 +16,30 @@ ARQ = "dados/publicacoes.json"
 BASE = "https://api.publora.com/api/v1"
 
 
+def aviso_chave_meta():
+    """Avisa antes de a chave da Meta (META_IG_TOKEN, ~60 dias) vencer. Lê a data em dados/config.json."""
+    try:
+        m = json.load(open("dados/config.json", encoding="utf-8")).get("meta_token") or {}
+        if not m.get("salvo_em"):
+            return None
+        vence = dt.date.fromisoformat(m["salvo_em"]) + dt.timedelta(days=int(m.get("validade_dias", 60)))
+        faltam = (vence - dt.date.today()).days
+        if faltam <= int(m.get("avisar_dias_antes", 10)):
+            msg = (f"Chave da Meta (META_IG_TOKEN) vence em {vence.strftime('%d/%m/%Y')} ({faltam} dias). "
+                   "O dono precisa renovar e salvar de novo no GitHub; depois atualizar 'salvo_em' em dados/config.json.")
+            print(f"::warning::{msg}")
+            return msg
+    except Exception as e:  # o aviso nunca derruba a conferência
+        print(f"::warning::Não foi possível conferir a validade da chave da Meta: {e}")
+    return None
+
+
 def main():
+    aviso = aviso_chave_meta()
+    hoje = dt.date.today().isoformat()
+    if aviso and f"- {hoje}: Chave da Meta" not in open("registro/erros.md", encoding="utf-8").read():
+        with open("registro/erros.md", "a", encoding="utf-8") as f:
+            f.write(f"\n- {hoje}: {aviso}\n")
     chave = os.environ.get("PUBLORA_API_KEY")
     if not chave:
         print("::error::Secret PUBLORA_API_KEY não encontrado.")

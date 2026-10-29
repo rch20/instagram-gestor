@@ -8,7 +8,7 @@ Chave: secret META_IG_TOKEN (nunca em arquivo, commit ou conversa).
 As imagens/vídeos precisam de link público: usamos o raw.githubusercontent.com deste repositório (público).
 
 Travas (qualquer uma falhando = nada é publicado):
-- item existe, está "aprovado", não é "collab_manual";
+- item existe, está "aprovado", não é "collab_manual" nem "manual" (esses o dono publica pelo app);
 - item não tem postGroupId (já está na Publora) nem ig_media_id/link (já publicado);
 - "agendado_para" com fuso, no máximo 30 min no futuro e no máximo 24 h no passado;
 - formatos: post/carrossel (1 a 10 JPEGs), reel (reel.mp4), story (1 JPEG 1080x1920);
@@ -81,8 +81,8 @@ def publicar(alvo):
         falha(f"Publicação {alvo} não existe.")
     if item.get("estado") != "aprovado":
         falha(f"{alvo} está como '{item.get('estado')}'. Só 'aprovado' pode ser publicado.")
-    if item.get("canal") == "collab_manual":
-        falha(f"{alvo} é Collab manual: quem publica é o dono, pelo app.")
+    if item.get("canal") in ("collab_manual", "manual"):
+        falha(f"{alvo} é publicado pelo dono, pelo app (canal {item.get('canal')}). Nada feito.")
     if item.get("postGroupId") or item.get("ig_media_id") or item.get("link"):
         falha(f"{alvo} já foi enviado ou publicado. Nada feito.")
 

@@ -14,5 +14,11 @@
     "terça 12:00",
     "quinta 12:00",
     "sábado 10:00"
-  ]
+  ],
+  "meta_token": {
+    "salvo_em": null,
+    "validade_dias": 60,
+    "avisar_dias_antes": 10,
+    "nota": "Preencher 'salvo_em' (AAAA-MM-DD) quando o dono salvar ou renovar o META_IG_TOKEN; a conferência avisa antes de vencer."
+  }
 }

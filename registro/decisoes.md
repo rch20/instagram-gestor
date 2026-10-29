@@ -22,3 +22,4 @@
 - 2026-10-29: Novo canal "manual" em publicacoes.json para posts que o dono publica pelo app sem ser Collab; a automação não aprova nem agenda esses itens (rotina.md, regra 10). Motivo: evitar publicação em dobro.
 
 - 2026-10-29: Dono quer postar com mais frequência (roteiro de dicas e entretenimento). Caminho escolhido: publicação direta pela API oficial do Instagram (app da Meta), sem o limite de 15/mês da Publora. Código preparado (`ferramentas/publicar_ig.py`, `publicar-ig.yml`); a regra de 3 posts/semana só muda quando a chave estiver funcionando e o dono confirmar a frequência.
+- 2026-10-29: Publicação direta pela API recusa também itens com canal "manual" (além de "collab_manual"), e a conferência avisa 10 dias antes de a chave da Meta vencer (data em dados/config.json). Motivo: evitar post em dobro e parada silenciosa da publicação.
