@@ -14,3 +14,4 @@
 - 2026-10-28: (resolvido) Link da bio corrigido pelo dono para diaebeleza.com.br/experimentar (conferido no perfil às 10:22).
 - 2026-10-28: O site não registra origem (utm). Resultado do anúncio = visitas na Meta + cadastros de salão no período (sem atribuição exata).
 - 2026-10-29: Post do salão de demonstração (`2026-10-30_salao-de-demonstracao`): o dono publica pelo app (sugerido 30/10 12h). Arte e legenda em artes/2026-10-29_post-salao-demo. Depois de publicar, marcar como publicado com o link.
+- [ ] 2026-10-29 URGENTE: reconectar o Instagram @diaebeleza na Publora (Publora → Contas/Connections → reconectar Instagram). A Meta invalidou a sessão (PLATFORM_AUTH_EXPIRED); o carrossel de 29/10 12h não foi publicado. Depois de reconectar, decidir se o carrossel de 29/10 sai em outra data (vira item novo) ou fica de fora.
