@@ -80,7 +80,7 @@
     "objetivo": "criar página grátis",
     "formula": "IG8 passo a passo (ig-carousel-planner)",
     "legenda": "Sua cliente vê o link na sua bio. O que acontece até o horário estar marcado? São 4 passos, e você só aparece no último.\n\nArrasta para ver cada um.\n\nQuer testar com os serviços do seu salão? São 14 dias grátis, link na bio.\n\n#agendamentoonline #agendaonline #salaodebeleza #designdesobrancelhas",
-    "estado": "agendado",
+    "estado": "erro",
     "pasta_artes": "artes/2026-10-29_como-a-cliente-marca",
     "agendado_para": "2026-10-29T12:00:00-03:00",
     "postGroupId": "6ade3b4ced849b64de3ac23f",
@@ -100,6 +100,11 @@
         "data": "2026-10-25T17:24:28.608622+00:00",
         "estado": "agendado",
         "nota": "Enviado à Publora para 2026-10-29T12:00:00-03:00 (6 imagem(ns))."
+      },
+      {
+        "data": "2026-10-29T16:33:17.167688+00:00",
+        "estado": "erro",
+        "nota": "PLATFORM_AUTH_EXPIRED: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
       }
     ]
   },
