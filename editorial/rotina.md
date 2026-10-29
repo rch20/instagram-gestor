@@ -16,7 +16,7 @@ e `registro/pendencias.md` antes de agir.
 7. Sem fotos de pessoas. Telas do sistema só reais e sem dados pessoais.
 8. Se a mesma etapa falhar 2 vezes seguidas, parar a parte automática, registrar em `registro/erros.md` e avisar o dono.
 9. A Publora (plano Starter) só agenda até **7 dias à frente**: só enviar itens com `agendado_para` dentro de 7 dias.
-10. Itens com `"canal": "collab_manual"` nunca vão para a Publora (são publicados pelo dono no app, como Collab).
+10. Itens com `"canal": "collab_manual"` ou `"canal": "manual"` nunca vão para a Publora nem são aprovados pela automação (são publicados pelo dono no app).
 
 ## Formato (desde 27/10/2026 — alcance)
 

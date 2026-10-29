@@ -13,3 +13,4 @@
 - Seguir 20–30 perfis/dia do público-alvo pelo Chrome logado (lista em dados/seguidos.md); revisar quem seguiu de volta em 03/11.
 - 2026-10-28: (resolvido) Link da bio corrigido pelo dono para diaebeleza.com.br/experimentar (conferido no perfil às 10:22).
 - 2026-10-28: O site não registra origem (utm). Resultado do anúncio = visitas na Meta + cadastros de salão no período (sem atribuição exata).
+- 2026-10-29: Post do salão de demonstração (`2026-10-30_salao-de-demonstracao`): o dono publica pelo app (sugerido 30/10 12h). Arte e legenda em artes/2026-10-29_post-salao-demo. Depois de publicar, marcar como publicado com o link.
