@@ -4,7 +4,7 @@
 - [x] Dono conectar o Instagram na Publora — verificado em 2026-10-25 (@diaebeleza, token válido).
 - [x] Secret `PUBLORA_API_KEY` configurado — conexão testada em 2026-10-25.
 - [x] Secret `APIFY_TOKEN` configurado — testado em 2026-10-25.
-- [ ] Etapa 4: app da Meta para métricas (passo a passo será enviado).
+- [ ] Etapa 4: app da Meta (métricas + publicação direta pela API do Instagram, para liberar posts diários sem o limite de 15/mês da Publora). 29/10: dono pediu que o Claude configure pelo Chrome dele; precisa de uma sessão no app Claude do computador com o Chrome conectado. Permissões: instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights. Token só nos Secrets do GitHub (META_IG_TOKEN), nunca no chat.
 - [x] Perfil aplicado por Claude pelo Chrome do dono em 2026-10-25: bio, nome, categoria Software (rótulo visível) e foto nova.
 - [x] Link do perfil trocado para diaebeleza.com.br/criar-salao (conferido em 2026-10-25).
 - [x] 2 posts antigos excluídos a pedido do dono em 2026-10-25 (ficam 30 dias em "Excluídos recentemente" no Instagram).
