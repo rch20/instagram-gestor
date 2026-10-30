@@ -42,3 +42,6 @@ Quem paga são donas de salão. Dica e humor atraem e criam confiança; o sistem
 - Gancho nos primeiros 125 caracteres da legenda.
 - 3 a 5 hashtags do nicho, no fim da legenda.
 - Telas do produto: só capturas reais do sistema, com dados fictícios ou autorizados.
+- Link em post de feed **não é clicável** (nem na arte, nem na legenda). Nunca desenhar algo que pareça botão
+  ("Teste agora →"); escrever "link na bio". Link clicável só na bio, na figurinha de link do Story (o dono põe pelo app)
+  ou em anúncio pago (só com autorização do dono).
