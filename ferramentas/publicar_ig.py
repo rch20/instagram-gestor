@@ -26,6 +26,7 @@ import datetime as dt
 import glob
 import json
 import os
+import subprocess
 import sys
 import time
 
@@ -186,11 +187,11 @@ def publicar(alvo):
 
 
 ATRASO_MAX = dt.timedelta(hours=3)
-ADIANTADO = dt.timedelta(minutes=10)
+ADIANTADO = dt.timedelta(hours=4)  # o agendamento do GitHub atrasa horas: a execução pega o item antes e espera a hora
 
 
 def devidos(agora=None):
-    """Escolhe o item do canal "api" cuja hora chegou. Retorna o id (ou None)."""
+    """Escolhe o próximo item do canal "api" (hora já chegou ou chega em até 4 h). Retorna (id, hora) ou None."""
     agora = agora or dt.datetime.now(dt.timezone.utc)
     config = json.load(open("dados/config.json", encoding="utf-8"))
     if config.get("pausado"):
@@ -216,7 +217,27 @@ def devidos(agora=None):
     if not prontos:
         print("Nada para publicar agora.")
         return None
-    return sorted(prontos)[0][1]
+    m, alvo = sorted(prontos)[0]
+    return alvo, m
+
+
+def esperar_e_publicar():
+    """O agendamento do GitHub atrasa (às vezes horas): a execução pega o item até 4 h antes, espera a hora,
+    atualiza o repositório (pausa ou mudança do dono durante a espera valem) e só então publica."""
+    achado = devidos()
+    if not achado:
+        return
+    alvo, m = achado
+    falta = (m - dt.datetime.now(dt.timezone.utc)).total_seconds()
+    if falta > 0:
+        print(f"{alvo}: esperando até {m.isoformat()} ({int(falta // 60)} min).")
+        sys.stdout.flush()
+        time.sleep(falta)
+    subprocess.run(["git", "pull", "-q", "--rebase"], check=False)
+    if json.load(open("dados/config.json", encoding="utf-8")).get("pausado"):
+        print("Instagram pausado pelo dono durante a espera: nada publicado.")
+        return
+    publicar(alvo)
 
 
 if __name__ == "__main__":
@@ -226,8 +247,6 @@ if __name__ == "__main__":
     if alvo == "testar":
         testar()
     elif alvo == "devidos":
-        escolhido = devidos()
-        if escolhido:
-            publicar(escolhido)
+        esperar_e_publicar()
     else:
         publicar(alvo)
