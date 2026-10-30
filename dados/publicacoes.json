@@ -286,10 +286,10 @@
     "objetivo": "levar a testar o salão de demonstração (demo.diaebeleza.com.br) → criar página grátis",
     "formula": "post único (ig-caption-writer)",
     "legenda": "Antes de criar a sua página, que tal agendar num salão de exemplo como se fosse a sua cliente?\n\nO Studio Bella é o salão de demonstração do Dia e Beleza. Lá você:\n• escolhe o serviço e a profissional\n• vê os horários livres\n• monta um combo com vários serviços no mesmo horário\n• e no fim vê como o pedido chega para a dona do salão\n\nNada é marcado de verdade e não pedimos seus dados.\n\nPara testar, abra no navegador: demo.diaebeleza.com.br\n\n#agendaonline #salaodebeleza #manicure #designdesobrancelha #empreendedorismofeminino",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-10-29_post-salao-demo",
     "agendado_para": "2026-10-30T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/p/DfH5HDOIGHh/",
     "canal": "api",
     "historico": [
       {
@@ -301,8 +301,14 @@
         "data": "2026-10-29T19:40:00-03:00",
         "estado": "aprovado",
         "nota": "Dono aprovou para 30/10 12h ('pode ser para amanhã sim'). Sai direto pela API; o dono não publica pelo app."
+      },
+      {
+        "data": "2026-10-30T15:21:35.967331+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (post). https://www.instagram.com/p/DfH5HDOIGHh/"
       }
     ],
-    "aprovado_por": "dono"
+    "aprovado_por": "dono",
+    "ig_media_id": "18134943379707271"
   }
 ]
