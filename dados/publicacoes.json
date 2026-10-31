@@ -310,5 +310,25 @@
     ],
     "aprovado_por": "dono",
     "ig_media_id": "18134943379707271"
+  },
+  {
+    "id": "2026-11-10_reel-bloqueie-antes",
+    "formato": "reel",
+    "pilar": "Dica prática de gestão",
+    "objetivo": "salvamentos e alcance",
+    "formula": "IG5 lista (ig-content-planner / ig-caption-writer)",
+    "legenda": "Almoço, folga e o intervalo entre um alongamento e outro também são agenda. Se não estão bloqueados, alguém marca em cima.\n\nAntes de abrir os horários da semana, reserve primeiro o que é seu: almoço, folga, curso, feriado. Depois oferece o resto.\n\nSalve para montar a agenda no domingo.\n\n#agendamentoonline #manicure #salaodebeleza #designdesobrancelhas #lashdesigner",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-11-10_reel-bloqueie-antes",
+    "agendado_para": "2026-11-10T12:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-10-31T13:45:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de terça 10/11 12h (Reel, porque os 2 posts novos anteriores não eram Reel)."
+      }
+    ]
   }
 ]

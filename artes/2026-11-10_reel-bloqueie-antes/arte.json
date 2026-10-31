@@ -1,0 +1,42 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Dica de agenda",
+      "titulo": "Seu almoço\n**também é agenda.**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "Bloqueie o almoço",
+      "texto": "Se ele não está na agenda, alguém marca em cima."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Bloqueie a folga",
+      "texto": "Antes de oferecer horário, e não depois que a cliente pediu."
+    },
+    {
+      "numero": "3",
+      "segundos": 3.5,
+      "titulo": "Deixe um respiro",
+      "texto": "Entre serviços longos: tempo para limpar a mesa e comer alguma coisa."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Feriado e curso: já",
+      "texto": "Bloqueie assim que souber. Ninguém marca, e você não precisa desmarcar."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Primeiro o que é seu,\n**depois o resto.**",
+      "texto": "Na página de agendamento, o horário bloqueado não aparece para a cliente.",
+      "botao": "Salve para montar a semana"
+    }
+  ]
+}
