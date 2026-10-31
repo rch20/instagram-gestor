@@ -318,7 +318,7 @@
     "objetivo": "salvamentos e alcance",
     "formula": "IG5 lista (ig-content-planner / ig-caption-writer)",
     "legenda": "Almoço, folga e o intervalo entre um alongamento e outro também são agenda. Se não estão bloqueados, alguém marca em cima.\n\nAntes de abrir os horários da semana, reserve primeiro o que é seu: almoço, folga, curso, feriado. Depois oferece o resto.\n\nSalve para montar a agenda no domingo.\n\n#agendamentoonline #manicure #salaodebeleza #designdesobrancelhas #lashdesigner",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-11-10_reel-bloqueie-antes",
     "agendado_para": "2026-11-10T12:00:00-03:00",
     "link": null,
@@ -328,7 +328,13 @@
         "data": "2026-10-31T13:45:00-03:00",
         "estado": "rascunho",
         "nota": "Criado pela rotina da tarde para a vaga de terça 10/11 12h (Reel, porque os 2 posts novos anteriores não eram Reel)."
+      },
+      {
+        "data": "2026-10-31T13:45:00-03:00",
+        "estado": "aprovado",
+        "nota": "Aprovado pela automação. Checklist: gancho em 122 caracteres; um chamado (salvar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números nem promessas (bloqueio esconder horário da página = recurso 'bloqueios' da identidade); artes geradas por gerar-artes.yml (execução 41220228021), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado. Canal api, 10/11 12h (semana 09–15/11 com 0 posts)."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]
