@@ -31,7 +31,7 @@ e `registro/pendencias.md` antes de agir.
 
 1. Conferir em `dados/publicacoes.json` o que saiu (estado `publicado` com link) e o que deu `erro`.
 2. Item `aprovado` com aviso de atraso: dar nova data numa vaga livre e registrar.
-2a. Se houver item `aprovado`, `"canal": "api"`, para hoje: disparar `gh workflow run publicar-ig.yml -f id=devidos`.
+2a. Se houver item `aprovado`, `"canal": "api"`, para hoje: disparar `gh api -X POST repos/rch20/instagram-gestor/actions/workflows/publicar-ig.yml/dispatches -f ref=main -f 'inputs[id]=devidos'`.
    A execução espera a hora (pega até 5 h antes) e publica. Motivo: o agendamento de 15 em 15 min do GitHub chega a
    ficar 6 a 8 h sem rodar (visto em 01/11), o que pode estourar o limite de 3 h de atraso.
 3. Registrar no `registro/diario.md`: o que saiu, o que está na fila, erros.
