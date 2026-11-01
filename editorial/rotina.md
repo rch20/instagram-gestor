@@ -24,7 +24,8 @@ e `registro/pendencias.md` antes de agir.
 
 - Perfil novo cresce por Reels: **pelo menos 1 de cada 2 posts novos deve ser Reel** (`"formato": "reel"`,
   lâminas verticais montadas em vídeo por `gerar-artes.yml`). Carrossel fica para conteúdo de salvar.
-- Medir toda segunda (`coletar-perfis.yml`) e anotar em `dados/metricas/`.
+- Métricas reais do @diaebeleza: `metricas.yml` roda sozinho todo dia (~8h17) e salva `dados/metricas/AAAA-MM-DD-api.*`.
+- Concorrentes: `coletar-perfis.yml` toda segunda.
 
 ## Manhã (~7h30)
 
@@ -48,5 +49,8 @@ e `registro/pendencias.md` antes de agir.
 
 1. Conferir os estados (como na manhã).
 2. Toda segunda-feira: `coletar-perfis.yml` com `diaebeleza` e os concorrentes de `dados/concorrentes.md`; registrar números com data e fonte.
-3. Toda segunda-feira: conferir se https://github.com/sergebulaev/instagram-skills tem versão nova; se tiver, só registrar em pendências (não atualizar sem o dono).
-4. Escrever o resumo do dia em `registro/diario.md` e avisar o dono só se algo foi publicado, agendado, falhou ou precisa dele.
+3. Toda segunda-feira: comparar o `*-api.md` mais recente com o de 7 dias antes e com as metas de
+   `editorial/estrategia.md`; escrever 3 linhas em `registro/diario.md` (o que subiu, o que caiu, o que muda na semana)
+   e avisar o dono com os números.
+4. Toda segunda-feira: conferir se https://github.com/sergebulaev/instagram-skills tem versão nova; se tiver, só registrar em pendências (não atualizar sem o dono).
+5. Escrever o resumo do dia em `registro/diario.md` e avisar o dono só se algo foi publicado, agendado, falhou ou precisa dele.

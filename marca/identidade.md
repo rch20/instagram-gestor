@@ -14,9 +14,10 @@
 
 ## Público-alvo
 
-- Donas de salão e profissionais autônomas de beleza: unhas, cabelo, sobrancelha, cílios, estética,
-  maquiagem, barbearia e **outros profissionais que precisam de agendamento** (confirmado pelo dono).
-- Hoje marcam horário pelo WhatsApp e perdem tempo respondendo mensagem.
+- **Beleza:** donas de salão e profissionais autônomas: unhas, cabelo, sobrancelha, cílios, maquiagem, barbearia.
+- **Clínicas (definido pelo dono em 31/10/2026):** clínicas de estética (facial, corporal, depilação, micropigmentação,
+  massoterapia) e, em segundo plano, consultórios que atendem com hora marcada (psicologia, fisioterapia, nutrição).
+- Hoje marcam horário pelo WhatsApp e perdem tempo respondendo mensagem. Quem decide e paga é o dono ou a dona.
 
 ## O que o produto faz de verdade (conferido no sistema)
 
@@ -25,6 +26,9 @@
 - Sinal por Pix antes do atendimento (opcional, por profissional).
 - Aprovação manual de agendamentos (opcional).
 - Pacotes, indicações, aniversariantes, financeiro e relatórios.
+- Ficha de atendimento digital (anamnese) com modelos para unhas, cílios e sobrancelha, estética e cabelo:
+  a cliente assina pelo link, e a ficha pode ser impressa ou salva em PDF. Não há modelo para consultórios de saúde.
+- Lembrete por e-mail para a cliente antes do horário.
 - **14 dias grátis, sem cartão de crédito.**
 - Exemplo real autorizado: o estúdio Unhas Capão (https://unhascapao.diaebeleza.com.br) — **sem citar
   nomes de pessoas nem endereço.**

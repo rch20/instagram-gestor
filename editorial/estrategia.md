@@ -1,47 +1,87 @@
-# Estratégia editorial — @diaebeleza
+# Estratégia — @diaebeleza
 
-> Estado: decidido pelo dono em 29/10/2026 ("vamos em sua recomendação"). Rever com métricas reais depois de 4 semanas.
+> Estado: versão 2, de 31/10/2026. O dono definiu o público (beleza e clínicas) e deixou a operação com Claude
+> ("estou deixando em tuas mãos e confio"). Base: métricas reais da API em `dados/metricas/2026-10-31-api.md`.
+> Rever toda segunda com `metricas.yml` (roda sozinho todo dia às 8h).
 
-## Frequência
+## Diagnóstico com dado real (31/10/2026)
 
-- **3 publicações por semana** (terça 12h, quinta 12h, sábado 10h). Subir para 5 só se 4 semanas de métricas
-  mostrarem que a qualidade se mantém (alcance e salvamentos não caem).
-- Publicação direta pela API oficial do Instagram (`"canal": "api"`), sem a Publora.
-- Stories: só depois de 4 semanas de feed estável (a API não põe enquete nem pergunta).
-- Não publicar só para cumprir número: se não houver bom conteúdo, pular o dia e registrar o motivo.
+- 15 seguidores, 4 posts no feed, nenhum Reel publicado ainda (o primeiro sai em 03/11).
+- Alcance orgânico por post: 4 a 7 contas nos posts próprios; **36 no post em parceria (Collab) com a Unhas Capão**,
+  que também trouxe as únicas visitas ao perfil vindas de post (4) e o único seguidor vindo de post (1).
+- Conta em 7 dias: 6.206 contas alcançadas, 22 visitas ao perfil, 2 cliques no link da bio, 0 salvamentos.
+  Estimativa (não confirmada pela API): quase todo esse alcance é do anúncio de teste (28/10 a 04/11), porque os
+  posts somam menos de 60 contas.
+- Conclusões: (1) post próprio em formato de foto/carrossel quase não é entregue a quem não segue; (2) caso real com
+  parceria rende 5 vezes mais; (3) quem chega ao perfil não clica no link: o perfil ainda não convence.
 
-## Mistura da semana (2 para atrair, 1 para mostrar o sistema)
+## Público (definido pelo dono em 31/10/2026)
 
-Quem paga são donas de salão. Dica e humor atraem e criam confiança; o sistema aparece em 1 de cada 3 posts.
+| Segmento | Quem | O que dói | O que o sistema resolve de verdade |
+|---|---|---|---|
+| Beleza | salões, nail designers, cílios e sobrancelha, cabeleireiras, barbearias | WhatsApp o dia todo, faltas, cobrar sinal | página de agendamento, sinal por Pix, lembretes, agenda por profissional |
+| Clínicas de estética | estética facial e corporal, depilação, micropigmentação, massoterapia | faltas em procedimento longo, anamnese no papel, sinal | sinal por Pix, **ficha de atendimento digital com assinatura da cliente e impressão**, pacotes de sessões |
+| Consultórios (secundário) | psicologia, fisioterapia, nutrição, terapias | agenda e confirmação | página de agendamento, lembretes, sinal. **Não** falar em ficha: os modelos de ficha são de beleza e estética |
 
-| Dia | Pilar | Formato |
-|---|---|---|
-| Terça | Dica prática de gestão (para salvar) | Carrossel |
-| Quinta | Rotina do salão: humor e identificação ("a cliente que...") | Reel |
-| Sábado | Produto funcionando (gravação real da tela, com dados fictícios) | Reel ou carrossel |
+Quem paga é o dono ou a dona do negócio. Toda peça fala com quem decide, não com a cliente final.
 
-- Pelo menos 1 de cada 2 posts é Reel.
-- Humor: sempre sobre situações do salão, nunca zombando de cliente ou profissional reais.
-- Sem "tendências" que dependem de música da biblioteca do Instagram (a API não permite): usar áudio livre ou só texto.
-- Toda dica e todo humor terminam com um chamado leve (salvar, comentar, mandar para a sócia); só o post de produto
-  leva para diaebeleza.com.br/experimentar.
-- Não publicar só para cumprir número: se não houver bom conteúdo, pular o dia e registrar o motivo.
+## Funil (do Instagram até a assinatura)
 
-## Pilares (cada publicação tem um objetivo)
+1. **Descoberta:** Reels curtos (até 30 s) com situação reconhecível nos primeiros 2 segundos + posts em parceria (Collab).
+2. **Perfil que convence:** fixados (1 caso real, 1 demonstração do produto, 1 dica forte); destaques quando houver Stories.
+3. **Teste sem atrito:** link da bio em /experimentar (simulação sem cadastro) → salão de demonstração → criar conta.
+4. **Conversa:** quem pede contato pelo site entra na Prospecção do Super Admin (origem "Site"); quem chama no direct
+   o dono cadastra com origem "Instagram". A automação não responde direct nem comentário.
+5. **Assinatura:** acontece no sistema (14 dias grátis). O Instagram é medido por cadastros, não por curtidas.
 
-| Pilar | Objetivo | Formato preferido |
-|---|---|---|
-| Rotina do salão | Identificação ("isso acontece comigo") → seguir | Carrossel |
-| Dica prática de gestão | Salvamentos e compartilhamentos | Carrossel |
-| Produto funcionando | Mostrar o recurso real → criar página grátis | Reels curto ou carrossel com telas reais |
-| Caso real autorizado | Confiança → visitar a página do salão | Post único |
+## Frequência e formato
+
+- **3 por semana** (terça 12h, quinta 12h, sábado 10h), **2 Reels e 1 carrossel**. Subir para 4 só se 4 semanas
+  mostrarem alcance subindo sem cair salvamentos.
+- Rodízio de segmento: a cada 3 posts, 2 de beleza e 1 de clínica de estética; consultórios 1 vez por mês.
+- Reel: gancho escrito na tela no primeiro segundo, uma ideia por vídeo, legenda com o mesmo gancho.
+- Carrossel: conteúdo de salvar (passo a passo, checklist), 6 a 8 lâminas.
+
+## Pilares
+
+| Pilar | Objetivo | Formato | Frequência |
+|---|---|---|---|
+| Rotina do negócio (humor e identificação) | alcance e seguidores | Reel | 1 por semana |
+| Dica prática de gestão (faltas, sinal, preço, agenda) | salvamentos e compartilhamentos | Carrossel ou Reel | 1 por semana |
+| Produto funcionando (tela real, dados fictícios) | visitas ao perfil e cliques no link | Reel | 1 a cada 2 semanas |
+| Caso real em parceria (Collab) | confiança e alcance fora da bolha | Post ou Reel em Collab | 1 a cada 2 semanas, quando houver cliente autorizando |
+
+## Programa de parceria (a alavanca mais forte hoje)
+
+Cada cliente ativo é um caso real: Unhas Capão (feito), LL Nail Designer, Esthetic Beauty (clínica de estética),
+Dayane Xavier, Dedo de Prosa e o consultório de psicologia. A automação prepara a arte e a legenda; **o dono pede a
+autorização do cliente, publica pelo app e convida o perfil do cliente como colaborador** (canal `collab_manual`).
+Nunca citar nome de pessoa ou endereço sem autorização.
+
+## Metas de 4 semanas (até 28/11/2026), medidas pela API
+
+| Indicador | 31/10 | Meta | Onde ver |
+|---|---|---|---|
+| Alcance médio por post (sem anúncio) | ~14 | 150 | `dados/metricas/*-api.md` |
+| Seguidores | 15 | 100 | idem |
+| Visitas ao perfil (7 dias) | 22 | 60 sem anúncio | idem |
+| Cliques no link da bio (7 dias) | 2 | 15 | idem |
+| Salvamentos por carrossel | 0 | 5 | idem |
+| Cadastros de salão no período | — | acompanhar | Super Admin → Comercial (Indicadores e Funil do site) |
+
+As metas são objetivos de trabalho, não promessa. Se em 2 semanas o alcance médio não passar de 50, trocar o formato
+dos Reels (gancho e duração) antes de aumentar a frequência.
 
 ## Regras
 
 - Um chamado para ação por post, coerente com o objetivo.
 - Gancho nos primeiros 125 caracteres da legenda.
-- 3 a 5 hashtags do nicho, no fim da legenda.
+- 3 a 5 hashtags do nicho, no fim da legenda (beleza ou estética, conforme o segmento do post).
 - Telas do produto: só capturas reais do sistema, com dados fictícios ou autorizados.
 - Link em post de feed **não é clicável** (nem na arte, nem na legenda). Nunca desenhar algo que pareça botão
   ("Teste agora →"); escrever "link na bio". Link clicável só na bio, na figurinha de link do Story (o dono põe pelo app)
   ou em anúncio pago (só com autorização do dono).
+- Nada de promessa sem número medido ("acabe com as faltas", "dobre a agenda").
+- Não publicar só para cumprir número: se não houver bom conteúdo, pular o dia e registrar o motivo.
+- Anúncio: nenhum gasto novo sem autorização do dono. Próximo teste só depois de o perfil ter 2 Reels com alcance acima
+  da média e os fixados prontos (hoje o anúncio leva gente a um perfil que ainda não converte).
