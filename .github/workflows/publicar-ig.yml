@@ -1,7 +1,7 @@
 name: Publicar direto no Instagram (API oficial)
 
 # Publica um item aprovado direto no Instagram, sem a Publora. Use id "testar" para só conferir a chave.
-# Roda sozinho ("devidos"): pega o item "canal": "api" até 4 h antes, espera a hora e publica (respeita a pausa).
+# Roda sozinho ("devidos"): pega o item "canal": "api" até 5 h antes, espera a hora e publica (respeita a pausa).
 # O agendamento do GitHub atrasa horas; por isso a execução espera em vez de depender da hora exata.
 # Precisa do secret META_IG_TOKEN (usuário do sistema "Publicador").
 on:
@@ -23,7 +23,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

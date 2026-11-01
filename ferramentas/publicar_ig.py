@@ -205,7 +205,7 @@ def publicar(alvo):
 
 
 ATRASO_MAX = dt.timedelta(hours=3)
-ADIANTADO = dt.timedelta(hours=4)  # o agendamento do GitHub atrasa horas: a execução pega o item antes e espera a hora
+ADIANTADO = dt.timedelta(hours=5)  # o agendamento do GitHub atrasa horas: a execução pega o item antes e espera a hora
 
 
 def devidos(agora=None):
@@ -240,7 +240,7 @@ def devidos(agora=None):
 
 
 def esperar_e_publicar():
-    """O agendamento do GitHub atrasa (às vezes horas): a execução pega o item até 4 h antes, espera a hora,
+    """O agendamento do GitHub atrasa (às vezes horas): a execução pega o item até 5 h antes, espera a hora,
     atualiza o repositório (pausa ou mudança do dono durante a espera valem) e só então publica."""
     achado = devidos()
     if not achado:
