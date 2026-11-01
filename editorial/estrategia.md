@@ -25,6 +25,23 @@
 
 Quem paga é o dono ou a dona do negócio. Toda peça fala com quem decide, não com a cliente final.
 
+### Ampliação (dono, 31/10/2026: "abranger o máximo possível")
+
+O sistema serve para qualquer negócio que atende com hora marcada (no cadastro, o tipo "Outros" monta a página
+sem serviços prontos). Para crescer sem perder a cara do perfil, o conteúdo segue em camadas:
+
+| Camada | Quem | Peso no feed | Como entra |
+|---|---|---|---|
+| Núcleo | beleza e clínica de estética | ~70% | todos os pilares |
+| Bem-estar e saúde com hora marcada | massoterapia, podologia, terapias, pilates, psicologia, nutrição, fisioterapia | ~20% | dica de agenda, faltas e sinal; série "Também serve para você?" |
+| Outros serviços com hora marcada | tatuagem, maquiagem, banho e tosa, personal, aulas | ~10% | série "Também serve para você?" e anúncios com vários interesses |
+
+- Anúncio (só com autorização do dono): um conjunto com vários interesses somados (beleza, estética, manicure,
+  cabeleireiro, barbearia, massagem, podologia, tatuagem, pilates, psicologia, nutrição, fisioterapia), e a Meta
+  mostra os resultados por interesse; os que trouxerem cadastro ficam.
+- Ponto de atenção: o site e o cadastro falam "salão" em quase toda tela. Para quem não é de beleza isso pode afastar;
+  medir pelo Funil do site e, se cair muito nesses públicos, propor ao dono textos neutros ("seu espaço").
+
 ## Funil (do Instagram até a assinatura)
 
 1. **Descoberta:** Reels curtos (até 30 s) com situação reconhecível nos primeiros 2 segundos + posts em parceria (Collab).
