@@ -1,0 +1,32 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Caso real",
+      "titulo": "Aqui a cliente monta\no **próprio combo**",
+      "texto": "Manicure, hidratação e sobrancelha num horário só, marcados pela página da Dayane Xavier."
+    },
+    {
+      "numero": "1",
+      "titulo": "Ela escolhe os serviços",
+      "texto": "Até 5 serviços no mesmo agendamento, do jeito que ela quiser."
+    },
+    {
+      "numero": "2",
+      "titulo": "O sistema soma tudo",
+      "texto": "Tempo e valor somados na hora. Ela vê o total antes de confirmar."
+    },
+    {
+      "numero": "3",
+      "titulo": "Só aparece horário que cabe",
+      "texto": "A agenda mostra apenas os horários em que o combo inteiro cabe. Sem encaixe pelo WhatsApp."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Veja a **página de verdade**",
+      "texto": "dayanexavier.diaebeleza.com.br",
+      "botao": "Crie a sua · link na bio"
+    }
+  ]
+}
