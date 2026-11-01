@@ -135,6 +135,10 @@ def publicar(alvo):
     if formato != "story" and (not legenda.strip() or len(legenda) > 2200):
         falha("Legenda vazia ou maior que 2.200 caracteres.")
     url = lambda p: RAW.format(ref=ref, path=p)  # noqa: E731
+    # Post em parceria (Collab) pela API (01/11/2026): "colaboradores": ["usuario"] manda o convite junto com o post;
+    # o perfil convidado aceita no app e o post aparece nos dois perfis. Story não aceita colaborador.
+    colab = [str(u).lstrip("@").strip() for u in (item.get("colaboradores") or []) if str(u).strip()][:3]
+    extra = {"collaborators": json.dumps(colab)} if colab and formato != "story" else {}
 
     try:
         if formato == "reel":
@@ -142,7 +146,7 @@ def publicar(alvo):
             if not os.path.isfile(video):
                 falha("Reel sem reel.mp4 na pasta de artes.")
             c = chamar("POST", f"{conta_ig()}/media", media_type="REELS", video_url=url(video), caption=legenda,
-                       share_to_feed="true")["id"]
+                       share_to_feed="true", **extra)["id"]
             esperar(c, 600)
         else:
             fotos = sorted(glob.glob(os.path.join(pasta, "*.jpg")))
@@ -152,7 +156,7 @@ def publicar(alvo):
                 c = chamar("POST", f"{conta_ig()}/media", media_type="STORIES", image_url=url(fotos[0]))["id"]
                 esperar(c)
             elif len(fotos) == 1:
-                c = chamar("POST", f"{conta_ig()}/media", image_url=url(fotos[0]), caption=legenda)["id"]
+                c = chamar("POST", f"{conta_ig()}/media", image_url=url(fotos[0]), caption=legenda, **extra)["id"]
                 esperar(c)
             elif 2 <= len(fotos) <= 10:
                 filhos = []
@@ -161,7 +165,7 @@ def publicar(alvo):
                     esperar(fid)
                     filhos.append(fid)
                 c = chamar("POST", f"{conta_ig()}/media", media_type="CAROUSEL", children=",".join(filhos),
-                           caption=legenda)["id"]
+                           caption=legenda, **extra)["id"]
                 esperar(c)
             else:
                 falha(f"A pasta tem {len(fotos)} JPEGs; o Instagram aceita de 1 a 10.")
@@ -180,7 +184,7 @@ def publicar(alvo):
     item["link"] = link
     item.setdefault("historico", []).append({
         "data": agora.isoformat(), "estado": "publicado",
-        "nota": f"Publicado direto pela API do Instagram ({formato}). {link}",
+        "nota": f"Publicado direto pela API do Instagram ({formato}){' com convite de parceria para @' + ', @'.join(colab) if extra else ''}. {link}",
     })
     json.dump(itens, open(ARQ, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"Publicado: {alvo} · {link}")
