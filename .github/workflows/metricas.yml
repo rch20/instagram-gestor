@@ -1,0 +1,41 @@
+name: Métricas reais do Instagram
+
+# Só leitura (GET) na API oficial: perfil, métricas da conta e de cada post. Salva em dados/metricas/.
+on:
+  schedule:
+    - cron: "17 11 * * *"   # todo dia por volta de 08h17 (Brasília)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metricas-instagram
+  cancel-in-progress: false
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Ler métricas
+        env:
+          META_IG_TOKEN: ${{ secrets.META_IG_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+        run: set -o pipefail; python ferramentas/metricas.py | tee resultado.txt
+      - name: Mostrar resultado
+        if: always()
+        run: test -f resultado.txt && while IFS= read -r l; do echo "::notice::$l"; done < resultado.txt || true
+      - name: Salvar
+        run: |
+          git config user.name "metricas"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados/metricas
+          git diff --cached --quiet && exit 0
+          git commit -m "Métricas reais do Instagram ($(TZ=America/Sao_Paulo date +%d/%m))"
+          git pull --rebase && git push
