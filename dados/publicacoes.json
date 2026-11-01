@@ -349,7 +349,7 @@
     "objetivo": "confiança e alcance fora da bolha (Collab)",
     "formula": "carrossel de passos (ig-carousel-planner + ig-caption-writer)",
     "legenda": "Manicure, hidratação e sobrancelha no mesmo horário, marcados pela própria cliente. É assim na página da @estudiodayxavier_.\n\nA cliente monta o combo do jeito dela: escolhe os serviços, o sistema soma o tempo e o valor e mostra só os horários em que tudo cabe. Ninguém precisa fazer conta pelo WhatsApp.\n\nPara criar a página do seu espaço, o link está na bio.\n\n#espacodebeleza #salaodebeleza #manicure #depilacao #agendamentoonline",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-11-07_caso-real-day",
     "agendado_para": "2026-11-07T10:00:00-03:00",
     "link": null,
@@ -362,7 +362,13 @@
         "data": "2026-11-01T10:30:00-03:00",
         "estado": "rascunho",
         "nota": "Dono confirmou no chat que a Day autorizou o post em parceria (\"ela topa sim\"). Convite de colaboração vai pela API junto com o post."
+      },
+      {
+        "data": "2026-11-01T10:45:00-03:00",
+        "estado": "aprovado",
+        "nota": "Checklist ok: gancho nos primeiros 125 caracteres; 1 chamado (link na bio); 5 hashtags; 0 emoji; sem vocabulário de IA; afirmações conferidas no sistema (combo livre até 5 serviços, tempo e valor somados, só horários em que o combo cabe); 5 lâminas geradas por gerar-artes.yml e conferidas (texto legível, nada cortado). Dono confirmou a autorização da Day em 01/11."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]

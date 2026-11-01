@@ -140,7 +140,7 @@ def publicar(alvo):
     colab = [str(u).lstrip("@").strip() for u in (item.get("colaboradores") or []) if str(u).strip()][:3]
     extra = {"collaborators": json.dumps(colab)} if colab and formato != "story" else {}
 
-    try:
+    def criar_e_publicar(extra):
         if formato == "reel":
             video = os.path.join(pasta, "reel.mp4")
             if not os.path.isfile(video):
@@ -169,6 +169,20 @@ def publicar(alvo):
                 esperar(c)
             else:
                 falha(f"A pasta tem {len(fotos)} JPEGs; o Instagram aceita de 1 a 10.")
+        return c
+
+    try:
+        try:
+            c = criar_e_publicar(extra)
+        except RuntimeError as e:
+            if not extra:
+                raise
+            # Convite de parceria recusado (perfil privado, sem permissão etc.): publica sem ele e avisa
+            print(f"::warning::Parceria recusada pela Meta ({str(e)[:160]}); publicando sem colaborador.")
+            item.setdefault("historico", []).append({"data": agora.isoformat(), "estado": "aprovado",
+                                                      "nota": f"Convite de parceria recusado pela Meta; publicado sem colaborador: {str(e)[:200]}"})
+            extra = {}
+            c = criar_e_publicar(extra)
         media_id = chamar("POST", f"{conta_ig()}/media_publish", creation_id=c)["id"]
         link = chamar("GET", media_id, fields="permalink").get("permalink")
     except RuntimeError as e:
