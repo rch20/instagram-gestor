@@ -16,3 +16,6 @@
 - 2026-10-29: Post do salão de demonstração (`2026-10-30_salao-de-demonstracao`): o dono publica pelo app (sugerido 30/10 12h). Arte e legenda em artes/2026-10-29_post-salao-demo. Depois de publicar, marcar como publicado com o link.
 - [ ] 2026-10-29 URGENTE: reconectar o Instagram @diaebeleza na Publora (Publora → Contas/Connections → reconectar Instagram). A Meta invalidou a sessão (PLATFORM_AUTH_EXPIRED); o carrossel de 29/10 12h não foi publicado. Depois de reconectar, decidir se o carrossel de 29/10 sai em outra data (vira item novo) ou fica de fora.
 - [ ] 30/10: Story do salão de demonstração (artes/2026-10-30_story-salao-demo/story.jpg) para o dono postar pelo app com a figurinha de link https://demo.diaebeleza.com.br logo abaixo da seta.
+- [ ] 2026-11-01 (dono, pelo app do celular; o site do Instagram não deixa): trocar o link da bio para https://diaebeleza.com.br/experimentar?utm_source=instagram (assim o Funil do site mostra quem veio do Instagram).
+- [ ] 2026-11-01 (dono, pelo app): fixar no perfil o post do caso real (DfAceMgBPKa) e o do salão de demonstração (DfH5HDOIGHh). O site do Instagram não tem a opção de fixar.
+- [ ] 2026-11-01 (dono): pedir autorização para post em parceria (Collab) a Esthetic Beauty e LL Nail Designer; mensagem pronta enviada no chat.

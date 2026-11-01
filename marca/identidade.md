@@ -30,6 +30,7 @@
   a cliente assina pelo link, e a ficha pode ser impressa ou salva em PDF. Não há modelo para consultórios de saúde.
 - Lembrete por e-mail para a cliente antes do horário.
 - **14 dias grátis, sem cartão de crédito.**
+- Plano inicial: **R$ 39,90 por mês** (dono, 01/11/2026). Preços sempre conferidos na página de planos antes de citar.
 - Exemplo real autorizado: o estúdio Unhas Capão (https://unhascapao.diaebeleza.com.br) — **sem citar
   nomes de pessoas nem endereço.**
 

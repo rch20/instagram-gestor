@@ -89,6 +89,22 @@ Nunca citar nome de pessoa ou endereço sem autorização.
 As metas são objetivos de trabalho, não promessa. Se em 2 semanas o alcance médio não passar de 50, trocar o formato
 dos Reels (gancho e duração) antes de aumentar a frequência.
 
+## Calendário das próximas 3 semanas (temas; a rotina da tarde cria e aprova)
+
+Já na fila: 03/11 Reel (horário amanhã), 05/11 carrossel (mitos do sinal), 07/11 post (cliente que não aparece),
+10/11 Reel (bloqueie antes).
+
+| Data | Segmento | Formato | Tema |
+|---|---|---|---|
+| 12/11 qui | Clínica de estética | Reel | "Anamnese no papel?" Ficha digital assinada pela cliente pelo link, pronta para imprimir (tela real) |
+| 14/11 sáb | Beleza | Carrossel | Quanto custa um horário vazio: conta simples de quanto a falta tira do mês (exemplo com valores fictícios) |
+| 17/11 ter | Bem-estar e saúde | Reel | Série "Também serve para você?": massoterapia, podologia, psicologia (agenda por profissional, lembrete) |
+| 19/11 qui | Beleza | Reel | Humor: "a cliente que pede encaixe sábado às 18h" e a agenda mostrando só horário livre |
+| 21/11 sáb | Clínica de estética | Carrossel | Pacote de sessões: vender 10 sessões e o sistema controlar o que já foi usado |
+| 24/11 ter | Outros com hora marcada | Reel | "Também serve para você?": tatuagem, maquiagem, banho e tosa |
+| 26/11 qui | Beleza | Reel | Produto: do link na bio ao horário confirmado em 20 segundos (tela real) |
+| 28/11 sáb | Caso real | Collab | Próximo cliente que autorizar (Esthetic Beauty de preferência, por ser clínica) |
+
 ## Regras
 
 - Um chamado para ação por post, coerente com o objetivo.
