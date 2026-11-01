@@ -18,4 +18,4 @@
 - [ ] 30/10: Story do salão de demonstração (artes/2026-10-30_story-salao-demo/story.jpg) para o dono postar pelo app com a figurinha de link https://demo.diaebeleza.com.br logo abaixo da seta.
 - [ ] 2026-11-01 (dono, pelo app do celular; o site do Instagram não deixa): trocar o link da bio para https://diaebeleza.com.br/experimentar?utm_source=instagram (assim o Funil do site mostra quem veio do Instagram).
 - [ ] 2026-11-01 (dono, pelo app): fixar no perfil o post do caso real (DfAceMgBPKa) e o do salão de demonstração (DfH5HDOIGHh). O site do Instagram não tem a opção de fixar.
-- [ ] 2026-11-01 (dono): pedir autorização para post em parceria (Collab) a Esthetic Beauty e LL Nail Designer; mensagem pronta enviada no chat.
+- [ ] 2026-11-01 (dono): pedir autorização para post em parceria (Collab) à Day (Dayane Xavier), a outra cliente que usa de verdade além da Unhas Capão; mensagem pronta enviada no chat.

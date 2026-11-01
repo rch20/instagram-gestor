@@ -70,8 +70,9 @@ sem serviços prontos). Para crescer sem perder a cara do perfil, o conteúdo se
 
 ## Programa de parceria (a alavanca mais forte hoje)
 
-Cada cliente ativo é um caso real: Unhas Capão (feito), LL Nail Designer, Esthetic Beauty (clínica de estética),
-Dayane Xavier, Dedo de Prosa e o consultório de psicologia. A automação prepara a arte e a legenda; **o dono pede a
+Só vale caso de quem usa de verdade. Em 01/11/2026 o dono informou que só a **Day (Dayane Xavier)** e a
+**Unhas Capão** usam ativamente. Unhas Capão já foi (27/10); a próxima é a Day. Os outros clientes só entram quando
+estiverem usando (post de caso real com agenda parada passa a imagem errada). A automação prepara a arte e a legenda; **o dono pede a
 autorização do cliente, publica pelo app e convida o perfil do cliente como colaborador** (canal `collab_manual`).
 Nunca citar nome de pessoa ou endereço sem autorização.
 
@@ -103,7 +104,7 @@ Já na fila: 03/11 Reel (horário amanhã), 05/11 carrossel (mitos do sinal), 07
 | 21/11 sáb | Clínica de estética | Carrossel | Pacote de sessões: vender 10 sessões e o sistema controlar o que já foi usado |
 | 24/11 ter | Outros com hora marcada | Reel | "Também serve para você?": tatuagem, maquiagem, banho e tosa |
 | 26/11 qui | Beleza | Reel | Produto: do link na bio ao horário confirmado em 20 segundos (tela real) |
-| 28/11 sáb | Caso real | Collab | Próximo cliente que autorizar (Esthetic Beauty de preferência, por ser clínica) |
+| 28/11 sáb | Caso real | Collab | Day (Dayane Xavier), se autorizar; o combo montado pela cliente é o diferencial dela |
 
 ## Regras
 
