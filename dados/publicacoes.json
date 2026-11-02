@@ -370,5 +370,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-11-12_reel-anamnese-no-papel",
+    "formato": "reel",
+    "pilar": "Produto funcionando",
+    "segmento": "Clínica de estética",
+    "objetivo": "visitas ao perfil e cliques no link",
+    "formula": "IG3 abertura reconhecível + lista (ig-caption-writer)",
+    "legenda": "Ficha de anamnese no papel some, molha, fica ilegível. E na hora de conferir o que a cliente respondeu, ninguém acha.\n\nNo Dia e Beleza a cliente preenche a ficha de atendimento pelo link, no celular dela, e assina ali mesmo. Se precisar, a ficha pode ser impressa ou salva em PDF.\n\nTem modelo pronto para estética, cílios e sobrancelha, unhas e cabelo.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#esteticafacial #clinicadeestetica #anamnese #esteticista #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-11-12_reel-anamnese-no-papel",
+    "agendado_para": "2026-11-12T12:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-02T13:50:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de quinta 12/11 12h (tema do calendário da estratégia: anamnese no papel, clínica de estética). Sem captura de tela: não há tela real do sistema disponível nesta execução, então o Reel é só texto, com o que está em marca/identidade.md."
+      }
+    ]
   }
 ]

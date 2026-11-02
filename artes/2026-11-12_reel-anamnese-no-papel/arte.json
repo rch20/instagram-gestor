@@ -1,0 +1,41 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Clínica de estética",
+      "titulo": "Anamnese ainda\n**no papel?**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "A cliente preenche pelo link",
+      "texto": "Do celular dela. Sem prancheta na recepção."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Ela assina ali mesmo",
+      "texto": "A assinatura fica junto da ficha de atendimento."
+    },
+    {
+      "numero": "3",
+      "segundos": 3.5,
+      "titulo": "Precisa no papel? Imprime",
+      "texto": "Ou salva em PDF para guardar."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Modelos prontos",
+      "texto": "Estética, cílios e sobrancelha, unhas e cabelo."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Ficha de atendimento\n**sem papelada.**",
+      "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
+    }
+  ]
+}
