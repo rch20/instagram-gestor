@@ -171,10 +171,10 @@
     "objetivo": "compartilhamentos e alcance",
     "formula": "IG9 interrupção de padrão (ig-content-planner)",
     "legenda": "Quem atende com hora marcada conhece essa conversa de cor. E ela se repete com cada cliente.\n\nManda para aquela amiga que vive respondendo \"tem horário?\" no WhatsApp.\n\n#agendamentoonline #manicure #salaodebeleza #designdesobrancelhas",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-03_reel-tem-horario-amanha",
     "agendado_para": "2026-11-03T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/reel/DfSJ00xD0yM/",
     "historico": [
       {
         "data": "2026-10-25",
@@ -200,10 +200,16 @@
         "data": "2026-10-29T19:45:00-03:00",
         "estado": "aprovado",
         "nota": "Canal trocado para publicação direta pela API (Publora desconectada pela Meta)."
+      },
+      {
+        "data": "2026-11-03T15:00:00.431345+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (reel). https://www.instagram.com/reel/DfSJ00xD0yM/"
       }
     ],
     "aprovado_por": "dono",
-    "canal": "api"
+    "canal": "api",
+    "ig_media_id": "18482048191114487"
   },
   {
     "id": "2026-11-05_mitos-do-sinal",
