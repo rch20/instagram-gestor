@@ -20,3 +20,4 @@
 - [ ] 2026-11-01 (dono, pelo app): fixar no perfil o post do caso real (DfAceMgBPKa) e o do salão de demonstração (DfH5HDOIGHh). O site do Instagram não tem a opção de fixar.
 - [x] (Day autorizou em 01/11; post em parceria aprovado para 07/11 10h) 2026-11-01 (dono): pedir autorização para post em parceria (Collab) à Day (Dayane Xavier), a outra cliente que usa de verdade além da Unhas Capão; mensagem pronta enviada no chat.
 - [ ] 2026-11-07 (Day, pelo app dela): aceitar o convite de parceria que chega quando o post de 07/11 10h sair (Notificações/Atividade → aceitar). Sem aceitar, o post fica só no @diaebeleza.
+- [ ] 2026-11-02 (dono decide): o pacote instagram-skills tem versão nova (v1.0.33, HEAD 550d3cf; a cópia aqui é a v1.0.32, 6a12448). Não foi atualizado: só atualizar com autorização do dono (e nova auditoria).
