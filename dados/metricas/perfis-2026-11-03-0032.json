@@ -1,0 +1,71 @@
+{
+  "coletado_em": "2026-11-03T00:32:34.805043+00:00",
+  "fonte": "Apify apify/instagram-profile-scraper (dados públicos)",
+  "perfis": [
+    {
+      "username": "diaebeleza",
+      "full_name": "Dia e Beleza | Agenda online",
+      "followers": 16,
+      "following": 44,
+      "posts": 4,
+      "bio": "Agenda online para salão, clínica de estética e quem atende com hora marcada.\nA cliente marca e paga o sinal sozinha.\nTeste grátis 👇",
+      "verified": false,
+      "is_business": true,
+      "category": "Software",
+      "external_url": "https://diaebeleza.com.br/experimentar?utm_source=instagram",
+      "url": "https://www.instagram.com/diaebeleza/"
+    },
+    {
+      "username": "trinksoficial",
+      "full_name": "Trinks: Gestão e Agendamento",
+      "followers": 98040,
+      "following": 1264,
+      "posts": 2537,
+      "bio": "📲 Sistema Online de +44k de negócios pelo Brasil\n💼 A parceira de tecnologia e gestão de negócios de beleza\n🫵 Conheça Grátis👇",
+      "verified": true,
+      "is_business": true,
+      "category": "Product/service",
+      "external_url": "https://linktr.ee/trinksoficial",
+      "url": "https://www.instagram.com/trinksoficial/"
+    },
+    {
+      "username": "booksybrasil",
+      "full_name": "Booksy Biz",
+      "followers": 61957,
+      "following": 7196,
+      "posts": 1589,
+      "bio": "Agenda 24h, Gestão & Marketing para profissionais que trabalham com hora marcada 📲 \nClique no link para suporte ou mais informações sobre o app",
+      "verified": true,
+      "is_business": true,
+      "category": null,
+      "external_url": "https://wa.me/5511978854468?countryName=BR&countryCode=55&phoneNumber=11978854468",
+      "url": "https://www.instagram.com/booksybrasil/"
+    },
+    {
+      "username": "appbarber",
+      "full_name": "AppBarber | Gestão e Agenda online",
+      "followers": 36378,
+      "following": 2215,
+      "posts": 1259,
+      "bio": "💈Gestão e agendamento online para barbearias \n📲Otimize o seu tempo e faturamento \n🔒Fidelize clientes \n👇Faça um teste grátis!",
+      "verified": true,
+      "is_business": true,
+      "category": "Science & Tech",
+      "external_url": "http://linktr.ee/appbarber",
+      "url": "https://www.instagram.com/appbarber/"
+    },
+    {
+      "username": "simplesagenda",
+      "full_name": "Simples Agenda",
+      "followers": 18204,
+      "following": 73,
+      "posts": 442,
+      "bio": "Simples Agenda no mercado desde 2016.\nSoftware feito para tornar a gestão do seu negócio simples.\nExperimente grátis por 35 dias, link abaixo.",
+      "verified": false,
+      "is_business": true,
+      "category": "Software",
+      "external_url": "http://linktr.ee/simplesagenda",
+      "url": "https://www.instagram.com/simplesagenda/"
+    }
+  ]
+}
