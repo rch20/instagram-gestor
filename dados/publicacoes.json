@@ -218,11 +218,11 @@
     "objetivo": "compartilhamentos",
     "formula": "IG7 quebra de mito (ig-carousel-planner)",
     "legenda": "Cobrar sinal ainda dá medo em muita profissional. Separei 3 coisas que a gente ouve muito e o que dá para fazer no lugar.\n\nVocê cobra sinal hoje? Conta nos comentários como funciona aí.\n\n#gestaodesalao #nailsdesigner #lashdesigner #salaodebeleza",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-05_mitos-do-sinal",
     "agendado_para": "2026-11-05T12:00:00-03:00",
     "postGroupId": null,
-    "link": null,
+    "link": "https://www.instagram.com/p/DfXThfYDYLC/",
     "historico": [
       {
         "data": "2026-10-25",
@@ -248,10 +248,16 @@
         "data": "2026-10-29T19:45:00-03:00",
         "estado": "aprovado",
         "nota": "Canal trocado para publicação direta pela API (Publora desconectada pela Meta)."
+      },
+      {
+        "data": "2026-11-05T15:00:00.322014+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (carrossel). https://www.instagram.com/p/DfXThfYDYLC/"
       }
     ],
     "aprovado_por": "dono",
-    "canal": "api"
+    "canal": "api",
+    "ig_media_id": "18078996758427504"
   },
   {
     "id": "2026-11-07_cliente-que-nao-aparece",
