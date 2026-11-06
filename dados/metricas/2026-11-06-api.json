@@ -1,0 +1,162 @@
+{
+ "fonte": "Instagram Graph API v21 (META_IG_TOKEN, usuário do sistema Publicador), só leitura",
+ "coletado_em": "2026-11-06T15:04:41-03:00",
+ "periodos": {
+  "7d": {
+   "desde": "2026-10-30",
+   "ate": "2026-11-06"
+  },
+  "28d": {
+   "desde": "2026-10-09",
+   "ate": "2026-11-06"
+  }
+ },
+ "perfil": {
+  "id": "17841479656763452",
+  "biography": "Agenda online para salão, clínica de estética e quem atende com hora marcada.\nA cliente marca e paga o sinal sozinha.\nTeste grátis 👇",
+  "followers_count": 17,
+  "follows_count": 46,
+  "media_count": 6,
+  "name": "Dia e Beleza | Agenda online",
+  "username": "diaebeleza",
+  "website": "https://diaebeleza.com.br/experimentar?utm_source=instagram"
+ },
+ "conta": {
+  "7d": {
+   "reach": 10053,
+   "views": 142,
+   "profile_views": 16,
+   "website_clicks": 0,
+   "accounts_engaged": 11,
+   "total_interactions": 21,
+   "likes": 15,
+   "comments": 0,
+   "saves": 0,
+   "shares": 1,
+   "follows_and_unfollows": null
+  },
+  "28d": {
+   "reach": 12879,
+   "views": 293,
+   "profile_views": 35,
+   "website_clicks": 2,
+   "accounts_engaged": 16,
+   "total_interactions": 28,
+   "likes": 20,
+   "comments": 1,
+   "saves": 0,
+   "shares": 1,
+   "follows_and_unfollows": null
+  }
+ },
+ "posts": [
+  {
+   "id": "18078996758427504",
+   "tipo": "FEED",
+   "quando": "2026-11-05T15:01:07+0000",
+   "link": "https://www.instagram.com/p/DfXThfYDYLC/",
+   "legenda_inicio": "Cobrar sinal ainda dá medo em muita profissional. Separei 3 coisas que a gente ouve muito ",
+   "metricas": {
+    "reach": 17,
+    "views": 28,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 1,
+    "total_interactions": 3,
+    "profile_visits": 0,
+    "follows": 0
+   }
+  },
+  {
+   "id": "18482048191114487",
+   "tipo": "REELS",
+   "quando": "2026-11-03T15:00:32+0000",
+   "link": "https://www.instagram.com/reel/DfSJ00xD0yM/",
+   "legenda_inicio": "Quem atende com hora marcada conhece essa conversa de cor. E ela se repete com cada client",
+   "metricas": {
+    "reach": 4,
+    "views": 9,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "profile_visits": null,
+    "follows": null
+   }
+  },
+  {
+   "id": "18134943379707271",
+   "tipo": "FEED",
+   "quando": "2026-10-30T15:21:43+0000",
+   "link": "https://www.instagram.com/p/DfH5HDOIGHh/",
+   "legenda_inicio": "Antes de criar a sua página, que tal agendar num salão de exemplo como se fosse a sua clie",
+   "metricas": {
+    "reach": 7,
+    "views": 17,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "profile_visits": 0,
+    "follows": 0
+   }
+  },
+  {
+   "id": "17875761300638089",
+   "tipo": "FEED",
+   "quando": "2026-10-27T17:56:44+0000",
+   "link": "https://www.instagram.com/p/DfAceMgBPKa/",
+   "legenda_inicio": "A @ollgaoliveiranails recebe os agendamentos pela própria página no Dia e Beleza.\n\nA clien",
+   "metricas": {
+    "reach": 41,
+    "views": 74,
+    "likes": 5,
+    "comments": 1,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 8,
+    "profile_visits": 4,
+    "follows": 1
+   }
+  },
+  {
+   "id": "18126128126478863",
+   "tipo": "FEED",
+   "quando": "2026-10-27T15:01:01+0000",
+   "link": "https://www.instagram.com/p/DfAIWkLIM7E/",
+   "legenda_inicio": "Cliente pedindo horário às 23h e você respondendo da cama? Dá para resolver com 3 ajustes ",
+   "metricas": {
+    "reach": 8,
+    "views": 12,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "profile_visits": 0,
+    "follows": 0
+   }
+  },
+  {
+   "id": "17914479012283634",
+   "tipo": "FEED",
+   "quando": "2026-10-25T21:00:53+0000",
+   "link": "https://www.instagram.com/p/De7n8jmCSGv/",
+   "legenda_inicio": "A cliente quer marcar horário, mas antes ela precisa ver 4 coisas. Se faltar uma, começa o",
+   "metricas": {
+    "reach": 9,
+    "views": 15,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "profile_visits": 0,
+    "follows": 0
+   }
+  }
+ ]
+}
