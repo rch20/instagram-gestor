@@ -415,5 +415,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-11-17_reel-tambem-serve-bem-estar",
+    "formato": "reel",
+    "pilar": "Dica prática de gestão",
+    "segmento": "Bem-estar e saúde",
+    "objetivo": "alcance fora da bolha e visitas ao perfil",
+    "formula": "IG3 abertura reconhecível + lista (ig-caption-writer)",
+    "legenda": "Massoterapia, podologia, psicologia, pilates: se você atende com hora marcada, a agenda funciona igual à de um salão.\n\nNo Dia e Beleza você ganha uma página de agendamento com a cor e o logo do seu espaço. A cliente escolhe o serviço, o profissional e o horário pelo link.\n\nCada profissional tem a própria agenda, com folgas e bloqueios. A cliente recebe lembrete por e-mail antes do horário, e o sinal por Pix é opcional.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#massoterapia #podologia #terapeuta #pilates #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-11-17_reel-tambem-serve-bem-estar",
+    "agendado_para": "2026-11-17T12:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-07T13:40:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de terça 17/11 12h (calendário da estratégia: série \"Também serve para você?\", bem-estar e saúde). Só texto (sem captura de tela real disponível). Não cita ficha de atendimento (sem modelo para consultórios)."
+      }
+    ]
   }
 ]

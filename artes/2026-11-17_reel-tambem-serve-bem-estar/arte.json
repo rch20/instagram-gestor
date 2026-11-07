@@ -1,0 +1,41 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Também serve para você?",
+      "titulo": "Massagem, podologia,\nterapia?\n**A agenda é a mesma.**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "Sua página de agendamento",
+      "texto": "Com a cor e o logo do seu espaço. A cliente marca pelo link."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Uma agenda por profissional",
+      "texto": "Cada um com seus horários, folgas e bloqueios."
+    },
+    {
+      "numero": "3",
+      "segundos": 3.5,
+      "titulo": "Lembrete antes do horário",
+      "texto": "A cliente recebe por e-mail."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Sinal por Pix, se quiser",
+      "texto": "É opcional. Você decide por profissional."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Atende com hora marcada?\n**Serve para você.**",
+      "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
+    }
+  ]
+}
