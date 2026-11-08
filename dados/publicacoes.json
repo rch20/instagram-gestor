@@ -350,6 +350,11 @@
         "data": "2026-10-31T13:45:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação. Checklist: gancho em 122 caracteres; um chamado (salvar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números nem promessas (bloqueio esconder horário da página = recurso 'bloqueios' da identidade); artes geradas por gerar-artes.yml (execução 41220228021), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado. Canal api, 10/11 12h (semana 09–15/11 com 0 posts)."
+      },
+      {
+        "data": "2026-11-08T21:50:00-03:00",
+        "acao": "reel refeito em versão animada (pedido do dono: upgrade das publicações)",
+        "detalhe": "reel-animado.html + ferramentas/artes/reel-animado.js; 18 s, 30 fps, 1080x1920. Tela real do salão de demonstração (Studio Bella, dados fictícios) mostrando que a grade pula do 11:00 para o 13:00: expediente do demo 9h-12h e 13h-19h (criar_salao_demo.py do sistema). Gancho legível no 1º quadro (capa). Quadros conferidos visualmente. Texto, legenda e data não mudaram; reel.mp4 antigo (lâminas paradas) substituído."
       }
     ],
     "aprovado_por": "automacao"

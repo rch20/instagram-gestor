@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Reel animado 10/11 (versão 2, 08/11/2026). Tela real do salão de demonstração (Studio Bella, dados fictícios).
+     Expediente do demo: 9h–12h e 13h–19h (deploy/manutencao/criar_salao_demo.py), por isso a grade pula do 11:00 para o 13:00. -->
+<style>
+@font-face{font-family:B;src:url(../../ferramentas/artes/fontes/bricolage-400.ttf);font-weight:400}
+@font-face{font-family:B;src:url(../../ferramentas/artes/fontes/bricolage-700.ttf);font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#FBF6F7;font-family:B,sans-serif;color:#21161F;-webkit-font-smoothing:antialiased}
+.abs{position:absolute;left:0;top:0}
+.marca{position:absolute;left:88px;top:150px;display:flex;align-items:center;gap:14px;font-size:32px;font-weight:700}
+.marca i{width:18px;height:18px;border-radius:50%;background:#A3124A;display:block}
+.etq{font-size:30px;font-weight:700;color:#A3124A;letter-spacing:.09em;text-transform:uppercase}
+.h{font-weight:700;letter-spacing:-.04em;line-height:1.0}
+em{font-style:normal;color:#A3124A}
+.w{display:inline-block;will-change:transform,opacity}
+/* cena 1 */
+#c1{left:88px;top:640px;width:920px}
+#c1 .h{font-size:150px}
+#c1 .etq{margin-bottom:36px}
+/* cena 2 */
+#c2t{left:88px;top:250px;width:920px}
+#c2t .h{font-size:76px}
+#c2t .sub{font-size:40px;color:#5E525A;margin-top:18px;line-height:1.3}
+#fone{left:150px;top:600px;width:780px;height:860px;border-radius:84px;background:#21161F;padding:22px;box-shadow:0 40px 90px rgba(33,22,31,.22)}
+#tela{width:736px;height:816px;border-radius:64px;overflow:hidden;position:relative;background:#fff}
+#tela img{position:absolute;left:0;top:0;width:736px}
+#luz{position:absolute;border-radius:26px;box-shadow:0 0 0 3000px rgba(251,246,247,.78)}
+.anel{position:absolute;border:7px solid #A3124A;border-radius:22px}
+#seta{position:absolute;height:7px;background:#A3124A;border-radius:4px}
+#selo{position:absolute;background:#A3124A;color:#fff;font-weight:700;font-size:38px;padding:14px 26px;border-radius:999px;white-space:nowrap}
+/* cena 3 */
+#c3{left:88px;top:330px;width:920px}
+#c3 .h{font-size:92px;margin-bottom:56px}
+.item{display:flex;align-items:flex-start;gap:30px;margin-bottom:44px}
+.item b{flex:none;width:76px;height:76px;border-radius:50%;background:#F5D7E2;color:#A3124A;font-size:38px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.item div{font-size:50px;font-weight:700;letter-spacing:-.02em;line-height:1.12;padding-top:6px}
+.item small{display:block;font-size:36px;font-weight:400;color:#5E525A;letter-spacing:0;margin-top:8px}
+/* cena 4 */
+#c4{left:88px;top:620px;width:920px}
+#c4 .h{font-size:118px}
+#c4 p{font-size:40px;color:#5E525A;margin-top:40px;line-height:1.35;max-width:860px}
+#btn{display:inline-block;margin-top:60px;background:#A3124A;color:#fff;font-size:42px;font-weight:700;padding:30px 48px;border-radius:999px}
+#barra{left:0;top:0;height:10px;background:#A3124A}
+#site{position:absolute;left:88px;top:1560px;font-size:32px;color:#5E525A}
+</style></head><body>
+<div id="barra" class="abs"></div>
+<div class="marca"><i></i>Dia e Beleza</div>
+
+<div id="c1" class="abs">
+  <div class="etq w">Dica de agenda</div>
+  <div class="h"><span class="w">Seu</span> <span class="w">almoço</span><br><em class="w">também</em> <em class="w">é</em> <em class="w">agenda.</em></div>
+</div>
+
+<div id="c2t" class="abs">
+  <div id="c2a"><div class="h">É assim que a cliente vê:</div><div class="sub">página de agendamento do salão de demonstração</div></div>
+  <div id="c2b" class="abs" style="top:0"><div class="h">Do 11:00 pula<br>para o <em>13:00.</em></div><div class="sub">O almoço está bloqueado. Ninguém marca em cima.</div></div>
+</div>
+<div id="fone" class="abs"><div id="tela"><img id="img" src="tela-agendar.png">
+  <div id="luz"></div><div class="anel" id="a1"></div><div class="anel" id="a2"></div><div id="seta"></div><div id="selo">12h às 13h: almoço</div>
+</div></div>
+
+<div id="c3" class="abs">
+  <div class="h">Bloqueie <em>antes</em><br>também:</div>
+  <div class="item"><b>1</b><div>A folga<small>antes de oferecer horário.</small></div></div>
+  <div class="item"><b>2</b><div>Um respiro<small>entre serviços longos.</small></div></div>
+  <div class="item"><b>3</b><div>Feriado e curso<small>assim que souber.</small></div></div>
+</div>
+
+<div id="c4" class="abs">
+  <div class="h">Primeiro o que<br>é seu, <em>depois<br>o resto.</em></div>
+  <p>Horário bloqueado não aparece para a cliente.</p>
+  <div id="btn">Salve para montar a semana</div>
+</div>
+<div id="site">diaebeleza.com.br</div>
+
+<script>
+window.DURACAO = 18;
+const $ = (s) => document.querySelector(s), $$ = (s) => [...document.querySelectorAll(s)];
+const cl = (x) => Math.max(0, Math.min(1, x));
+const eo = (x) => 1 - Math.pow(1 - cl(x), 3);                 // ease-out
+const eio = (x) => { x = cl(x); return x < .5 ? 4*x*x*x : 1 - Math.pow(-2*x + 2, 3) / 2; };
+const mola = (x) => { x = cl(x); return 1 - Math.exp(-6*x) * Math.cos(9*x); }; // leve passada, como spring()
+const p = (t, a, b) => cl((t - a) / (b - a));
+const S = (el, o) => Object.assign(el.style, o);
+const vis = (el, op, y = 0, s = 1, x = 0) => S(el, { opacity: op, transform: `translate(${x}px,${y}px) scale(${s})` });
+
+// Tela: 780 px de largura (celular 390 a 2x) mostrada com 626 px.
+const K = 736 / 780, CORTE = 300;            // corta o topo vazio da captura
+// Botões reais na captura (px da captura): 11:00 e 13:00, mesma linha
+const B11 = { x: 66, y: 668, w: 150, h: 84 }, B13 = { x: 232, y: 668, w: 150, h: 84 };
+const R = (b) => ({ left: b.x*K - 10 + 'px', top: (b.y - CORTE)*K - 10 + 'px', width: b.w*K + 20 + 'px', height: b.h*K + 20 + 'px' });
+
+window.seek = (t) => {
+  S($('#barra'), { width: (t / DURACAO * 1080) + 'px' });
+
+  // Cena 1 (0–3,2 s): o gancho já está legível no 1º quadro (vira a capa) e ganha movimento.
+  const c1out = eio(p(t, 2.8, 3.3));
+  const ws = $$('#c1 .w');
+  ws.forEach((w, i) => { const k = mola(p(t, i*0.1, i*0.1 + 0.6)); vis(w, 1, (1-k)*18); }); // sempre opaco: o 1º quadro é a capa
+  vis($('#c1'), 1 - c1out, -60*c1out);
+
+  // Cena 2 (3,1–9,4 s): celular sobe com a tela real; marca 11:00 e 13:00; texto troca.
+  const fin = mola(p(t, 3.1, 4.0)), fout = eio(p(t, 9.0, 9.6));
+  vis($('#fone'), cl(fin*1.5) * (1 - fout), (1-fin)*500 + fout*-120, 1, fout*-700);
+  const rol = eio(p(t, 4.2, 5.2));            // rola levemente até a grade
+  S($('#img'), { top: -(CORTE + rol*0) * K + 'px' });
+  const ta = cl(p(t, 3.2, 3.6)) * (1 - eio(p(t, 5.45, 5.75))), tb = eo(p(t, 5.8, 6.25)) * (1 - fout);
+  vis($('#c2a'), ta, (1-cl(p(t,3.2,3.7)))*30);
+  vis($('#c2b'), tb, (1-tb)*30);
+  const a1 = eo(p(t, 5.0, 5.4)), a2 = eo(p(t, 5.3, 5.7));
+  S($('#a1'), { ...R(B11), opacity: a1, transform: `scale(${1.25 - .25*a1})` });
+  S($('#a2'), { ...R(B13), opacity: a2, transform: `scale(${1.25 - .25*a2})` });
+  const sx = (B11.x + B11.w) * K + 12, sy = (B11.y + B11.h/2 - CORTE) * K - 3, sw = (B13.x - B11.x - B11.w) * K - 24;
+  const sa = eo(p(t, 5.7, 6.1));
+  S($('#seta'), { left: sx + 'px', top: sy + 'px', width: sw*sa + 'px', opacity: sa });
+  const se = mola(p(t, 6.2, 6.9));
+  S($('#selo'), { left: '40px', top: (B11.y + B11.h - CORTE)*K + 70 + 'px', opacity: cl(se*1.5), transform: `translateY(${(1-se)*24}px) scale(${.9 + .1*se})` });
+
+  const lz = eo(p(t, 5.0, 5.5));
+  S($('#luz'), { left: B11.x*K - 14 + 'px', top: (B11.y - CORTE)*K - 14 + 'px', width: (B13.x + B13.w - B11.x)*K + 28 + 'px', height: B11.h*K + 28 + 'px', opacity: lz });
+  S($('#site'), { opacity: 1 - cl(fin*1.5)*(1-fout) });
+
+  // Cena 3 (9,4–14,2 s): o resto da lista, um item por vez.
+  const c3in = eo(p(t, 9.4, 9.9)), c3out = eio(p(t, 13.8, 14.3));
+  vis($('#c3 .h'), c3in, (1-c3in)*40);
+  $$('#c3 .item').forEach((it, i) => { const k = mola(p(t, 10.2 + i*1.0, 10.8 + i*1.0)); vis(it, cl(k*1.4), 0, 1, (1-k)*-80); });
+  vis($('#c3'), 1 - c3out, -60*c3out);
+
+  // Cena 4 (14,2–18 s): fechamento e chamado.
+  const c4 = mola(p(t, 14.2, 15.0)), pb = eo(p(t, 14.9, 15.4)), bt = mola(p(t, 15.4, 16.1));
+  vis($('#c4 .h'), cl(c4*1.4), (1-c4)*50);
+  vis($('#c4 p'), pb, (1-pb)*24);
+  vis($('#btn'), cl(bt*1.4), 0, .85 + .15*bt);
+  const pulso = t > 16.4 ? 1 + 0.03*Math.sin((t - 16.4) * 6) : 1;
+  if (t > 16.4) $('#btn').style.transform = `scale(${pulso})`;
+  S($('#c4'), { opacity: t < 14.1 ? 0 : 1 });
+};
+window.seek(0);
+</script></body></html>

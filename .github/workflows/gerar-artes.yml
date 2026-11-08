@@ -42,7 +42,11 @@ jobs:
           PASTA: ${{ inputs.pasta }}
         run: |
           if [ -f "$PASTA/arte.json" ]; then node ferramentas/artes/render.js "$PASTA"; fi
-          if grep -q '"formato": *"reel"' "$PASTA/arte.json" 2>/dev/null; then
+          if [ -f "$PASTA/reel-animado.html" ]; then
+            # Reel animado (08/11/2026): tem prioridade sobre as lâminas paradas.
+            command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+            node ferramentas/artes/reel-animado.js "$PASTA"
+          elif grep -q '"formato": *"reel"' "$PASTA/arte.json" 2>/dev/null; then
             command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
             python3 ferramentas/artes/montar-reel.py "$PASTA"
           fi

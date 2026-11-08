@@ -4,7 +4,7 @@ const fs = require('fs'); const path = require('path'); const { chromium } = req
 const pasta = process.argv[2];
 (async () => {
   const browser = await chromium.launch();
-  for (const f of fs.readdirSync(pasta).filter((x) => x.endsWith('.html'))) {
+  for (const f of fs.readdirSync(pasta).filter((x) => x.endsWith('.html') && x !== 'reel-animado.html')) {
     const html = fs.readFileSync(path.join(pasta, f), 'utf8');
     const m = html.match(/name="tamanho" content="(\d+)x(\d+)"/);
     const [W, H] = m ? [+m[1], +m[2]] : [1080, 1080];
