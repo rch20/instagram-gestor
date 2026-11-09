@@ -1,0 +1,41 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Novidade no Dia e Beleza",
+      "titulo": "Será que ela vem\namanhã?\n**Agora ela te responde.**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "Lembrete na véspera",
+      "texto": "A cliente recebe por e-mail 24 horas antes, e de novo 2 horas antes."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Ela toca em \"Vou comparecer\"",
+      "texto": "Sem login e sem baixar nada."
+    },
+    {
+      "numero": "3",
+      "segundos": 3.5,
+      "titulo": "Você vê na agenda",
+      "texto": "O horário mostra quem já confirmou."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Não vai conseguir ir?",
+      "texto": "Ela avisa pelo mesmo link, e você fica sabendo antes."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Menos \"oi, você vem?\"\n**no WhatsApp.**",
+      "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
+    }
+  ]
+}

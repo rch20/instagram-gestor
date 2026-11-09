@@ -447,5 +447,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-11-19_reel-vou-comparecer",
+    "formato": "reel",
+    "pilar": "Produto funcionando",
+    "segmento": "Beleza e estética",
+    "objetivo": "visitas ao perfil e cliques no link",
+    "formula": "IG3 abertura reconhecível (ig-caption-writer)",
+    "legenda": "Véspera de atendimento e a dúvida de sempre: será que ela vem amanhã? Agora a própria cliente responde.\n\nNo Dia e Beleza, a cliente recebe o lembrete por e-mail 24 horas antes do horário, e de novo 2 horas antes. No lembrete tem o botão \"Vou comparecer\". Ela toca, sem login, e pronto.\n\nNa sua agenda, o horário mostra quem já confirmou. Se ela não puder ir, avisa pelo mesmo link e você fica sabendo antes, com tempo de oferecer o horário para outra cliente. Confirmou pelo WhatsApp? Você marca à mão.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#manicure #designdesobrancelhas #esteticista #salaodebeleza #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-11-19_reel-vou-comparecer",
+    "agendado_para": "2026-11-19T12:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-09T13:40:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de quinta 19/11 12h (calendário da estratégia: confirmação de presença \"Vou comparecer\", responde à pergunta do post de 14/11). Recurso conferido no código do sistema (backend/routes/presenca.py e utils/avisos_email.py, no ar desde 01/11): lembrete por e-mail 24 h e 2 h antes com o botão \"Vou comparecer\", sem login; \"Não vou conseguir ir\" só avisa o salão; a dona vê no horário e pode marcar à mão. Só texto (sem captura de tela real disponível nesta execução)."
+      }
+    ]
   }
 ]
