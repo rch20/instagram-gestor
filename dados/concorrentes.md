@@ -40,3 +40,16 @@ Fonte: Apify `apify/instagram-profile-scraper`, dados públicos, coletado em 202
 | @booksybrasil | 61.646 | 61.957 | +311 |
 | @appbarber | 36.351 | 36.378 | +27 |
 | @simplesagenda | 17.952 | 18.204 | +252 |
+
+## Coleta semanal — 09/11/2026 (segunda, noite)
+
+Fonte: Apify `apify/instagram-profile-scraper`, dados públicos, coletado em 2026-11-10 00:32 UTC
+(09/11 21h32 em São Paulo), execução 42729055075. Arquivo: `dados/metricas/perfis-2026-11-10-0032.json`.
+
+| Perfil | Seguidores 02/11 | Seguidores 09/11 | Diferença |
+|---|---|---|---|
+| @diaebeleza | 16 | 18 | +2 |
+| @trinksoficial | 98.040 | 98.127 | +87 |
+| @booksybrasil | 61.957 | 62.232 | +275 |
+| @appbarber | 36.378 | 36.417 | +39 |
+| @simplesagenda | 18.204 | 18.443 | +239 |
