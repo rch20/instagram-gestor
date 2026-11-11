@@ -3,37 +3,37 @@
   "laminas": [
     {
       "tipo": "capa",
-      "segundos": 3,
+      "segundos": 4.5,
       "etiqueta": "Bela, a assistente do Dia e Beleza",
       "titulo": "23h e a cliente quer\nsaber se tem horário.\n**A Bela responde.**"
     },
     {
       "numero": "1",
-      "segundos": 3.5,
+      "segundos": 5.5,
       "titulo": "Fica na sua página",
       "texto": "A cliente pergunta na página de agendamento, a qualquer hora."
     },
     {
       "numero": "2",
-      "segundos": 3.5,
+      "segundos": 5.5,
       "titulo": "Responde com os seus dados",
       "texto": "Serviços, preços, profissionais e dias de funcionamento do seu salão."
     },
     {
       "numero": "3",
-      "segundos": 3.5,
+      "segundos": 5.5,
       "titulo": "Olha a agenda na hora",
       "texto": "Mostra os horários livres e o botão para a cliente agendar."
     },
     {
       "numero": "4",
-      "segundos": 3.5,
+      "segundos": 5.5,
       "titulo": "Não inventa nada",
       "texto": "Se não sabe, indica falar com você no WhatsApp."
     },
     {
       "tipo": "cta",
-      "segundos": 4,
+      "segundos": 6,
       "titulo": "Você descansa.\n**A Bela responde.**",
       "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
     }
