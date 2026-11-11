@@ -504,6 +504,11 @@
         "data": "2026-11-11T00:05:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação (pedido do dono). Checklist: gancho em 97 caracteres; um chamado (link na bio para testar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (recursos da Bela conferidos no código e em marca/identidade.md; 14 dias grátis sem cartão em marca/identidade.md); artes geradas por gerar-artes.yml (execução 42948789355), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado. Canal api, sáb 21/11 10h (3º post da semana 16–22/11)."
+      },
+      {
+        "data": "2026-11-11T00:20:00-03:00",
+        "estado": "aprovado",
+        "nota": "Dono pediu mais lento: capa 4,5 s, telas 5,5 s, final 6 s; vídeo refeito por gerar-artes.yml (execução 42950480832), 38,5 s. Lâminas e legenda iguais. Data mantida (21/11 10h)."
       }
     ],
     "aprovado_por": "automacao"
