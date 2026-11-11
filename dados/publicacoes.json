@@ -480,5 +480,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-11-21_reel-bela",
+    "formato": "reel",
+    "pilar": "Produto funcionando",
+    "segmento": "Beleza e estética",
+    "objetivo": "visitas ao perfil e cliques no link",
+    "formula": "IG3 abertura reconhecível (ig-caption-writer)",
+    "legenda": "Cliente perguntando \"tem horário sábado?\" às 23h, e você só vê de manhã. Para isso existe a Bela.\n\nA Bela é a assistente virtual do Dia e Beleza. Ela fica na sua página de agendamento e responde as clientes a qualquer hora, com os dados do seu salão: serviços, preços, profissionais e dias de funcionamento.\n\nQuando a cliente pergunta por horário, a Bela consulta a sua agenda naquele momento e mostra os horários livres, com o botão para agendar. Quem marca é a própria cliente, pelo agendamento de sempre.\n\nEla não inventa preço nem promoção. Se a dúvida não está nos seus dados, indica falar com você no WhatsApp. E você liga, desliga e escreve o que ela precisa saber.\n\nA Bela vem no plano Premium e no teste grátis. Para testar 14 dias grátis, sem cartão: link na bio.\n\n#salaodebeleza #manicure #esteticista #designdesobrancelhas #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-11-21_reel-bela",
+    "agendado_para": "2026-11-21T10:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-10T23:50:00-03:00",
+        "estado": "rascunho",
+        "nota": "Pedido do dono no chat (\"um post falando sobre a Bela\"). Vaga livre de sábado 21/11 10h (3º post da semana 16–22/11). Recursos conferidos no código (backend/routes/assistente_salao.py, utils/planos.py) e registrados em marca/identidade.md. Só texto: sem captura de tela, porque os prints da Bela existentes usam uma conversa simulada na página de uma cliente real."
+      }
+    ]
   }
 ]
