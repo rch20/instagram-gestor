@@ -100,12 +100,14 @@ Já na fila (aprovados, canal api): 03/11 Reel (horário amanhã), 05/11 carross
 | 12/11 qui | Clínica de estética | Reel | "Anamnese no papel?" Ficha digital assinada pela cliente pelo link, pronta para imprimir (tela real) |
 | 17/11 ter | Bem-estar e saúde | Reel | Série "Também serve para você?": massoterapia, podologia, psicologia (agenda por profissional, lembrete) |
 | 19/11 qui | Beleza e estética | Reel | Novidade real (no ar desde 01/11): a cliente recebe o lembrete na véspera e toca em "Vou comparecer"; a dona vê quem confirmou na agenda. Responde à pergunta do post de 14/11 (tela real) |
-| 21/11 sáb | Clínica de estética | Carrossel | Pacote de sessões: vender 10 sessões e o sistema controlar o que já foi usado |
-| 24/11 ter | Outros com hora marcada | Reel | "Também serve para você?": tatuagem, maquiagem, banho e tosa |
+| 21/11 sáb | Todos | Reel | Bela, a assistente virtual da página de agendamento (pedido do dono em 11/11; o pacote de sessões foi para a reserva) |
+| 24/11 ter | Todos | Reel | **Campanha Black Friday (27/11)**: a página de agendamento com a decoração da data. A dona liga no painel, em Aparência: faixa com a mensagem dela (até 80 caracteres), desconto opcional de 5 a 30% em todos os serviços ou só nos escolhidos (preço de/por na página), ela escolhe os dias (entre 01/11 e 07/12) e a faixa some sozinha no fim. Liberado em todos os planos. Tela real só do salão de demonstração (prévia da decoração); sem tela real, Reel só de texto, nunca tela inventada |
 | 26/11 qui | Beleza | Reel | Produto: do link na bio ao horário confirmado em 20 segundos (tela real) |
 | 28/11 sáb | Beleza | Carrossel | Quanto custa um horário vazio: conta simples de quanto a falta tira do mês (valores fictícios, avisando que são exemplo) |
 
-Reserva (se faltar tema ou um item cair): Reel de humor "a cliente que pede encaixe sábado às 18h".
+| 01/12 ter | Todos | Reel | **Campanha Fim de ano**: decoração de Natal/Fim de ano na página (a dona escolhe os dias entre 15/11 e 31/12; mensagem padrão "Boas festas! Garanta seu horário para as festas de fim de ano"), mesmo desconto opcional. Mesma regra de tela real |
+
+Reserva (se faltar tema ou um item cair): Reel de humor "a cliente que pede encaixe sábado às 18h"; Reel "Também serve para você?": tatuagem, maquiagem, banho e tosa (saiu de 24/11 para a Black Friday); carrossel pacote de sessões (clínica de estética).
 O carrossel de 29/10 (como a cliente marca, em erro desde a queda da Publora) não volta: o tema está coberto pelo Reel de 26/11.
 
 ## Regras
