@@ -266,11 +266,11 @@
     "objetivo": "comentários",
     "formula": "IG3 identificação (ig-caption-writer)",
     "legenda": "Confirmou de manhã, sumiu à tarde. E aquele horário não volta mais.\n\nComo você lida com isso hoje? Cobra sinal, manda lembrete, deixa para lá? Conta aqui, a sua resposta pode ajudar outra profissional.\n\n#manicure #designdesobrancelhas #salaodebeleza",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-07_cliente-que-nao-aparece",
     "agendado_para": "2026-11-14T10:00:00-03:00",
     "postGroupId": null,
-    "link": null,
+    "link": "https://www.instagram.com/p/DfuQ1FaF4tU/",
     "historico": [
       {
         "data": "2026-10-25",
@@ -291,10 +291,16 @@
         "data": "2026-11-01T10:30:00-03:00",
         "estado": "aprovado",
         "nota": "Remarcado para 14/11 10h: o sábado 07/11 ficou para o post em parceria com a Day (cliente ativa, autorizou em 01/11)."
+      },
+      {
+        "data": "2026-11-14T13:00:00.276132+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (post). https://www.instagram.com/p/DfuQ1FaF4tU/"
       }
     ],
     "aprovado_por": "dono",
-    "canal": "api"
+    "canal": "api",
+    "ig_media_id": "17913694758665546"
   },
   {
     "id": "2026-10-30_salao-de-demonstracao",
