@@ -34,6 +34,11 @@
   dias de funcionamento e o que a dona escrever); consulta a agenda na hora e mostra horários livres com botão para agendar.
   **Não marca, não reserva e não cancela sozinha**; não inventa preço nem promoção; sem a informação, indica o WhatsApp do salão.
   A dona liga e desliga. Vem no plano Premium e no teste grátis (teste = Premium completo); no vitalício só se liberada.
+- **Decoração da data** (conferido no código em 13/11 e 14/11/2026, backend/utils/datas_comemorativas.py, DecoracoesCard.jsx,
+  PrecoPromo.jsx): Black Friday e Fim de ano na página de agendamento. A dona liga no painel, em Aparência (não liga sozinha);
+  faixa com a mensagem dela (até 80 caracteres); desconto opcional de 5 a 30% em todos os serviços ou só nos escolhidos, com
+  preço de/por, válido pelo dia do atendimento; ela escolhe os dias (Black Friday entre 01/11 e 07/12; Fim de ano entre 15/11 e
+  31/12); a faixa some sozinha no fim. Todos os planos. O desconto não vale em agendamento manual da dona, pacote ou assinatura.
 - **14 dias grátis, sem cartão de crédito.**
 - Plano inicial: **R$ 39,90 por mês** (dono, 01/11/2026). Preços sempre conferidos na página de planos antes de citar.
 - Exemplo real autorizado: o estúdio Unhas Capão (https://unhascapao.diaebeleza.com.br) — **sem citar

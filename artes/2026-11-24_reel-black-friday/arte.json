@@ -1,0 +1,41 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Black Friday · 27/11",
+      "titulo": "Sua página de agendamento\n**no clima da Black Friday.**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "Você liga no painel",
+      "texto": "Em Aparência. Só aparece se você quiser."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Faixa com a sua mensagem",
+      "texto": "Até 80 caracteres. Exemplo: \"Semana Black Friday: garanta seu horário\"."
+    },
+    {
+      "numero": "3",
+      "segundos": 4,
+      "titulo": "Desconto, se quiser",
+      "texto": "De 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Você escolhe os dias",
+      "texto": "Acabou o período, a faixa sai sozinha."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Promoção na página,\n**sem refazer a tabela.**",
+      "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
+    }
+  ]
+}
