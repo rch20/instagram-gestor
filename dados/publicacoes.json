@@ -533,7 +533,7 @@
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "novidade sazonal com data (ig-caption-writer)",
     "legenda": "Black Friday é dia 27. Sua página de agendamento pode entrar no clima sem você mudar preço por preço.\n\nNo Dia e Beleza, você liga a decoração de Black Friday no painel, em Aparência. A página ganha uma faixa com a sua mensagem, de até 80 caracteres.\n\nQuer dar desconto? É opcional: de 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por na hora de marcar, e o desconto vale para atendimentos nos dias que você definir.\n\nQuando a promoção acaba, a faixa sai sozinha. Vale para todos os planos.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#blackfriday #salaodebeleza #manicure #esteticista #agendamentoonline",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-11-24_reel-black-friday",
     "agendado_para": "2026-11-24T12:00:00-03:00",
     "link": null,
@@ -543,7 +543,13 @@
         "data": "2026-11-14T13:40:00-03:00",
         "estado": "rascunho",
         "nota": "Criado pela rotina da tarde para a vaga de terça 24/11 12h (campanha de Black Friday decidida em 13/11). Recurso conferido de novo no código do sistema (backend/utils/datas_comemorativas.py, frontend DecoracoesCard.jsx na aba Aparência, PrecoPromo.jsx com o preço de/por): a dona liga; faixa com mensagem dela até 80 caracteres (sugerida: \"Semana Black Friday: garanta seu horário\"); desconto opcional 5 a 30% em todos ou nos escolhidos, pelo dia do atendimento; ela escolhe os dias (01/11 a 07/12); some sozinha no fim; todos os planos. Só texto: sem captura de tela real nesta execução (a produção não é acessível daqui); nenhuma tela inventada."
+      },
+      {
+        "data": "2026-11-14T13:50:00-03:00",
+        "estado": "aprovado",
+        "nota": "Aprovado pela automação. Checklist: gancho em 101 caracteres; um chamado (link na bio para testar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (decoração de Black Friday, faixa até 80 caracteres, desconto opcional 5 a 30% com de/por, dias escolhidos pela dona, faixa some sozinha, todos os planos: conferidos no código e registrados em marca/identidade.md; 14 dias grátis sem cartão em marca/identidade.md); artes geradas por gerar-artes.yml (execução 43616260815), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado, sem tela inventada. Canal api, ter 24/11 12h (1º post da semana 23–29/11)."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]
