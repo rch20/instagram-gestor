@@ -10,7 +10,9 @@
 - **O que é:** sistema de agendamento online para salões e profissionais que atendem com hora marcada.
   Cada salão ganha uma página própria (`seusalao.diaebeleza.com.br`) onde a cliente escolhe serviço,
   profissional e horário.
-- **WhatsApp de suporte:** (11) 93421-1240
+- **WhatsApp de vendas (com IA):** (11) 93335-8205, número próprio do Dia e Beleza desde 14/11/2026; é para onde vão
+  os posts, o site e o botão do perfil. Responde na hora, com preços certos, e passa para a equipe quando precisa.
+- **WhatsApp de suporte (quem já é cliente):** (11) 93421-1240 (Grupo Alloy, app do celular). Não usar em posts de venda.
 
 ## Público-alvo
 
@@ -25,7 +27,8 @@
 - Agenda, clientes, serviços, profissionais e bloqueios no mesmo painel, no celular ou no computador.
 - Sinal por Pix antes do atendimento (opcional, por profissional).
 - Aprovação manual de agendamentos (opcional).
-- Pacotes, indicações, aniversariantes, financeiro e relatórios.
+- Pacotes, **clube mensal** (a cliente paga uma mensalidade ao salão e usa os serviços do clube; renova com um toque,
+  sem cobrança automática; nome "Clube" decidido pelo dono em 15/11/2026), indicações, aniversariantes, financeiro e relatórios.
 - Ficha de atendimento digital (anamnese) com modelos para unhas, cílios e sobrancelha, estética e cabelo:
   a cliente assina pelo link, e a ficha pode ser impressa ou salva em PDF. Não há modelo para consultórios de saúde.
 - Lembrete por e-mail para a cliente antes do horário.
@@ -38,9 +41,10 @@
   PrecoPromo.jsx): Black Friday e Fim de ano na página de agendamento. A dona liga no painel, em Aparência (não liga sozinha);
   faixa com a mensagem dela (até 80 caracteres); desconto opcional de 5 a 30% em todos os serviços ou só nos escolhidos, com
   preço de/por, válido pelo dia do atendimento; ela escolhe os dias (Black Friday entre 01/11 e 07/12; Fim de ano entre 15/11 e
-  31/12); a faixa some sozinha no fim. Todos os planos. O desconto não vale em agendamento manual da dona, pacote ou assinatura.
+  31/12); a faixa some sozinha no fim. Todos os planos. O desconto não vale em agendamento manual da dona, pacote ou clube.
 - **14 dias grátis, sem cartão de crédito.**
-- Plano inicial: **R$ 39,90 por mês** (dono, 01/11/2026). Preços sempre conferidos na página de planos antes de citar.
+- Planos (conferidos no sistema em 14/11/2026): **Básico R$ 29,90** e **Premium R$ 69,90 por mês**. Preços sempre
+  conferidos na página de planos antes de citar (o valor de R$ 39,90 anotado em 01/11 não é o que o sistema cobra).
 - Exemplo real autorizado: o estúdio Unhas Capão (https://unhascapao.diaebeleza.com.br) — **sem citar
   nomes de pessoas nem endereço.**
 
@@ -69,6 +73,10 @@
 - Frases curtas. Exemplos concretos da rotina ("cliente pedindo horário às 23h").
 - Sem exagero, sem promessas, sem jargão de marketing.
 - Slogan atual da página de vendas: "Agenda cheia, sem viver no WhatsApp." (é slogan, não promessa medida).
+- **Chamado padrão das legendas (dono, 15/11/2026):** "Monte a sua agenda online completa em poucos minutos. Teste 14 dias
+  grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil." Link e número escritos
+  na legenda não são clicáveis no Instagram: o caminho é sempre o link da bio ou o botão do WhatsApp do perfil.
+  "Em poucos minutos" é frase do dono, não número medido; não trocar por tempo exato.
 
 ## Objetivos de marketing
 

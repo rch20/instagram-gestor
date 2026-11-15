@@ -446,7 +446,7 @@
     "segmento": "Bem-estar e saúde",
     "objetivo": "alcance fora da bolha e visitas ao perfil",
     "formula": "IG3 abertura reconhecível + lista (ig-caption-writer)",
-    "legenda": "Massoterapia, podologia, psicologia, pilates: se você atende com hora marcada, a agenda funciona igual à de um salão.\n\nNo Dia e Beleza você ganha uma página de agendamento com a cor e o logo do seu espaço. A cliente escolhe o serviço, o profissional e o horário pelo link.\n\nCada profissional tem a própria agenda, com folgas e bloqueios. A cliente recebe lembrete por e-mail antes do horário, e o sinal por Pix é opcional.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#massoterapia #podologia #terapeuta #pilates #agendamentoonline",
+    "legenda": "Massoterapia, podologia, psicologia, pilates: se você atende com hora marcada, a agenda funciona igual à de um salão.\n\nNo Dia e Beleza você ganha uma página de agendamento com a cor e o logo do seu espaço. A cliente escolhe o serviço, o profissional e o horário pelo link.\n\nCada profissional tem a própria agenda, com folgas e bloqueios. A cliente recebe lembrete por e-mail antes do horário, e o sinal por Pix é opcional.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#massoterapia #podologia #terapeuta #pilates #agendamentoonline",
     "estado": "aprovado",
     "pasta_artes": "artes/2026-11-17_reel-tambem-serve-bem-estar",
     "agendado_para": "2026-11-17T12:00:00-03:00",
@@ -462,6 +462,11 @@
         "data": "2026-11-07T13:45:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação. Checklist: gancho em 117 caracteres; um chamado (link na bio para testar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (página com cor e logo, agenda por profissional com folgas e bloqueios, lembrete por e-mail, sinal por Pix opcional por profissional e 14 dias grátis sem cartão estão em marca/identidade.md; não cita ficha); artes geradas por gerar-artes.yml (execução 42391851257), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado, sem desenho de botão. Canal api, 17/11 12h (1º post da semana 16–22/11)."
+      },
+      {
+        "data": "2026-11-15T07:10:00-03:00",
+        "estado": "aprovado",
+        "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (117 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
       }
     ],
     "aprovado_por": "automacao"
@@ -473,7 +478,7 @@
     "segmento": "Beleza e estética",
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "IG3 abertura reconhecível (ig-caption-writer)",
-    "legenda": "Véspera de atendimento e a dúvida de sempre: será que ela vem amanhã? Agora a própria cliente responde.\n\nNo Dia e Beleza, a cliente recebe o lembrete por e-mail 24 horas antes do horário, e de novo 2 horas antes. No lembrete tem o botão \"Vou comparecer\". Ela toca, sem login, e pronto.\n\nNa sua agenda, o horário mostra quem já confirmou. Se ela não puder ir, avisa pelo mesmo link e você fica sabendo antes, com tempo de oferecer o horário para outra cliente. Confirmou pelo WhatsApp? Você marca à mão.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#manicure #designdesobrancelhas #esteticista #salaodebeleza #agendamentoonline",
+    "legenda": "Véspera de atendimento e a dúvida de sempre: será que ela vem amanhã? Agora a própria cliente responde.\n\nNo Dia e Beleza, a cliente recebe o lembrete por e-mail 24 horas antes do horário, e de novo 2 horas antes. No lembrete tem o botão \"Vou comparecer\". Ela toca, sem login, e pronto.\n\nNa sua agenda, o horário mostra quem já confirmou. Se ela não puder ir, avisa pelo mesmo link e você fica sabendo antes, com tempo de oferecer o horário para outra cliente. Confirmou pelo WhatsApp? Você marca à mão.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#manicure #designdesobrancelhas #esteticista #salaodebeleza #agendamentoonline",
     "estado": "aprovado",
     "pasta_artes": "artes/2026-11-19_reel-vou-comparecer",
     "agendado_para": "2026-11-19T12:00:00-03:00",
@@ -489,6 +494,11 @@
         "data": "2026-11-09T13:45:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação. Checklist: gancho em 103 caracteres; um chamado (link na bio para testar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (lembrete por e-mail 24 h e 2 h antes com \"Vou comparecer\", sem login, aviso de \"não vou\", marcação na agenda e à mão conferidos no código do sistema; 14 dias grátis sem cartão em marca/identidade.md); artes geradas por gerar-artes.yml (execução 42655868315), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado, sem desenho de botão. Canal api, 19/11 12h (2º post da semana 16–22/11)."
+      },
+      {
+        "data": "2026-11-15T07:10:00-03:00",
+        "estado": "aprovado",
+        "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (103 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
       }
     ],
     "aprovado_por": "automacao"
@@ -500,7 +510,7 @@
     "segmento": "Beleza e estética",
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "IG3 abertura reconhecível (ig-caption-writer)",
-    "legenda": "Cliente perguntando \"tem horário sábado?\" às 23h, e você só vê de manhã. Para isso existe a Bela.\n\nA Bela é a assistente virtual do Dia e Beleza. Ela fica na sua página de agendamento e responde as clientes a qualquer hora, com os dados do seu salão: serviços, preços, profissionais e dias de funcionamento.\n\nQuando a cliente pergunta por horário, a Bela consulta a sua agenda naquele momento e mostra os horários livres, com o botão para agendar. Quem marca é a própria cliente, pelo agendamento de sempre.\n\nEla não inventa preço nem promoção. Se a dúvida não está nos seus dados, indica falar com você no WhatsApp. E você liga, desliga e escreve o que ela precisa saber.\n\nA Bela vem no plano Premium e no teste grátis. Para testar 14 dias grátis, sem cartão: link na bio.\n\n#salaodebeleza #manicure #esteticista #designdesobrancelhas #agendamentoonline",
+    "legenda": "Cliente perguntando \"tem horário sábado?\" às 23h, e você só vê de manhã. Para isso existe a Bela.\n\nA Bela é a assistente virtual do Dia e Beleza. Ela fica na sua página de agendamento e responde as clientes a qualquer hora, com os dados do seu salão: serviços, preços, profissionais e dias de funcionamento.\n\nQuando a cliente pergunta por horário, a Bela consulta a sua agenda naquele momento e mostra os horários livres, com o botão para agendar. Quem marca é a própria cliente, pelo agendamento de sempre.\n\nEla não inventa preço nem promoção. Se a dúvida não está nos seus dados, indica falar com você no WhatsApp. E você liga, desliga e escreve o que ela precisa saber.\n\nA Bela vem no plano Premium e no teste grátis. Monte a sua agenda online completa em poucos minutos: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#salaodebeleza #manicure #esteticista #designdesobrancelhas #agendamentoonline",
     "estado": "aprovado",
     "pasta_artes": "artes/2026-11-21_reel-bela",
     "agendado_para": "2026-11-21T10:00:00-03:00",
@@ -521,6 +531,11 @@
         "data": "2026-11-11T00:20:00-03:00",
         "estado": "aprovado",
         "nota": "Dono pediu mais lento: capa 4,5 s, telas 5,5 s, final 6 s; vídeo refeito por gerar-artes.yml (execução 42950480832), 38,5 s. Lâminas e legenda iguais. Data mantida (21/11 10h)."
+      },
+      {
+        "data": "2026-11-15T07:10:00-03:00",
+        "estado": "aprovado",
+        "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (97 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
       }
     ],
     "aprovado_por": "automacao"
@@ -532,7 +547,7 @@
     "segmento": "Todos",
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "novidade sazonal com data (ig-caption-writer)",
-    "legenda": "Black Friday é dia 27. Sua página de agendamento pode entrar no clima sem você mudar preço por preço.\n\nNo Dia e Beleza, você liga a decoração de Black Friday no painel, em Aparência. A página ganha uma faixa com a sua mensagem, de até 80 caracteres.\n\nQuer dar desconto? É opcional: de 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por na hora de marcar, e o desconto vale para atendimentos nos dias que você definir.\n\nQuando a promoção acaba, a faixa sai sozinha. Vale para todos os planos.\n\nPara testar 14 dias grátis, sem cartão: link na bio.\n\n#blackfriday #salaodebeleza #manicure #esteticista #agendamentoonline",
+    "legenda": "Black Friday é dia 27. Sua página de agendamento pode entrar no clima sem você mudar preço por preço.\n\nNo Dia e Beleza, você liga a decoração de Black Friday no painel, em Aparência. A página ganha uma faixa com a sua mensagem, de até 80 caracteres.\n\nQuer dar desconto? É opcional: de 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por na hora de marcar, e o desconto vale para atendimentos nos dias que você definir.\n\nQuando a promoção acaba, a faixa sai sozinha. Vale para todos os planos.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#blackfriday #salaodebeleza #manicure #esteticista #agendamentoonline",
     "estado": "aprovado",
     "pasta_artes": "artes/2026-11-24_reel-black-friday",
     "agendado_para": "2026-11-24T12:00:00-03:00",
@@ -548,6 +563,11 @@
         "data": "2026-11-14T13:50:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação. Checklist: gancho em 101 caracteres; um chamado (link na bio para testar); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (decoração de Black Friday, faixa até 80 caracteres, desconto opcional 5 a 30% com de/por, dias escolhidos pela dona, faixa some sozinha, todos os planos: conferidos no código e registrados em marca/identidade.md; 14 dias grátis sem cartão em marca/identidade.md); artes geradas por gerar-artes.yml (execução 43616260815), 6 lâminas 1080x1920 + reel.mp4 de 25 s, conferidas: texto legível, nada cortado, sem tela inventada. Canal api, ter 24/11 12h (1º post da semana 23–29/11)."
+      },
+      {
+        "data": "2026-11-15T07:10:00-03:00",
+        "estado": "aprovado",
+        "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (101 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
       }
     ],
     "aprovado_por": "automacao"
