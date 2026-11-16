@@ -1,0 +1,41 @@
+{
+  "formato": "reel",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "segundos": 3,
+      "etiqueta": "Como a cliente marca",
+      "titulo": "A cliente marca\n**sozinha.**"
+    },
+    {
+      "numero": "1",
+      "segundos": 3.5,
+      "titulo": "Serviço e profissional",
+      "texto": "Ela escolhe na sua página, pelo link da bio."
+    },
+    {
+      "numero": "2",
+      "segundos": 3.5,
+      "titulo": "Só horário livre",
+      "texto": "O que está ocupado ou bloqueado nem aparece."
+    },
+    {
+      "numero": "3",
+      "segundos": 3.5,
+      "titulo": "Nome, WhatsApp e e-mail",
+      "texto": "Sem criar conta nem senha."
+    },
+    {
+      "numero": "4",
+      "segundos": 3.5,
+      "titulo": "Confirma",
+      "texto": "E o horário entra na sua agenda. Se quiser, você aprova antes."
+    },
+    {
+      "tipo": "cta",
+      "segundos": 4,
+      "titulo": "Ela marca,\n**você atende.**",
+      "texto": "Teste 14 dias grátis, sem cartão. Link na bio."
+    }
+  ]
+}
