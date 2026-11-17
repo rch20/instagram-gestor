@@ -447,10 +447,10 @@
     "objetivo": "alcance fora da bolha e visitas ao perfil",
     "formula": "IG3 abertura reconhecível + lista (ig-caption-writer)",
     "legenda": "Massoterapia, podologia, psicologia, pilates: se você atende com hora marcada, a agenda funciona igual à de um salão.\n\nNo Dia e Beleza você ganha uma página de agendamento com a cor e o logo do seu espaço. A cliente escolhe o serviço, o profissional e o horário pelo link.\n\nCada profissional tem a própria agenda, com folgas e bloqueios. A cliente recebe lembrete por e-mail antes do horário, e o sinal por Pix é opcional.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#massoterapia #podologia #terapeuta #pilates #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-17_reel-tambem-serve-bem-estar",
     "agendado_para": "2026-11-17T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/reel/Df2M81plB9B/",
     "canal": "api",
     "historico": [
       {
@@ -467,9 +467,15 @@
         "data": "2026-11-15T07:10:00-03:00",
         "estado": "aprovado",
         "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (117 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
+      },
+      {
+        "data": "2026-11-17T15:00:00.306970+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (reel). https://www.instagram.com/reel/Df2M81plB9B/"
       }
     ],
-    "aprovado_por": "automacao"
+    "aprovado_por": "automacao",
+    "ig_media_id": "18149600983591160"
   },
   {
     "id": "2026-11-19_reel-vou-comparecer",
