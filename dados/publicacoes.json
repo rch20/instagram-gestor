@@ -613,7 +613,7 @@
     "objetivo": "salvamentos",
     "formula": "IG5 listicle em passos (ig-carousel-planner)",
     "legenda": "Quanto custa um horário vazio no seu salão? Fiz a conta com valores de exemplo para você trocar pelos seus.\n\nValor do serviço × faltas da semana × 4 semanas. Com uma manutenção de R$ 80 e 2 faltas por semana, são R$ 640 que não entram no mês. E isso sem contar o tempo parado e o material separado.\n\nLembrete antes do horário, sinal por Pix ao marcar e uma regra clara para remarcar ajudam a cliente a levar o horário a sério.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#gestaodesalao #salaodebeleza #nailsdesigner #lashdesigner #agendamentoonline",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-11-28_quanto-custa-horario-vazio",
     "agendado_para": "2026-11-28T10:00:00-03:00",
     "link": null,
@@ -623,7 +623,13 @@
         "data": "2026-11-18T13:40:00-03:00",
         "estado": "rascunho",
         "nota": "Criado pela rotina da tarde para a vaga de sábado 28/11 10h (tema do calendário: quanto custa um horário vazio). Carrossel de 7 lâminas; valores fictícios (R$ 80, 2 faltas por semana) avisados como exemplo na capa e na legenda; conta conferida (80 × 2 × 4 = 640). Recursos citados (lembrete antes do horário, sinal por Pix) estão em marca/identidade.md. Também atende à proposta de 16/11 de intercalar carrossel na fila de Reels."
+      },
+      {
+        "data": "2026-11-18T13:50:00-03:00",
+        "estado": "aprovado",
+        "nota": "Aprovado pela automação. Checklist: gancho em 107 caracteres; um chamado (chamado padrão do dono: link da bio ou WhatsApp do perfil; a última lâmina só resume a conta, sem botão); 5 hashtags; 0 emoji; sem vocabulário de IA; valores marcados como exemplo e conta conferida (80 × 2 × 4 = 640), sem promessa de resultado; artes geradas por gerar-artes.yml (execução 44348397219): 7 lâminas 1080x1350 conferidas, texto legível, nada cortado. Canal api, sáb 28/11 10h (3º post da semana 23–29/11; 12º de novembro)."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]
