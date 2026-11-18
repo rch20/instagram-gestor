@@ -1,0 +1,41 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Faça a conta",
+      "titulo": "Quanto custa\num **horário vazio**?",
+      "texto": "Uma conta simples para fazer com os números do seu salão. Os valores daqui são só exemplo."
+    },
+    {
+      "numero": "1",
+      "titulo": "Pegue o valor do serviço",
+      "texto": "Exemplo: uma manutenção de R$ 80. Use o preço que você cobra."
+    },
+    {
+      "numero": "2",
+      "titulo": "Conte as faltas da semana",
+      "texto": "Quem não apareceu nem avisou a tempo de você chamar outra cliente. No exemplo: 2 por semana."
+    },
+    {
+      "numero": "3",
+      "titulo": "Multiplique pelo mês",
+      "texto": "R$ 80 × 2 faltas × 4 semanas = **R$ 640** que não entraram no mês."
+    },
+    {
+      "numero": "4",
+      "titulo": "Some o que fica fora da conta",
+      "texto": "O tempo parado, o material separado e a cliente que pediu aquele horário e ouviu que estava ocupado."
+    },
+    {
+      "numero": "5",
+      "titulo": "O que dá para fazer",
+      "texto": "Lembrete antes do horário, sinal por Pix ao marcar e uma regra clara para remarcar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Faça **a sua conta**",
+      "texto": "Valor do serviço × faltas da semana × 4. Anote o número e compare com o mês que vem."
+    }
+  ]
+}
