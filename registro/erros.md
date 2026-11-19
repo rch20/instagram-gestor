@@ -12,3 +12,4 @@
   - Tratado (Tarde 13h35): a conexão do Instagram na Publora foi derrubada pela Meta (senha trocada ou sessão invalidada por segurança). Só o dono resolve: reconectar o @diaebeleza na Publora. Agendamento de 05/11 suspenso até reconectar; o Reel de 03/11 também falha se não reconectar antes. Carrossel de 29/10 não saiu (não reagendar o mesmo id sem decisão do dono).
 
 - 2026-11-19: falha ao publicar 2026-11-19_reel-vou-comparecer pela API do Instagram: Container 17904333141655226 com status ERROR.
+  - Tratado (Tarde 13h40): reel.mp4 com as mesmas características do Reel de 17/11 que saiu normal; provável falha passageira da Meta. Item voltou para 'aprovado' e o publicar-ig.yml foi disparado de novo (1ª nova tentativa, ainda dentro do limite de 3 h).
