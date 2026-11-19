@@ -485,10 +485,10 @@
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "IG3 abertura reconhecível (ig-caption-writer)",
     "legenda": "Véspera de atendimento e a dúvida de sempre: será que ela vem amanhã? Agora a própria cliente responde.\n\nNo Dia e Beleza, a cliente recebe o lembrete por e-mail 24 horas antes do horário, e de novo 2 horas antes. No lembrete tem o botão \"Vou comparecer\". Ela toca, sem login, e pronto.\n\nNa sua agenda, o horário mostra quem já confirmou. Se ela não puder ir, avisa pelo mesmo link e você fica sabendo antes, com tempo de oferecer o horário para outra cliente. Confirmou pelo WhatsApp? Você marca à mão.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#manicure #designdesobrancelhas #esteticista #salaodebeleza #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-19_reel-vou-comparecer",
     "agendado_para": "2026-11-19T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/reel/Df7hJ80Elwe/",
     "canal": "api",
     "historico": [
       {
@@ -515,9 +515,15 @@
         "data": "2026-11-19T13:40:00-03:00",
         "estado": "aprovado",
         "nota": "Rotina da tarde: nova tentativa (1ª). O container da Meta deu ERROR sem detalhe; o reel.mp4 tem as mesmas características do Reel de 17/11 que saiu normal (H.264 1080x1920, 30 qps, AAC, 25 s), então provável falha passageira. Ainda dentro do limite de 3 h (12h → 15h). Se falhar de novo, para e avisa o dono."
+      },
+      {
+        "data": "2026-11-19T16:32:44.590704+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (reel). https://www.instagram.com/reel/Df7hJ80Elwe/"
       }
     ],
-    "aprovado_por": "automacao"
+    "aprovado_por": "automacao",
+    "ig_media_id": "18022608197970967"
   },
   {
     "id": "2026-11-21_reel-bela",
