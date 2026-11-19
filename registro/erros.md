@@ -10,3 +10,5 @@
 
 - 2026-10-29: publicação 2026-10-29_como-a-cliente-marca falhou na Publora: PLATFORM_AUTH_EXPIRED Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
   - Tratado (Tarde 13h35): a conexão do Instagram na Publora foi derrubada pela Meta (senha trocada ou sessão invalidada por segurança). Só o dono resolve: reconectar o @diaebeleza na Publora. Agendamento de 05/11 suspenso até reconectar; o Reel de 03/11 também falha se não reconectar antes. Carrossel de 29/10 não saiu (não reagendar o mesmo id sem decisão do dono).
+
+- 2026-11-19: falha ao publicar 2026-11-19_reel-vou-comparecer pela API do Instagram: Container 17904333141655226 com status ERROR.
