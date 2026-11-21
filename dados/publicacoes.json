@@ -662,7 +662,7 @@
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "novidade sazonal com data (ig-caption-writer)",
     "legenda": "Cliente que deixa para marcar o horário das festas na última hora? Sua página de agendamento pode dar o recado antes.\n\nNo Dia e Beleza, você liga a decoração de Fim de ano no painel, em Aparência. A página ganha uma faixa com a sua mensagem, de até 80 caracteres. Já vem uma sugestão: \"Boas festas! Garanta seu horário para as festas de fim de ano\".\n\nVocê escolhe os dias em que a faixa aparece, até 31/12. Quando o período acaba, ela sai sozinha.\n\nQuer dar desconto? É opcional: de 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por na hora de marcar. Vale para todos os planos.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#fimdeano #salaodebeleza #manicure #esteticista #agendamentoonline",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-12-01_reel-fim-de-ano",
     "agendado_para": "2026-12-01T12:00:00-03:00",
     "link": null,
@@ -672,7 +672,13 @@
         "data": "2026-11-21T13:40:00-03:00",
         "estado": "rascunho",
         "nota": "Criado pela rotina da tarde para a vaga de terça 01/12 12h (campanha de Fim de ano decidida em 13/11). Recurso conferido de novo no código do sistema (backend/utils/datas_comemorativas.py): Fim de ano com mensagem padrão \"Boas festas! Garanta seu horário para as festas de fim de ano\", período padrão 01/12 a 31/12, ajustável pela dona entre 15/11 e 31/12; mesma faixa (até 80 caracteres), desconto opcional 5 a 30% com de/por e saída automática da Black Friday (marca/identidade.md). Só texto: sem captura de tela real nesta execução (a produção não é acessível daqui); nenhuma tela inventada."
+      },
+      {
+        "data": "2026-11-21T13:40:00-03:00",
+        "estado": "aprovado",
+        "nota": "Aprovado pela automação. Checklist: gancho em 117 caracteres; um chamado (testar grátis: link na bio ou WhatsApp pelo botão do perfil, texto do dono de 15/11); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (decoração de Fim de ano, mensagem sugerida, faixa até 80 caracteres, desconto opcional 5 a 30% com de/por, dias até 31/12, faixa sai sozinha, todos os planos: conferidos no código e em marca/identidade.md; 14 dias grátis sem cartão em marca/identidade.md); artes geradas por gerar-artes.yml (execução 44925119307), 6 lâminas 1080x1920 + reel.mp4 de 26 s, conferidas: texto legível, nada cortado, sem tela inventada. Canal api, ter 01/12 12h (1º post da semana 30/11–06/12)."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]
