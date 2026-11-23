@@ -1,0 +1,41 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Clínica de estética",
+      "titulo": "Quantas sessões\n**ainda faltam**?",
+      "texto": "Se a resposta está num caderno, este passo a passo é para você. Pacote de sessões do começo ao fim."
+    },
+    {
+      "numero": "1",
+      "titulo": "Monte o pacote",
+      "texto": "Escolha os serviços e quantas sessões entram. Exemplo: 10 sessões de drenagem."
+    },
+    {
+      "numero": "2",
+      "titulo": "Defina a validade",
+      "texto": "Quantos dias a cliente tem para usar tudo depois da compra e em quais dias da semana o pacote vale."
+    },
+    {
+      "numero": "3",
+      "titulo": "Desconto, se quiser",
+      "texto": "Um percentual sobre o valor das sessões avulsas. É opcional."
+    },
+    {
+      "numero": "4",
+      "titulo": "A cliente compra na sua página",
+      "texto": "Ela escolhe o pacote na sua página de agendamento e paga por Pix."
+    },
+    {
+      "numero": "5",
+      "titulo": "Cada sessão desconta uma",
+      "texto": "Ela vê quantas sessões restam. Você vê no painel quem está com pacote ativo e quem já venceu."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Resumo **para salvar**",
+      "texto": "Serviços e sessões. Validade e dias. Desconto opcional. Venda por Pix na página. Pacotes estão no plano Premium e no teste grátis."
+    }
+  ]
+}
