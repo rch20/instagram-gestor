@@ -29,6 +29,10 @@
 - Aprovação manual de agendamentos (opcional).
 - Pacotes, **clube mensal** (a cliente paga uma mensalidade ao salão e usa os serviços do clube; renova com um toque,
   sem cobrança automática; nome "Clube" decidido pelo dono em 15/11/2026), indicações, aniversariantes, financeiro e relatórios.
+- **Pacotes de sessões** (conferido no código em 23/11/2026, PackagesTab.jsx, customer/PackagesSection.jsx, MyPackagesTab.jsx,
+  utils/planos.py): a dona escolhe os serviços, quantas sessões, a validade em dias, os dias da semana em que vale e um desconto
+  opcional em %; a cliente compra pela página de agendamento e paga por Pix; cada agendamento consome 1 sessão; a cliente vê
+  as sessões restantes em "Meus pacotes"; o painel mostra compras ativas e expiradas. Recurso Premium (também no teste grátis).
 - Ficha de atendimento digital (anamnese) com modelos para unhas, cílios e sobrancelha, estética e cabelo:
   a cliente assina pelo link, e a ficha pode ser impressa ou salva em PDF. Não há modelo para consultórios de saúde.
 - Lembrete por e-mail para a cliente antes do horário.

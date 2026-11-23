@@ -689,7 +689,7 @@
     "objetivo": "salvamentos",
     "formula": "IG5 listicle em passos (ig-carousel-planner)",
     "legenda": "Vendeu um pacote de 10 sessões e anotou no caderno? Lá pela sexta sessão começa a dúvida: quantas ainda faltam?\n\nNo Dia e Beleza o pacote fica no sistema. Você escolhe os serviços, quantas sessões, a validade e os dias da semana em que ele vale. A cliente compra pela sua página de agendamento e paga por Pix. Cada sessão marcada desconta uma, e ela vê quantas restam.\n\nPacotes estão no plano Premium e no teste grátis.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#clinicadeestetica #esteticafacial #esteticacorporal #drenagemlinfatica #agendamentoonline",
-    "estado": "rascunho",
+    "estado": "aprovado",
     "pasta_artes": "artes/2026-12-03_pacote-de-sessoes",
     "agendado_para": "2026-12-03T12:00:00-03:00",
     "link": null,
@@ -699,7 +699,13 @@
         "data": "2026-11-23T13:50:00-03:00",
         "estado": "rascunho",
         "nota": "Criado pela rotina da tarde para a vaga de quinta 03/12 12h (calendário sem tema depois de 01/12; usada a reserva: carrossel pacote de sessões, clínica de estética). Recurso conferido no código em 23/11 (diaebelezaultimate: PackagesTab.jsx, ClientPackagesTab.jsx, customer/PackagesSection.jsx e MyPackagesTab.jsx, utils/planos.py): a dona escolhe serviços, número de sessões, validade em dias, dias da semana e desconto opcional em %; a cliente compra pela página e paga por Pix; cada agendamento consome 1 sessão; a cliente vê as sessões restantes em 'Meus pacotes'; o painel mostra compras ativas e expiradas; recurso Premium (também no teste). '10 sessões de drenagem' é exemplo. Carrossel intercala a fila de Reels (proposta de 16/11) e cumpre o rodízio (clínica de estética não aparece desde 12/11)."
+      },
+      {
+        "data": "2026-11-23T14:05:00-03:00",
+        "estado": "aprovado",
+        "nota": "Aprovado pela automação. Checklist: gancho em 111 caracteres; um chamado (chamado padrão do dono: link da bio ou WhatsApp do perfil; a última lâmina só resume, sem botão); 5 hashtags; 0 emoji; sem vocabulário de IA; nenhum número de resultado ('10 sessões de drenagem' é exemplo); recursos conferidos no código em 23/11; artes geradas por gerar-artes.yml (execução 45217719908): 7 lâminas 1080x1350 conferidas, texto legível, nada cortado. Canal api, qui 03/12 12h (2º post da semana 30/11–06/12; 2º de dezembro)."
       }
-    ]
+    ],
+    "aprovado_por": "automacao"
   }
 ]
