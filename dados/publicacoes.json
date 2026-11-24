@@ -576,10 +576,10 @@
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "novidade sazonal com data (ig-caption-writer)",
     "legenda": "Black Friday é dia 27. Sua página de agendamento pode entrar no clima sem você mudar preço por preço.\n\nNo Dia e Beleza, você liga a decoração de Black Friday no painel, em Aparência. A página ganha uma faixa com a sua mensagem, de até 80 caracteres.\n\nQuer dar desconto? É opcional: de 5% a 30%, em todos os serviços ou só nos que você escolher. A cliente vê o preço de/por na hora de marcar, e o desconto vale para atendimentos nos dias que você definir.\n\nQuando a promoção acaba, a faixa sai sozinha. Vale para todos os planos.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#blackfriday #salaodebeleza #manicure #esteticista #agendamentoonline",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-24_reel-black-friday",
     "agendado_para": "2026-11-24T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/reel/DgIOl4CGcfA/",
     "canal": "api",
     "historico": [
       {
@@ -596,9 +596,15 @@
         "data": "2026-11-15T07:10:00-03:00",
         "estado": "aprovado",
         "nota": "Chamado para ação trocado a pedido do dono (15/11): agenda online completa em poucos minutos + teste grátis, levando ao link da bio ou ao WhatsApp de vendas com IA (11 93335-8205) pelo botão do perfil. Continua um único chamado (testar grátis), gancho inalterado (101 caracteres), 5 hashtags, 0 emoji, sem vocabulário de IA. Artes e vídeo não mudam. \"Em poucos minutos\" é frase do dono, não número medido."
+      },
+      {
+        "data": "2026-11-24T15:00:00.526391+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (reel). https://www.instagram.com/reel/DgIOl4CGcfA/"
       }
     ],
-    "aprovado_por": "automacao"
+    "aprovado_por": "automacao",
+    "ig_media_id": "18081870464416478"
   },
   {
     "id": "2026-11-26_reel-cliente-marca-sozinha",
