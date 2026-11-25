@@ -43,3 +43,4 @@
 - 4 públicos por arte/título (manicure, salão, estética, sobrancelha e cílios), Brasil todo. Proposta: R$ 40/dia por 14 dias (falta aprovar).
 - O vendedor (repo diaebelezaultimate) passou a gravar o anúncio de origem e mostrar o relatório por anúncio. Ver editorial/anuncios.md.
 - Paraguai: não anunciar agora (produto só em português, pagamento só Brasil). Rever depois de 20 a 30 salões pagantes no Brasil.
+- 2026-11-25: Clube desligado no sistema pelo dono em 24/11 ("em breve"). Posts não citam clube até ele voltar (anotado em marca/identidade.md). Vaga de 05/12 virou carrossel de aniversariantes em vez de Reel: carrosséis seguem com alcance bem maior que os Reels.

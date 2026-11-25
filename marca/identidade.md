@@ -29,6 +29,12 @@
 - Aprovação manual de agendamentos (opcional).
 - Pacotes, **clube mensal** (a cliente paga uma mensalidade ao salão e usa os serviços do clube; renova com um toque,
   sem cobrança automática; nome "Clube" decidido pelo dono em 15/11/2026), indicações, aniversariantes, financeiro e relatórios.
+  **Clube desligado no sistema desde 24/11/2026 ("em breve", decisão do dono; backend/utils/clube.py ATIVO=False): não citar
+  clube em post até voltar.**
+- **Aniversariantes e cupom de presente** (conferido no código em 25/11/2026, BirthdaysTab.jsx, routes/birthday_coupons.py,
+  BookingTab.jsx): lista de quem faz aniversário hoje, na semana e no mês (pela data de nascimento no cadastro), com botão que
+  abre o WhatsApp com parabéns pronto (todos os planos). Cupom de presente (Premium, também no teste): código único, desconto em %
+  ou R$, validade de 1 a 365 dias, texto pronto para o WhatsApp; a cliente usa ao agendar logada (sem login não há cupom).
 - **Pacotes de sessões** (conferido no código em 23/11/2026, PackagesTab.jsx, customer/PackagesSection.jsx, MyPackagesTab.jsx,
   utils/planos.py): a dona escolhe os serviços, quantas sessões, a validade em dias, os dias da semana em que vale e um desconto
   opcional em %; a cliente compra pela página de agendamento e paga por Pix; cada agendamento consome 1 sessão; a cliente vê
