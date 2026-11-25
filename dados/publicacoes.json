@@ -713,5 +713,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-12-05_aniversariantes-do-mes",
+    "formato": "carrossel",
+    "pilar": "Dica prática de gestão",
+    "segmento": "Beleza",
+    "objetivo": "salvamentos",
+    "formula": "IG5 listicle em passos (ig-carousel-planner)",
+    "legenda": "Quem faz aniversário este mês entre as suas clientes? Se a resposta depende de rolar o WhatsApp, este carrossel é para você.\n\nNo Dia e Beleza, a aba Aniversariantes mostra quem faz aniversário hoje, nesta semana e neste mês, a partir da data de nascimento no cadastro. Um toque abre o WhatsApp da cliente com uma mensagem de parabéns pronta.\n\nQuer dar um presente? Crie um cupom com código único, de desconto em % ou em reais, com a validade que você escolher. A mensagem com o código já sai pronta para o WhatsApp, e a cliente usa o código ao agendar pela conta dela na sua página.\n\nA lista de aniversariantes está em todos os planos; o cupom, no Premium e no teste grátis.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#salaodebeleza #manicure #designdesobrancelhas #lashdesigner #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-12-05_aniversariantes-do-mes",
+    "agendado_para": "2026-12-05T10:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-25T13:55:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de sábado 05/12 10h. Tema novo (aniversariantes e cupom de presente nunca saíram). Reserva não usada: o Reel do encaixe repete o assunto do Reel de 26/11 (horários livres na página). Recurso conferido no código em 25/11 (diaebelezaultimate: salon/BirthdaysTab.jsx, routes/birthday_coupons.py, customer/BookingTab.jsx, AgendarSemLogin.jsx, utils/planos.py): lista Hoje/Semana/Mês pela data de nascimento; botão WhatsApp com parabéns pronto; cupom com código único, % ou R$, validade de 1 a 365 dias, texto pronto para o WhatsApp; a cliente usa o código ao agendar logada (no agendamento sem login não há cupom); lista em todos os planos, cupom Premium (também no teste). Clube NÃO citado: desligado no sistema desde 24/11 (clube.py ATIVO=False). Carrossel porque os carrosséis seguem com alcance 4 vezes maior que os Reels (proposta de 16/11)."
+      }
+    ]
   }
 ]

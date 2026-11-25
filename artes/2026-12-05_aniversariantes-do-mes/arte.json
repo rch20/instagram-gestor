@@ -1,0 +1,36 @@
+{
+  "formato": "post",
+  "laminas": [
+    {
+      "tipo": "capa",
+      "etiqueta": "Salão de beleza",
+      "titulo": "Quem faz aniversário\n**este mês**?",
+      "texto": "Se a resposta está perdida no WhatsApp ou no caderno, salve este passo a passo."
+    },
+    {
+      "numero": "1",
+      "titulo": "Abra Aniversariantes",
+      "texto": "No painel, veja quem faz aniversário hoje, nesta semana e neste mês. Vem da data de nascimento no cadastro da cliente."
+    },
+    {
+      "numero": "2",
+      "titulo": "Parabéns em um toque",
+      "texto": "O botão abre o WhatsApp da cliente com uma mensagem de parabéns pronta. Você ajusta e envia."
+    },
+    {
+      "numero": "3",
+      "titulo": "Um presente, se quiser",
+      "texto": "Crie um cupom com código único: desconto em % ou em reais, com a validade que você escolher."
+    },
+    {
+      "numero": "4",
+      "titulo": "A mensagem já sai pronta",
+      "texto": "Código, desconto e validade num texto para o WhatsApp. A cliente digita o código ao agendar, entrando na conta dela na sua página."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Resumo **para salvar**",
+      "texto": "Lista do mês no painel. Parabéns pelo WhatsApp. Cupom opcional com validade. A lista está em todos os planos; o cupom, no Premium e no teste grátis."
+    }
+  ]
+}
