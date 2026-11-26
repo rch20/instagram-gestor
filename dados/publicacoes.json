@@ -614,10 +614,10 @@
     "objetivo": "visitas ao perfil e cliques no link",
     "formula": "situação reconhecível + demonstração em passos (ig-caption-writer)",
     "legenda": "Cliente pedindo horário às 23h? Pela sua página de agendamento, ela mesma marca, sem esperar você responder.\n\nÉ assim: pelo link da sua bio, ela escolhe o serviço e a profissional. Aparecem só os horários livres: o que está ocupado ou bloqueado nem aparece. Ela deixa nome, WhatsApp e e-mail, sem criar conta nem senha, confere e confirma.\n\nO horário entra na sua agenda. Prefere olhar antes? Ligue a aprovação manual e você aprova cada pedido.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#agendamentoonline #salaodebeleza #manicure #designdesobrancelhas #nailsdesigner",
-    "estado": "aprovado",
+    "estado": "publicado",
     "pasta_artes": "artes/2026-11-26_reel-cliente-marca-sozinha",
     "agendado_para": "2026-11-26T12:00:00-03:00",
-    "link": null,
+    "link": "https://www.instagram.com/reel/DgNYHCdhZ7y/",
     "canal": "api",
     "historico": [
       {
@@ -629,9 +629,15 @@
         "data": "2026-11-16T13:55:00-03:00",
         "estado": "aprovado",
         "nota": "Aprovado pela automação. Checklist: gancho em 108 caracteres; um chamado (testar grátis: link da bio ou WhatsApp do perfil, chamado padrão do dono); 5 hashtags; 0 emoji; sem vocabulário de IA; sem números de resultado nem promessas (o '20 segundos' do calendário foi retirado); artes geradas por gerar-artes.yml (execução 43908854739): reel.mp4 animado de 20 s, 1080x1920, tela real do salão de demonstração com 'dados fictícios' na tela, quadros conferidos: texto legível, nada cortado. Canal api, qui 26/11 12h (2º post da semana 23–29/11)."
+      },
+      {
+        "data": "2026-11-26T15:00:00.558096+00:00",
+        "estado": "publicado",
+        "nota": "Publicado direto pela API do Instagram (reel). https://www.instagram.com/reel/DgNYHCdhZ7y/"
       }
     ],
-    "aprovado_por": "automacao"
+    "aprovado_por": "automacao",
+    "ig_media_id": "18576782692078337"
   },
   {
     "id": "2026-11-28_quanto-custa-horario-vazio",
