@@ -752,5 +752,26 @@
       }
     ],
     "aprovado_por": "automacao"
+  },
+  {
+    "id": "2026-12-08_reel-tambem-serve-outros",
+    "formato": "reel",
+    "pilar": "Dica prática de gestão",
+    "segmento": "Outros serviços com hora marcada",
+    "objetivo": "alcance fora da bolha e visitas ao perfil",
+    "formula": "IG3 abertura reconhecível + lista (ig-caption-writer)",
+    "legenda": "Tatuagem, maquiagem, banho e tosa, aulas: se você atende com hora marcada, o Dia e Beleza também serve para o seu negócio.\n\nNo cadastro, escolha o tipo \"Outros\": a página começa sem serviços prontos e você cadastra os seus. Ela leva a cor e o logo do seu espaço.\n\nA cliente escolhe o serviço, o profissional e o horário pelo link. Cada profissional tem a própria agenda, com folgas e bloqueios.\n\nSessão longa, como tatuagem? Dá para pedir sinal por Pix antes do horário. É opcional, por profissional.\n\nMonte a sua agenda online completa em poucos minutos. Teste 14 dias grátis, sem cartão: toque no link da bio ou fale com a gente no WhatsApp pelo botão do perfil.\n\n#tatuagem #maquiadora #banhoetosa #personaltrainer #agendamentoonline",
+    "estado": "rascunho",
+    "pasta_artes": "artes/2026-12-08_reel-tambem-serve-outros",
+    "agendado_para": "2026-12-08T12:00:00-03:00",
+    "link": null,
+    "canal": "api",
+    "historico": [
+      {
+        "data": "2026-11-28T13:40:00-03:00",
+        "estado": "rascunho",
+        "nota": "Criado pela rotina da tarde para a vaga de terça 08/12 12h (1º post da semana 07–13/12). Tema da reserva da estratégia: série \"Também serve para você?\" para outros serviços com hora marcada (tatuagem, maquiagem, banho e tosa; camada de ~10%). Reserva do encaixe não usada (repete o Reel de 26/11). Recursos citados: tipo \"Outros\" no cadastro sem serviços prontos (editorial/estrategia.md), página com cor e logo, agenda por profissional com folgas e bloqueios, sinal por Pix opcional por profissional, 14 dias grátis sem cartão (marca/identidade.md). Só texto, sem tela; segue o modelo atual de Reel (proposta de 16/11 sem resposta do dono)."
+      }
+    ]
   }
 ]
